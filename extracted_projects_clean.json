@@ -1,0 +1,128 @@
+[
+  {
+    "title": "Soir\u00e9e - Event Planner & RSVP Platform",
+    "star": {},
+    "summary": "An elegant, mobile-first event planner where hosts design fully customizable invites,\n                                ask guests their own questions, plan the music and agenda, and track every RSVP in real\n                                time.\nCustom Invites: Hosts upload a cover image, drag to repo",
+    "links": []
+  },
+  {
+    "title": "I'm Alive - Daily Check-In & Family Safety Net",
+    "star": {},
+    "summary": "A mobile-first daily check-in app: tap once a day to let the people who care know\n                                you're okay, and get notified if someone in your family circle goes quiet.\nDaily Check-In & Mood Dashboard: Log a mood and optional note, with\n                                week, month",
+    "links": []
+  },
+  {
+    "title": "Localized Hub - Decentralized Peer-to-Peer Mesh Network",
+    "star": {},
+    "summary": "A next-generation, serverless communication architecture that enables direct\n                                browser-to-browser data streaming without intermediary cloud storage or centralized\n                                servers.\nEnd-to-End Encryption (E2EE): Utilizes the Web Crypto API to imple",
+    "links": []
+  },
+  {
+    "title": "Pro Recorder - High-Integrity Direct-to-Disk Media Capture Engine",
+    "star": {},
+    "summary": "Fault-Tolerant Recording Architecture: Implements a memory-safe,\n                                direct-to-disk streaming protocol that writes video data in 1-second atomic chunks,\n                                eliminating the RAM-exhaustion crashes typical of standard web-based recording\n        ",
+    "links": []
+  },
+  {
+    "title": "S.A.R.A.H. - Secure Analytical Reasoning AI for Humans",
+    "star": {},
+    "summary": "A next-generation, cross-device intelligence architecture that exists natively within\n                                your ecosystem, featuring an auto-adapting neural network, persistent memory retention,\n                                and multimodal perception capabilities.\nReal-Time Conversation",
+    "links": []
+  },
+  {
+    "title": "Link Commander",
+    "star": {},
+    "summary": "A simple web-based URL shortening tool that takes a long link and converts it into a\n                                shorter, easy-to-share link for use on social media, messaging, emails, blogs, etc.\nGenerates shortened URLs that redirect users efficiently to the original destination\n              ",
+    "links": []
+  },
+  {
+    "title": "GhostNote",
+    "star": {},
+    "summary": "Ephemeral Messaging Service: The platform functions as a \"self-destructing\" note\n                                service, allowing users to create temporary messages that do not persist permanently.\n                            \n\"Read-Once\" Security: True to the name \"Ghostnote,\" messages are designe",
+    "links": []
+  },
+  {
+    "title": "Story Factory",
+    "star": {},
+    "summary": "Collaborative Storytelling Platform: The site is designed as a creative hub where users\n                                can build narratives together, contributing to stories \"one line at a time\" rather than\n                                writing in isolation.\nInteractive \"Factory\" Model: It Gamifi",
+    "links": []
+  },
+  {
+    "title": "CodePaste",
+    "star": {},
+    "summary": "Private & Read-Only Architecture: The service is explicitly designed as a private\n                                hosting solution. Unlike public pastebins, it operates in a read-only mode for visitors,\n                                preventing unauthorized users from creating new entries.\nBuilt-in",
+    "links": []
+  },
+  {
+    "title": "Utilities Library",
+    "star": {},
+    "summary": "Comprehensive Digital Toolbox: The site functions as a versatile \"Swiss Army knife\" for\n                                the web, aggregating a vast collection of browser-based utilities into a single,\n                                centralized dashboard.\nDiverse Functionality: It hosts tools across",
+    "links": []
+  },
+  {
+    "title": "AnimasisJS",
+    "star": {},
+    "summary": "Description: A lightweight, dependency-free JavaScript library for creating complex,\n                                trigger-based web animations directly within HTML.\nCore Technologies: Built with modern JavaScript (ES6+), leveraging the high-performance\n                                Web Animatio",
+    "links": []
+  },
+  {
+    "title": "Private Security Home Lab",
+    "star": {},
+    "summary": "Description: Working on a constantly evolving security home lab setup to have hands-on\n                                practice on different security architectures, attacks, and mitigation processes.\n                                Consists of self-hosted docker instances and virtual machines with v",
+    "links": []
+  },
+  {
+    "title": "Anna Daan Wastage Management System (Community Service Project)",
+    "star": {},
+    "summary": "Description: Developed a comprehensive website facilitating the distribution of excess\n                                food to those in need from various events. Implemented a blogging platform to foster\n                                community discussions and engagement.\nTechnologies: NodeJS, Cont",
+    "links": []
+  },
+  {
+    "title": "Eye Movement Pattern Based Authentication System (EPAS)",
+    "star": {},
+    "summary": "Description: Developed a Continuous Authentication Model utilizing gaze pattern\n                                monitoring as a Personal Identification Number (PIN), achieving a 95% accuracy in user\n                                identification and reducing unauthorized access incidents by 30%\nTech",
+    "links": []
+  },
+  {
+    "title": "Intrusion Detection System using Layered Machine Learning Algorithm",
+    "star": {},
+    "summary": "Description: Implemented an Intrusion Detection System (IDS) with enhanced detection\n                                capabilities, increasing threat detection accuracy by 20% and reducing false positives\n                                by 15%\nTechnologies: Python, Machine Learning Algorithms, HTML, ",
+    "links": []
+  },
+  {
+    "title": "Amazon Price Tracker",
+    "star": {},
+    "summary": "Description: Track Prices of a selected Product and compare it with budget price range\n                            \nTechnology: Python, Web Scrapping\nSingular Project\nRole: Conceptualization, Implementation, Deployment|",
+    "links": []
+  },
+  {
+    "title": "Node Surveillance Tool",
+    "star": {},
+    "summary": "Description: The tool can fetch versions of node packages from remote GitHub\n                                repositories (both private and public repositories) and then check if they match with\n                                the user-inserted package version. In case the existing packages are of a",
+    "links": []
+  },
+  {
+    "title": "SEED Store",
+    "star": {},
+    "summary": "Description: Secure End-to-End Delivery e-commerce Store\nTechnology: JavaScript, CSS, Node\nSingular Project\nRole: Conceptualization, Implementation, Deployment|",
+    "links": []
+  },
+  {
+    "title": "InstaAPI",
+    "star": {},
+    "summary": "Description: Minimalist Backened API Implementation using User & Posts attributes.\nTechnology: GoLang, MongoDB\nSingular Project\nRole: Conceptualization, Implementation, Deployment|",
+    "links": []
+  },
+  {
+    "title": "Climate Change Analysis",
+    "star": {},
+    "summary": "Description: Scientific Study of Climate Change on Earth's Surface Temperature\n                            \nTechnology: Python, Jupyter Notebook\nSingular Project\nRole: Conceptualization, Implementation, Deployment|",
+    "links": []
+  },
+  {
+    "title": "Motion Detector",
+    "star": {},
+    "summary": "Description: Detect Motion of Object present in front of a webcam\nTechnology: Python\nSingular Project\nRole: Conceptualization, Implementation, Deployment|",
+    "links": []
+  }
+]

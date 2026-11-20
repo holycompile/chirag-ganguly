@@ -1,0 +1,55 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex">
+        <link rel="stylesheet" href="../styleslinker.css">
+        <title>Chirag Ganguli | Working Professional | Cyber Security Researcher </title>
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico"/>
+    </head>
+    <body>
+        <div class="main-content-wrapper">
+            <!-- Profile picture-->
+            <img src="../images/1643895206191.jpeg" alt="profile picture" class="profile-picture">
+            <!-- Profile name-->
+            <h1 class="profile name">Chirag Ganguli</h1>
+            <!-- Profile motto-->
+            <h2 class="profile motto">Working Professional | Cyber Security Researcher</h2>
+            <!-- Links -->
+            <div class="links-container">
+                <a href="https://chiragganguli.com/links/github" class="links"  target="_blank">GitHub</a>
+                <a href="https://chiragganguli.com/links/thm" class="links"  target="_blank">THM</a>
+            </div>
+        </div>
+
+        <script>
+            // This script styles console messages.
+            // It's kept for consistency if used for debugging.
+            if (typeof console !== 'undefined' && console.clear) {
+                console.clear();
+                const styles = [ // The 'styles' const is defined but not used by a console.log here
+                    'color: black',
+                    'background: #e04209',
+                    'font-size: 30px',
+                    'padding: 10px',
+                    'margin: 10px 0 10px 0'
+                ].join(';');
+            }
+        </script>
+
+        <footer>
+            <span class="far fa-copyright"></span> <span id="year"></span> All rights reserved | Chirag Ganguli
+        </footer>
+        <script>
+            // Insert the current year
+            const yearElement = document.getElementById('year');
+            if (yearElement) {
+                yearElement.textContent = new Date().getFullYear();
+            }
+        </script>
+        <script src="../jslinker.js"></script>
+        <!-- Floating Back Button -->
+        <!-- <a href="../linker.html" class="floating-back-button">Back to Linker</a> -->
+    </body>
+
+</html>

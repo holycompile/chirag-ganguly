@@ -1,0 +1,242 @@
+[
+  {
+    "text": "\ud83d\udccd Situation Organizing events over chat leads to scattered replies, unclear headcounts and generic invites, leaving hosts without a single place to design, share and track everything.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Build a secure, mobile-first event and RSVP platform with authenticated accounts, rich invite customization, flexible guest questions and real-time response tracking, without a custom backend.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Built the frontend, using Authentication with email/password and Google sign-in. Designed a data model with denormalized counters and per-RSVP host IDs so every query is provably authorized by security rules. Developed an invite designer with cover repositioning, theming, music playlists and agenda timelines. Integrated Razorpay Checkout with a pricing config.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Delivered a serverless platform where hosts manage invites, guests and RSVPs from one dashboard. Enforced data ownership entirely through rules, removing the need for a custom backend. Enabled one-tap RSVP updates and shareable links and QR codes that work on any phone.",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation Families and friends living apart have no lightweight way to know someone is safe, and silence often goes unnoticed until it becomes a worry.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Create a simple, private check-in app with shared circles and an automated safety net that alerts loved ones when a family member goes quiet.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Built a app with Google and email sign-in. Implemented hashed, rate-limited email OTP verification through cloud functions. Created a cron-driven job that finds 48-hour silences, writes alerts and sends emails, honoring user opt-outs. Wrote rules that require verified emails and restrict access to circle members.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Delivered a one-tap daily habit that keeps circles connected. Automated family alerts without manual monitoring, with at most one alert per person per circle each day. Ensured unverified accounts cannot read or write data, even through direct calls.",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation Users require secure, instantaneous, and private methods to share large files and sensitive communications without relying on centralized cloud providers that often compromise privacy or throttle bandwidth.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Design and engineer a decentralized intelligence architecture capable of establishing secure P2P connections for real-time data streaming and encrypted communication within a serverless ecosystem.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Implemented a robust cryptographic layer using AES-GCM 256-bit encryption for all application-level data. Developed a decentralized signaling strategy to facilitate peer discovery without exposing user data to third-party servers. Engineered a high-performance file streaming protocol capable of handling large data chunks over WebRTC data channels. Integrated local network discovery logic to ensure maximum transfer speeds over WiFi and Hotspot connections.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Created a 100% private data ecosystem where files and messages never touch a server, ensuring total user sovereignty. Achieved high-speed local transfers that bypass internet bottlenecks, significantly reducing latency for nearby devices. Enabled a zero-configuration, cross-platform experience that works instantly across any modern browser without installation.",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation Standard recording software often stores video data in temporary memory (RAM), causing catastrophic data loss and system crashes during multi-hour marathon meetings or high-resolution screen captures.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Develop a robust, professional-grade desktop recording utility capable of sustained high-bitrate capture while ensuring data integrity and cross-platform compatibility without professional code-signing overhead.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Architected a direct-to-disk pipeline using Node.js file streams to bypass browser-level memory constraints. Integrated `ffmpeg-static` into an Electron environment with automated ad-hoc deep signing hooks to satisfy macOS \"Hardened Runtime\" requirements. Developed a canvas-based compositor to overlay real-time camera feeds onto screen captures with draggable UI coordinates. Engineered a local update-checking protocol via GitHub's REST API to ensure continuous deployment without a centralized backend.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Achieved 100% data recovery in simulated crash scenarios by ensuring all data was already persisted to the local disk. Enabled seamless 4K/60FPS recording support for multi-hour sessions with negligible impact on system performance.",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation Users require more organic, persistent, and capable AI systems that move beyond basic text interfaces to integrate seamlessly across devices with real-time, human-like interaction and deep contextual awareness.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Design and build a next-generation intelligence architecture capable of real-time voice interaction, long-term cognitive memory retention, and complex multimodal processing within a secure ecosystem.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Implemented an auto-adapting neural network powered by a zero-downtime Adaptive Processing Core. Developed a Real-Time Conversational Voice Protocol to process complex auditory requests with natural human cadence. Engineered a Persistent State Memory system to distinctly manage immediate context alongside long-term user profiles. Integrated multimodal sensory processing to handle voice, visual data analysis, and diagnostic network scans seamlessly.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Created a highly organic, cross-device AI ecosystem that feels like a natural conversation rather than a standard assistant. Achieved instantaneous execution of complex tasks, web searches, and data retrieval without workflow interruption. Enabled continuously evolving communication that autonomously adapts to the complexity of every interaction over time.",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation In today's digital landscape, long URLs are cumbersome to share across platforms with character limits like Twitter, SMS, and messaging apps. Users needed a simple, reliable way to create clean, professional-looking short links.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Build a web-based URL shortening service that generates compact, memorable links while maintaining reliable redirection to original destinations, with minimal user friction.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Developed a minimalist web application with intuitive interface for instant URL shortening Implemented efficient redirect mechanism using server-side routing Created RESTful API for integration with external workflows and applications Designed responsive UI compatible across desktop and mobile devices Deployed on scalable infrastructure to handle high traffic volumes",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Successfully reduced URL length by 70-90% on average Enabled seamless link sharing across character-limited platforms Improved link aesthetics and user trust with clean, branded short URLs Facilitated better engagement tracking and campaign management Integrated into workflows for QR codes, marketing campaigns, and content distribution",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation In an era of increasing data breaches and privacy concerns, users needed a secure way to share sensitive information like passwords, API keys, and confidential messages without leaving permanent digital traces in chat logs or email history.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Create an ephemeral messaging platform that enables secure, one-time message delivery with automatic self-destruction after viewing, ensuring zero data retention and maximum privacy.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Architected zero-knowledge system where messages are encrypted and immediately purged after single view Implemented read-once security mechanism with server-side message deletion triggers Designed minimalist, distraction-free interface focused on privacy and usability Built anonymous access without requiring user accounts or personal data Deployed secure infrastructure with automatic data hygiene protocols",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Enabled secure sharing of sensitive information with guaranteed one-time access Eliminated digital footprint risks for confidential communications Provided privacy-focused alternative to traditional messaging platforms Achieved 100% message deletion rate after viewing Trusted for sharing passwords, API keys, and confidential instructions",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation Creative writers often work in isolation, lacking platforms for real-time collaborative storytelling. Existing writing platforms didn't offer an engaging, gamified experience for building narratives collectively with a community of writers.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Build an interactive collaborative storytelling platform that enables users to co-create narratives one line at a time, with community engagement features and a structured story lifecycle management system.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Developed real-time collaborative editing system for multi-user story contributions Implemented gamification features with competitive elements and story featuring Created automated story lifecycle management with locking and archival after 7 days Built user authentication system to foster verified writer community Designed clean, distraction-free UI with clear sections for active, locked, and new stories Integrated online user tracking to show active community participation",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Successfully created thriving collaborative writing community with active user engagement Enabled unique \"one line at a time\" storytelling format fostering creativity Preserved finished collaborative works through automated archival to blog posts Achieved consistent user participation with featured story competition driving quality Provided minimalist interface that keeps focus on creative writing process",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation Public pastebin services posed security risks for sharing sensitive code, configuration files, and confidential documentation. Users needed a private, secure alternative with encryption capabilities and controlled access for sharing technical information.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Develop a private code hosting service with read-only architecture, password protection, and encryption support for secure sharing of sensitive technical content without social features or distractions.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Architected private, read-only platform preventing unauthorized paste creation Implemented password protection and encryption for sensitive pastes Designed minimalist interface focused purely on code and text rendering Removed social features, ads, and complex navigation to enhance security Built secure sharing mechanism for configuration files and documentation",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Provided secure alternative to public pastebins for sensitive information Enabled password-protected sharing of confidential code and documentation Eliminated security risks associated with public paste services Delivered distraction-free experience focused on content delivery Trusted for hosting welcome notes, configuration files, and sensitive technical docs",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation Users frequently needed to access multiple online tools for various tasks - from development utilities to security checks, file conversions to AI services - requiring navigation across numerous websites with inconsistent interfaces and reliability.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Create a comprehensive, centralized digital toolbox aggregating diverse browser-based utilities across multiple categories into a single, unified platform with consistent user experience and instant access.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Aggregated 50+ utilities spanning development, design, productivity, and security categories Integrated cybersecurity tools including threat maps, IP reputation checkers, and intelligence platforms Embedded AI-driven utilities like image classifiers and OCR tools Created unified dashboard with intuitive categorization and search functionality Implemented file conversion, text manipulation, and system monitoring tools Designed responsive interface compatible across all devices",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Delivered one-stop solution for diverse digital utility needs Reduced time spent searching for reliable online tools by 80% Provided security professionals with integrated threat intelligence hub Enabled instant access to AI services and creative resources Simplified everyday digital tasks with browser-based, no-installation tools",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation Web developers needed a simple way to add complex animations to websites without writing extensive JavaScript code or managing heavy animation libraries. Existing solutions were either too complex or required significant dependencies.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Build a lightweight, dependency-free JavaScript animation library that enables complex trigger-based animations using simple HTML data attributes, with support for hover, click, and scroll triggers.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Developed library using modern ES6+ JavaScript with zero external dependencies Leveraged Web Animations API for high-performance animation rendering Implemented Intersection Observer API for efficient scroll-triggered animations Created declarative data-animasis attribute system for animation configuration Enabled multiple trigger types: hover, click, and scroll without custom JavaScript Published under Creative Commons Attribution 4.0 license for open community use",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Delivered lightweight animation solution with minimal performance impact Enabled complex animations with simple HTML attribute declarations Eliminated need for heavy animation libraries and dependencies Achieved smooth 60fps animations using native browser APIs Adopted by developers seeking simple, declarative animation solutions",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation Security professionals need hands-on experience with diverse security architectures, attack vectors, and mitigation strategies, but lack safe environments to practice without risking production systems or violating compliance requirements.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Design and maintain an evolving home lab infrastructure that simulates enterprise-grade security environments with vulnerable systems for attack practice, mitigation testing, and cross-platform administration across on-premises and cloud infrastructures.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Architected multi-platform lab with Docker containers and virtual machines running vulnerable/attack images Deployed enterprise-grade domain management using Google Admin and Microsoft Active Directory Implemented Group Policy and Registry management for Windows environments Configured hybrid cloud infrastructure spanning Google Cloud, Azure AD, and AWS Managed cross-platform administration across MacOS, Windows, Linux, Android, and iOS Continuously evolved lab with new security architectures and attack scenarios",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Established comprehensive hands-on security training environment Enabled safe testing of attack vectors and mitigation strategies Achieved proficiency in enterprise domain management and Group Policy administration Developed expertise in hybrid cloud migration and management Maintained constantly updated lab reflecting current security landscapes",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation Food wastage at events contrasted with food insecurity in communities created a critical social challenge. There was no efficient system to connect surplus food from events with people in need, and communities lacked a platform to discuss and coordinate food distribution efforts.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Build a full-stack web application as part of an 8-member team to facilitate excess food distribution from events to those in need, with integrated community blogging features to foster engagement and awareness.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Implemented Node.js backend infrastructure for food distribution coordination Developed Context API integration to seamlessly connect frontend with MongoDB backend Built blogging platform to enable community discussions and engagement Collaborated with 8-member team using agile development practices Performed extensive debugging and optimization of database queries Designed responsive UI with HTML/CSS for accessibility across devices",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Successfully enabled efficient food distribution reducing event wastage Connected surplus food sources with communities in need Fostered active community engagement through integrated blogging platform Delivered scalable full-stack solution with Node.js and MongoDB Created positive social impact through technology-driven community service",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation Traditional PIN-based authentication systems were vulnerable to shoulder surfing, keylogging, and credential theft. Biometric authentication needed innovative approaches that were both secure and user-friendly, with eye movement patterns offering a unique behavioral biometric solution.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Lead a 4-member team to develop a continuous authentication system using gaze pattern monitoring as a behavioral biometric PIN, achieving high accuracy in user identification while reducing unauthorized access incidents.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Led team in designing continuous authentication model using eye movement patterns Implemented OpenCV and DLib algorithms for real-time gaze tracking and pattern recognition Applied machine learning algorithms including Logistic Regression and SVM for pattern classification Developed Python-based system for capturing and analyzing gaze patterns Conducted extensive testing and validation with diverse user groups Optimized algorithm performance for accuracy and response time",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Achieved 95% accuracy in user identification through gaze pattern analysis Reduced unauthorized access incidents by 30% compared to traditional PIN systems Successfully demonstrated continuous authentication capability Created non-intrusive, user-friendly biometric authentication solution Published research findings and open-sourced implementation on GitHub",
+    "links": []
+  },
+  {
+    "text": "\ud83d\udccd Situation Network security systems faced increasing sophistication of cyber threats, with traditional intrusion detection systems struggling to identify novel attack patterns while generating excessive false positives that overwhelmed security teams.",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfaf Task Develop an advanced Intrusion Detection System using layered machine learning algorithms to enhance threat detection accuracy while minimizing false positives, as part of a 4-member collaborative team project.",
+    "links": []
+  },
+  {
+    "text": "\u26a1 Action Conceptualized multi-layered detection architecture using ensemble machine learning techniques Implemented Python-based layered ML model with progressive filtering stages Designed feature extraction and selection mechanisms for network traffic analysis Integrated web interface using HTML, CSS, and JavaScript for real-time monitoring Collaborated with team to optimize detection algorithms and reduce false positive rates Conducted extensive testing against known attack datasets and simulated threats",
+    "links": []
+  },
+  {
+    "text": "\ud83c\udfc6 Result Increased threat detection accuracy by 20% over traditional IDS solutions Reduced false positives by 15%, decreasing alert fatigue for security teams Successfully identified novel attack patterns through layered ML approach Delivered real-time monitoring dashboard with intuitive visualization Published open-source implementation for community use and improvement",
+    "links": []
+  }
+]

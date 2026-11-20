@@ -1,0 +1,388 @@
+Chirag Ganguli
+0.0%
+🎤
+Chi
+rag
+IH
+About
+Certificates
+Works
+Blogs
+Contact
+Link Store
+×
+IP Geolocation:
+W
+elcome
+,
+Visitor
+!
+I'm Chirag Ganguli
+|
+#chiragganguli
+Known to be a
+- Headlines -
+Introducing Products. Discover Your Next Spark: Curated
+                            Creations Await!
+Introducing TIL: A Daily Dose of What I’m
+                            Learning Today.
+Think You
+                            Can Outsmart a H@cker? Take the Cybersecurity Challenge!
+$ whoami
+About Me
+Currently
+Hover to see what I'm up to! ✨
+Click Me for
+                        a 3D Render!
+<![CDATA[ Ask CV ]]>
+Chirag Ganguli is an accomplished security researcher, a Certified Ethical Hacker, and a
+                        graduate with a B.Tech degree in Computer Science and Engineering (Cyber Security and Digital
+                        Forensics) from the Vellore Institute of Technology. With a sharp focus on Security Automation
+                        and Cloud Security Infrastructure Management, Chirag brings a wealth of knowledge and experience
+                        to the table.
+Over the past years, Chirag has excelled in his role as a Technical Lead in the Tata Consultancy
+                        Services (TCS), demonstrating his ability to lead and engage with others effectively. He has
+                        also completed internships with organizations such as the Madhya Pradesh Police and Virtually
+                        Testing Foundation, Hacktify, and Whizlabs, honing his skills in management and security
+                        roles.
+With a background in cloud technologies such as Azure and Google Cloud, Chirag is currently
+                        gaining hands-on experience in Amazon Web Services, demonstrating his ability to adapt and learn
+                        quickly. He has also completed several online courses and boot camps in Artificial Intelligence
+                        & Machine Learning and Vulnerability Assessment & Penetration Testing, showcasing his commitment
+                        to continuous learning and growth.
+Chirag is passionate about networking and engaging with professionals in the field of Cyber
+                        Security, including core domains of Security Operations Center (SOC) and Governance, Risk, and
+                        Compliance (GRC). With his exceptional skills, experience, and dedication to his craft, Chirag
+                        is well-positioned to make a significant impact in the cybersecurity industry and
+                        beyond.
+Additionally, Chirag is a Certified Lean Six Sigma Black Belt (LSSBB), which showcases his
+                        strong commitment to optimizing business processes and driving continuous improvement.
+|
+||
+Top 1% THM
+|| UTW Century 15 |
+                        Cyborg 15 | Groot 15 | Oracle 15 | Trebek 15 ||
+×
+🎉 INTERACTIVE HOME PAGE 🎉
+function buildApp() {
+      // Initialize variables
+      let message = "Hello, World!";
+      console.log(message);
+      // More coding...
+    }
+Scanning ports...
+Applying security protocols...
+01
+Add
+02
+Commit
+03
+Deploy
+$ certificates --history
+Certificates Overview
+Google Cloud
+IAM | Security in the Cloud
+Ec-Council
+Certified Ethical Hacker
+Cybrary
+CCNA | Advanced Penetration Testing | Offensive Penetration Testing
+CompTIA
+Firewall Security and Intrusion Detection and Prevention | Security
+                            Certified Network Professional
+Coursera
+Cybersecurity Compliance Framework and System administration |
+                            Cybersecurity Roles, Processes & OS Security | Network Security & DB Vulnerability
+AI Planet
+Machine Learning Bootcamp | Deep Learning Bootcamp | Data Science
+                            Bootcamp
+Antisyphon
+Active Defense | Cyber Deception | SOC
+AMLDA 2023
+Best Paper Award
+AWS
+Cloud Practitioner
+For a detailed view, click
+HERE!
+$ works --help
+Skills, Experiences and Research
+Experiences
+/
+Projects
+Technologies
+Research
+Note:
+Please allow browser pop-ups to redirect to the desired
+                        page.
+[
+V
+ulnerability
+A
+ssessment
+&
+P
+enetration
+T
+esting
+]
+70%
+[
+G
+overnance,
+R
+isk
+&
+C
+ompliance
+]
+60%
+[
+S
+ecurity
+O
+perations
+]
+65%
+[
+R
+everse
+E
+ngineering
+]
+60%
+[
+A
+rtificial
+I
+ntelligence
+&
+M
+achine
+L
+earning
+]
+70%
+You can check out some 🎉 utilities @
+utilities{.}chiragganguli{.}com
+.
+Did you know
+that I recently started
+Ga🎮ing
+?
+                    Check it out!
+Discover Inspiration in Every Line
+Quotes Collection!
+$ ./quiz | time
+Wanna Quiz?
+Quick Cyber Challenge!
+Think you’re ready for more?
+Take the Full Quiz
+$ cat tools | head
+Utility Centre
+Discover
+                powerful tools and resources—explore now!
+✨
+$ open ./digital-emporium
+Unlock Premium Resources
+Discover a curated collection designed to inspire creativity and streamline your workflow.
+Explore the Collection
+➔
+New arrivals & special offers await!
+🎨
+🛠️
+📚
+💎
+Explore the cosmic drift
+Time is
+                    an illusion, but this clock makes it look good.
+Transform
+                    your screen into a captivating canvas where daydreams bloom under the sun and night whispers secrets
+                    among the stars
+Embark on
+                    a cosmic journey with a static animated planet wallpaper that brings the universe to your
+                    fingertips, blending serenity with celestial wonder
+Immerse yourself in a stunning 3D universe where every star tells a story and
+                    galaxies unfold in breathtaking dimensions.
+Life is like a
+                    wallpaper: sometimes you need to peel back the layers to find the beauty underneath!
+Welcome to the
+                    Matrix: where reality is optional and glitches are just a part of the aesthetic.
+Let your smiley
+                    vibes light up the infinite emoji universe!
+$ gzip -d games
+Game Zone
+$ grep "featured" blog
+Featured Blog Posts
+$ Today I Learned
+TIL Week Chart
+←
+→
+$ What People Are Saying
+What People Say!
+Shubhangi Singh (Product Engineer - TCS)
+“
+Dear Chirag,
+                        It’s hard to see you go. Working with you has been a great experience—your technical depth,
+                        leadership, and dependable nature have always stood out. You’ve set a strong example not just as
+                        a developer, but as someone the team could consistently rely on for guidance and support.
+                        I’ve personally learned a lot from you, and your contributions will definitely be missed.
+                        Wishing you all the success in your next role—no doubt you’ll continue to do great things.
+                        Stay in touch and all the very best ahead!
+Suraj Kumar (Product Engineer - TCS)
+“
+Dear Chirag,
+                        As you move on from the organization, I just wanted to thank you for your guidance and support.
+                        It’s been a pleasure working with you and learning from your experience.
+                        Wishing you great success in your next journey. All the very best!
+                        What are the skills I have learned from you:-
+                        - Good Buddy Reviewer:- This is the genuine skill I have learned from you as one of my game
+                        buddy review is done by you and you mostly closed my game bugs in the buddy review round itself.
+                        So I got the IQA,EQA sign off in early round.
+                        -Multitasking:- I have seen you working on multiple things and handling it in an efficient
+                        manner. I feel it's a good skill for a person like me to learn.
+                        -Clean Code:- When you were doing buddy review for my game you have told me to remove the
+                        unwanted DB fields which are not in use for my game. So, I felt you wanted to highlight the
+                        needs of clean code and I am happy to admit it I adapted it.
+                        Apart from these you have also helped us in different issue like
+[REDACTED]
+. Thanks for
+                        all
+                        these things.
+Sujay Ghosh (Technical Architect - TCS)
+“
+I truly enjoyed working with you. Wishing you great success in
+                        all your future endeavours.
+Meenakshi S (Content - TCS)
+“
+Wishing you all the very best as you begin a new chapter - may
+                        it be filled with success and happiness.
+Saurabh Turakhia (Content - TCS)
+“
+Best wishes for your personal and professional endeavours ahead,
+                        Chirag!
+Pradipta Ghosh (Operations Head - TCS)
+“
+Wish you all the very best Chirag. You are an amazing talent.
+                        Keep growing.
+Shailesh Singh (Product Engineer - TCS)
+“
+Thank you for your patience, guidance and understanding. I
+                        appreciate you for being so supportive.
+Anonymous
+“
+Working with him is always memorable. He is too good in coding
+                        and debugging. He is with lots of patience.
+Anonymous
+“
+A silent killer, Brilliant Performer, always dependable. Highly
+                        talented, sharp focussed. A shining star in the making.
+Dr. Shishir Kumar Shandilya (Faculty - School of Data Science & Forecasting - Devi Ahilya
+                        University)
+“
+I have had the privilege of mentoring Chirag
+(https://chiragganguli.com)
+, who was an
+                        exceptional student during his time under my guidance at Vellore Institute of Technology, VIT
+                        Bhopal University. Chirag's commitment to excellence and passion for his field set him apart as
+                        a standout individual. Throughout his academic journey, Chirag consistently demonstrated a
+                        thirst for knowledge and a drive to succeed. His active participation in various workshops and
+                        coding competitions showcased not only his dedication and commitment but also his innate
+                        leadership qualities. Chirag's ability to excel in his own learning while simultaneously
+                        supporting and empowering his peers is a testament to his outstanding leadership skills.
+                        Chirag's journey has been marked by continuous growth and a relentless pursuit of excellence.
+                        His proactive approach to learning and his ability to adapt to new technologies and
+                        methodologies position him as a promising talent in the field of Nature-inspired Cyber Security
+(https://publications.chiragganguli.com/)
+. His exceptional capability in
+                        research is exemplified by "Design and implementation of adaptive network stabilization based on
+                        artificial bees’ colony optimization for nature-inspired cybersecurity"
+(https://www.sciencedirect.com/science/article/pii/S1018364723001751)
+.
+                        This ground-breaking work showcases his innovative approach to adaptively tackling cybersecurity
+                        challenges. Similarly, "Adaptive Artificial Bee Colony Algorithm for Nature-Inspired Cyber
+                        Defense"
+(https://www.mdpi.com/2079-8954/11/1/27)
+demonstrates his deep
+                        understanding and application of advanced algorithms in cybersecurity. He has also published
+                        IEEE standard dataset titled "Cyber Attack Evaluation Dataset: Deep Packet Inspection and
+                        Analysis"
+(https://ieee-dataport.org/documents/cyber-attack-evaluation-dataset-deep-packet-inspection-and-analysis)
+,
+                        that has packet capture dataset of real-time attack and defense scenario. His proactive attitude
+                        towards learning and his ability to adapt to new technologies and methodologies position him as
+                        a promising talent in the field of Nature-inspired Cyber Security. I have no doubt that Chirag
+                        will continue to thrive and make significant contributions wherever his career path may take
+                        him. I can recommend the candidature of Chirag with full confidence based on his exceptional
+                        skills, dedication, and positive attitude which makes him a valuable addition to any team or
+                        organization.
+Milind Lakkad / Nominated by Piyush Vasa (HR - TCS)
+“
+In appreciation of your outstanding contribution to the
+                        organisation, you are awarded the On The Spot Award. You are an inspiring role model to your
+                        colleagues. Thank you for your dedication and commitment.
+Milind Lakkad (HR - TCS)
+“
+Congratulations on becoming an Xcelerate Warrior. Gaining this
+                        title kickstarts your journey towards achieving your aspirations. We wish you continued success
+                        in your career journey.
+Rajesh Sundaresan (Project Lead - TCS)
+“
+Your excellence and brilliance have always made for a stunning
+                        performance at work. Raise the bar with your hard work, dedication, and continue to inspire us.
+                        Thank you for your commitment towards delivering great work and being an embodiment of TCS
+                        Values.
+Abbas Mehdi (Product Engineer - TCS)
+“
+I admire your growth-mindset and dedication towards continuous
+                        learning. You are an asset for our team and an inspiration for all as a proactive learner
+                        constantly striving to do things in a better manner. Thank you for being an embodiment of TCS
+                        Values.
+Add Your
+                    Say
+×
+Add Your Say
+Message
+Name
+Designation
+Send Your Say
+$ ssh me@{w-w-w}
+Connect with me!
+One liner for Chirag:
+@n @ct1ve le@rner, @ p@5510n@te re5e@rcher, & @ cur10u5 m1nd.
+Author API:
+Chirag
+                                            Ganguli
+Comment 'book,' and I'll honor your support by showcasing the book I purchased with it on my
+                        exclusive Mentions Wall at
+“Special Mentions"
+, forever linked to knowledge and inspiration!
+Get in Touch with me Here!
+Send
+Or, just
+Drop an Open Thought
+!
+Or, may be send me an
+anonymous
+message via
+GhostNote
+!
+For any queries, please connect with me at
+contact{at}mail.chiragganguli.com
+.
+For bugs and website improvements, please report to
+webmaster{at}mail.chiragganguli.com
+.
+Note:
+Your Public IP Address may be logged to avoid Spam Messages and to
+                            prevent any malicious activity.
+Schedule a Meeting
+Appreciate
+1
+appreciations so far!
+That's me,
+Chirag
+!
+Check my
+                        availability calendar (updated daily) at availabilityof{.}chiragganguli{.}com
+Sitemap - chiragganguli.com/map/
+Changelog - chiragganguli.com/changelog/
+All rights reserved | Chirag Ganguli

@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="b62d07d9-6b4c-4f1b-a004-de6fa5a76a49"
+    type="text/javascript" async></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-37CF9WPSM1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-37CF9WPSM1');
+  </script>
+  <script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog && window.posthog.__loaded) || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init Rr Mr fi Cr Ar ci Tr Fr capture Mi calculateEventProperties Lr register register_once register_for_session unregister unregister_for_session Hr getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Ur jr createPersonProfile zr kr Br opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Dr debug M Nr getPageViewId captureTraceFeedback captureTraceMetric $r".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_RUE9lFBQuECf6yTbN0I5X2XiqFtgoie1FDwxSvyAW9e', {
+      api_host: 'https://us.i.posthog.com',
+      defaults: '2025-05-24',
+      person_profiles: 'identified_only',
+    })
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+  <title>Changelog | Chirag Ganguli</title>
+  <style>
+    /* Modern Reset and Variables */
+    :root {
+      /* Light Theme Defaults */
+      --bg-color: #f8fafc;
+      --surface-color: #ffffff;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --border-color: #e2e8f0;
+      --highlight-bg: #fef08a;
+      --highlight-text: #854d0e;
+      --badge-bg: #eff6ff;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --radius-md: 8px;
+      --radius-lg: 12px;
+    }
+
+    /* Dark Theme Overrides */
+    [data-theme="dark"] {
+      --bg-color: #0f172a;
+      --surface-color: #1e293b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #3b82f6;
+      --primary-hover: #60a5fa;
+      --border-color: #334155;
+      --highlight-bg: #854d0e;
+      --highlight-text: #fef08a;
+      --badge-bg: #1e3a8a;
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.5), 0 2px 4px -2px rgb(0 0 0 / 0.5);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg-color);
+      margin: 0;
+      padding: 0;
+      color: var(--text-main);
+      line-height: 1.6;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Header & Navigation */
+    header {
+      background: var(--surface-color);
+      padding: 24px 20px;
+      text-align: center;
+      border-bottom: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      top: 0;
+      z-index: 100;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    #CookiebotWidget {
+    display: none !important;
+}
+
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 900px;
+      margin: 0 auto 16px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+    }
+
+    header h1 a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    header h1 a:hover {
+      color: var(--primary-hover);
+      text-decoration: underline;
+    }
+
+    #themeToggle {
+      background: transparent;
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      font-size: 1.25rem;
+      cursor: pointer;
+      padding: 6px 10px;
+      border-radius: var(--radius-md);
+      transition: all 0.2s ease;
+    }
+
+    #themeToggle:hover {
+      background-color: var(--border-color);
+    }
+
+    /* Filters Section */
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .filters select,
+    .filters input {
+      padding: 10px 14px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      color: var(--text-main);
+      background-color: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      transition: all 0.2s ease;
+      min-width: 140px;
+    }
+
+    .filters select:focus,
+    .filters input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+    }
+
+    #resetFilters {
+      padding: 10px 18px;
+      background-color: var(--primary);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+
+    #resetFilters:hover {
+      background-color: var(--primary-hover);
+    }
+
+    #resetFilters:active {
+      transform: scale(0.98);
+    }
+
+    /* Main Content Area */
+    main {
+      flex: 1;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      width: 100%;
+    }
+
+    /* Year Section */
+    .year-section {
+      margin-bottom: 48px;
+      animation: fadeIn 0.4s ease-out;
+    }
+
+    .year-section h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--text-main);
+      padding-bottom: 8px;
+      margin: 0 0 24px 0;
+      border-bottom: 2px solid var(--border-color);
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    /* Month Card */
+    .month-section {
+      background: var(--surface-color);
+      margin: 0 0 24px 0;
+      padding: 24px;
+      border-left: 5px solid var(--primary);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+    }
+
+    .month-section:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.15), 0 4px 6px -4px rgb(0 0 0 / 0.15);
+    }
+
+    .month-section h3 {
+      margin: 0 0 16px 0;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    /* Categories inside Month */
+    .release-category {
+      margin: 20px 0 0 0;
+    }
+
+    .release-category h4 {
+      display: inline-block;
+      margin: 0 0 12px 0;
+      padding: 4px 12px;
+      background-color: var(--badge-bg);
+      color: var(--primary);
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: background-color 0.3s ease;
+    }
+
+    .release-category ul {
+      margin: 0;
+      padding: 0 0 0 24px;
+      list-style-type: none;
+    }
+
+    .release-category ul li {
+      position: relative;
+      margin-bottom: 10px;
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.6;
+      transition: color 0.3s ease;
+    }
+
+    .release-category ul li::before {
+      content: "•";
+      color: var(--primary);
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+
+    /* Enhancements: Search Highlights */
+    .highlight {
+      background-color: var(--highlight-bg);
+      color: var(--highlight-text);
+      padding: 0 2px;
+      border-radius: 3px;
+      font-weight: 600;
+    }
+
+    /* Enhancements: Creative Domain Highlight */
+    .domain-highlight {
+      background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+      background-size: 200% auto;
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+      font-weight: 700;
+      animation: shine 3s linear infinite;
+    }
+
+    [data-theme="dark"] .domain-highlight {
+      background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6);
+      background-size: 200% auto;
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+
+    @keyframes shine {
+      to {
+        background-position: 200% center;
+      }
+    }
+
+    /* Enhancements: Confetti Trigger Effect */
+    .confetti-trigger {
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--primary);
+      border-bottom: 1px dashed var(--primary);
+      position: relative;
+      transition: color 0.2s;
+    }
+
+    .confetti-trigger:hover {
+      color: var(--primary-hover);
+    }
+
+    .confetti-piece {
+      position: fixed;
+      width: 6px;
+      height: 12px;
+      pointer-events: none;
+      z-index: 9999;
+      border-radius: 2px;
+      animation: pop 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+    }
+
+    @keyframes pop {
+      0% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+        opacity: 1;
+      }
+
+      100% {
+        transform: translate(var(--tx), var(--ty)) rotate(var(--rot)) scale(0);
+        opacity: 0;
+      }
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      padding: 5px 5px;
+      border-top: 1px solid var(--border-color);
+      transition: border-color 0.3s ease, color 0.3s ease;
+    }
+
+    main>p {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 600px) {
+      .header-top {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .filters {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .filters select,
+      .filters input,
+      #resetFilters {
+        width: 100%;
+      }
+
+      .month-section {
+        padding: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-top">
+      <h1><a href="https://chiragganguli.com/home">chiragganguli.com</a> — Changelog</h1>
+      <button id="themeToggle" aria-label="Toggle Dark Mode">🌙</button>
+    </div>
+    <div class="filters">
+      <select id="yearFilter" aria-label="Filter by Year">
+        <option value="all">All Years</option>
+      </select>
+      <select id="monthFilter" aria-label="Filter by Month">
+        <option value="all">All Months</option>
+      </select>
+      <select id="categoryFilter" aria-label="Filter by Category">
+        <option value="all">All Categories</option>
+      </select>
+      <input type="text" id="searchFilter" placeholder="Search keyword..." aria-label="Search Changelog" />
+      <button id="resetFilters">Reset Filters</button>
+    </div>
+  </header>
+
+  <main id="releaseNotesContainer">
+    <p>Loading changelog...</p>
+  </main>
+
+  <footer>
+    <p>Copyright © 2026 Chirag Ganguli. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // --- Theme Toggle Logic ---
+    const themeToggle = document.getElementById('themeToggle');
+    const currentTheme = localStorage.getItem('theme') || 'light';
+
+    if (currentTheme === 'dark') {
+      document.body.setAttribute('data-theme', 'dark');
+      themeToggle.innerHTML = '☀️';
+    }
+
+    themeToggle.addEventListener('click', () => {
+      const isDark = document.body.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.body.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+        themeToggle.innerHTML = '🌙';
+      } else {
+        document.body.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+        themeToggle.innerHTML = '☀️';
+      }
+    });
+
+    // --- Confetti Effect Logic ---
+    window.fireConfetti = function (e) {
+      const colors = ['#2563eb', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6'];
+      const numConfetti = 25;
+
+      for (let i = 0; i < numConfetti; i++) {
+        const conf = document.createElement('div');
+        conf.className = 'confetti-piece';
+
+        conf.style.left = `${e.clientX}px`;
+        conf.style.top = `${e.clientY}px`;
+        conf.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+
+        const angle = Math.random() * Math.PI * 2;
+        const velocity = 30 + Math.random() * 60;
+        const tx = Math.cos(angle) * velocity;
+        const ty = Math.sin(angle) * velocity - 40;
+        const rot = Math.random() * 360;
+
+        conf.style.setProperty('--tx', `${tx}px`);
+        conf.style.setProperty('--ty', `${ty}px`);
+        conf.style.setProperty('--rot', `${rot}deg`);
+
+        document.body.appendChild(conf);
+
+        setTimeout(() => {
+          if (document.body.contains(conf)) conf.remove();
+        }, 800);
+      }
+    };
+
+    // --- App Logic ---
+    document.addEventListener("DOMContentLoaded", function () {
+      const container = document.getElementById("releaseNotesContainer");
+      const yearFilter = document.getElementById("yearFilter");
+      const monthFilter = document.getElementById("monthFilter");
+      const categoryFilter = document.getElementById("categoryFilter");
+      const searchFilter = document.getElementById("searchFilter");
+      const resetBtn = document.getElementById("resetFilters");
+      let releaseData = [];
+
+      fetch("https://api.chiragganguli.com/g/json/changelog.json")
+        .then((response) => response.json())
+        .then((data) => {
+          releaseData = data;
+          releaseData.sort((a, b) => b.year - a.year);
+          const monthOrder = {
+            "January": 1, "February": 2, "March": 3, "April": 4,
+            "May": 5, "June": 6, "July": 7, "August": 8,
+            "September": 9, "October": 10, "November": 11, "December": 12
+          };
+          releaseData.forEach((entry) => {
+            entry.months.sort((a, b) => monthOrder[b.month] - monthOrder[a.month]);
+          });
+          populateFilters();
+          displayNotes();
+        })
+        .catch((err) => {
+          container.innerHTML = "<p>Error loading changelog.</p>";
+          console.error(err);
+        });
+
+      function populateFilters() {
+        releaseData.forEach((entry) => {
+          const option = document.createElement("option");
+          option.value = entry.year;
+          option.textContent = entry.year;
+          yearFilter.appendChild(option);
+        });
+
+        const months = [
+          "January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December"
+        ];
+        months.forEach((month) => {
+          const option = document.createElement("option");
+          option.value = month;
+          option.textContent = month;
+          monthFilter.appendChild(option);
+        });
+
+        const categorySet = new Set();
+        releaseData.forEach((entry) => {
+          entry.months.forEach((month) => {
+            month.details.forEach((detail) => {
+              categorySet.add(detail.category);
+            });
+          });
+        });
+        categorySet.forEach((category) => {
+          const option = document.createElement("option");
+          option.value = category;
+          option.textContent = category;
+          categoryFilter.appendChild(option);
+        });
+      }
+
+      function displayNotes() {
+        const selectedYear = yearFilter.value;
+        const selectedMonth = monthFilter.value;
+        const selectedCategory = categoryFilter.value;
+        const searchText = searchFilter.value.toLowerCase();
+
+        container.innerHTML = "";
+        let notesFound = false;
+
+        releaseData.forEach((entry) => {
+          if (selectedYear !== "all" && entry.year != selectedYear) return;
+
+          const yearSection = document.createElement("div");
+          yearSection.className = "year-section";
+          const yearHeading = document.createElement("h2");
+          yearHeading.textContent = entry.year;
+          yearSection.appendChild(yearHeading);
+
+          entry.months.forEach((monthEntry) => {
+            if (selectedMonth !== "all" && monthEntry.month !== selectedMonth) return;
+            const monthSection = document.createElement("div");
+            monthSection.className = "month-section";
+            const monthHeading = document.createElement("h3");
+            monthHeading.textContent = monthEntry.title;
+            monthSection.appendChild(monthHeading);
+
+            let monthHasData = false;
+
+            monthEntry.details.forEach((detail) => {
+              if (selectedCategory !== "all" && detail.category !== selectedCategory) return;
+              const detailText = detail.category.toLowerCase() + " " + detail.items.join(" ").toLowerCase();
+              if (searchText && !detailText.includes(searchText)) return;
+
+              monthHasData = true;
+              const categoryDiv = document.createElement("div");
+              categoryDiv.className = "release-category";
+              const catHeading = document.createElement("h4");
+              catHeading.textContent = detail.category;
+              categoryDiv.appendChild(catHeading);
+
+              const ul = document.createElement("ul");
+              detail.items.forEach((item) => {
+                const li = document.createElement("li");
+                li.innerHTML = processTextFeatures(item, searchText);
+                ul.appendChild(li);
+              });
+              categoryDiv.appendChild(ul);
+              monthSection.appendChild(categoryDiv);
+            });
+
+            if (monthHasData) {
+              yearSection.appendChild(monthSection);
+              notesFound = true;
+            }
+          });
+
+          if (yearSection.children.length > 1) {
+            container.appendChild(yearSection);
+          }
+        });
+
+        if (!notesFound) {
+          container.innerHTML = "<p>No changelog found for the selected filters.</p>";
+        }
+      }
+
+      // Helper function to process domains, triggers, and search highlights
+      function processTextFeatures(text, searchKeyword) {
+        let html = text;
+
+        // 1. Creative Domain Highlight
+        html = html.replace(/([a-zA-Z0-9.-]*chiragganguli\.com)/gi, '<span class="domain-highlight">$1</span>');
+
+        // 2. Confetti Triggers (New, Fixed, Added, Resolved)
+        html = html.replace(/\b(new|fixed|added|resolved)\b/gi, '<span class="confetti-trigger" onmouseenter="fireConfetti(event)">$&</span>');
+
+        // 3. Search Highlight (Safely avoids messing up the HTML tags added above)
+        if (searchKeyword) {
+          const regex = new RegExp(`(${searchKeyword})`, 'gi');
+          const parts = html.split(/(<[^>]*>)/g);
+          for (let i = 0; i < parts.length; i++) {
+            if (!parts[i].startsWith('<')) {
+              parts[i] = parts[i].replace(regex, '<span class="highlight">$1</span>');
+            }
+          }
+          html = parts.join('');
+        }
+        return html;
+      }
+
+      yearFilter.addEventListener("change", displayNotes);
+      monthFilter.addEventListener("change", displayNotes);
+      categoryFilter.addEventListener("change", displayNotes);
+      searchFilter.addEventListener("input", displayNotes);
+
+      resetBtn.addEventListener("click", () => {
+        yearFilter.value = "all";
+        monthFilter.value = "all";
+        categoryFilter.value = "all";
+        searchFilter.value = "";
+        displayNotes();
+      });
+    });
+  </script>
+</body>
+
+</html>

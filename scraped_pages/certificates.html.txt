@@ -1,0 +1,380 @@
+Certificates | Chirag Ganguli
+0.0%
+🎤
+Chirag
+$ man certificates
+Certificates Portal
+Detailed
+Compact
+ACHIEVEMENT
+Promising New Talent (Team Lead) - Tech
+Associated with Tata Consultancy Services
+Awarded in recognition of outstanding leadership, technical expertise, and problem-solving abilities as a team lead.
+This certification highlights exceptional contributions to project success, innovation, and team collaboration in the tech domain.
+|
+ACHIEVEMENT
+Lesser Defects and Faster Defect Resolution
+Associated with Tata Consultancy Services
+Recognized for maintaining high code quality with minimal defects and ensuring swift, effective resolution of issues.
+This certification highlights a commitment to efficiency, precision, and excellence in software development and debugging.
+|
+ACHIEVEMENT
+Best Cartridge Technical Development
+Associated with Tata Consultancy Services
+Awarded for excellence in the technical development of cartridges, showcasing innovation, problem-solving, and engineering expertise.
+|
+ACHIEVEMENT
+Best Timely Delivery
+Associated with Tata Consultancy Services
+Recognized for consistently meeting deadlines with efficiency and precision.
+This certification highlights exceptional time management, proactive planning, and commitment to delivering high-quality work on schedule.
+|
+ACHIEVEMENT
+Raman Research Award 2023-24
+Recipient of the prestigious Raman Research Award 2023-24 for outstanding contributions to cutting-edge research in Cyber Security.
+Recognized for advancing innovative solutions and impactful discoveries, demonstrating excellence in scientific inquiry and innovation.
+|
+Fundamentals of Deep Learning
+Gained foundational knowledge in neural networks and deep learning frameworks
+Hands-on experience with building, training, and deploying deep learning models
+Familiarity with concepts such as convolutional neural networks (CNNs), recurrent neural networks (RNNs), and autoencoders
+Learned to optimize model performance using techniques like backpropagation and gradient descent
+Acquired skills in leveraging GPUs for accelerating deep learning tasks and optimizing compute resources
+Developed a deeper understanding of real-world applications of deep learning in fields like computer vision and natural language processing
+|
+Fundamentals of Accelerated Computing with CUDA Python
+Completed the course Fundamentals of Accelerated Computing with CUDA Python from NVIDIA
+Learned how to accelerate Python applications using CUDA for parallel programming
+Developed skills in utilizing GPU capabilities to enhance Python-based computational tasks
+Gained experience in optimizing Python code for high-performance computing through CUDA
+Explored best practices and techniques for improving efficiency and scalability in Python applications using GPU acceleration
+Applied CUDA Python in real-world scenarios for performance enhancement in data-intensive projects
+|
+Fundamentals of Accelerated Computing with CUDA C/C++
+Completed the course Fundamentals of Accelerated Computing with CUDA C/C++ from NVIDIA
+Gained foundational knowledge in parallel programming using CUDA
+Learned to accelerate computational tasks by leveraging GPU architectures
+Acquired skills in optimizing C/C++ code for performance improvements using CUDA
+Developed hands-on experience with CUDA programming techniques for real-world applications
+Explored best practices for maximizing efficiency in high-performance computing projects
+|
+(Certificate of Reviewing) International Conference on BUSINESS INTELLIGENCE, COMPUTATIONAL MATHEMATICS, AND DATA ANALYTICS (iBCD-2024)
+Reviewed academic papers for the International Conference on BUSINESS INTELLIGENCE, COMPUTATIONAL MATHEMATICS, AND DATA ANALYTICS (iBCD-2024)
+Assessed research contributions in fields such as business intelligence, computational mathematics, and data analytics
+Evaluated the quality, relevance, and originality of submissions for the conference
+Contributed to maintaining the academic rigor and standards of the iBCD-2024 conference
+|
+Certified Lean Six Sigma Black Belt
+Mastery of the DMAIC (Define, Measure, Analyze, Improve, Control) methodology for process improvement
+Techniques for identifying and defining project goals, scope, and stakeholders through project charters and VOC (Voice of the Customer) analysis
+Proficiency in data collection, measurement techniques, and descriptive statistics, including Measurement System Analysis (MSA) and capability analysis
+Advanced root cause analysis methods, such as hypothesis testing, regression analysis, and Failure Modes and Effects Analysis (FMEA)
+Implementation of Design of Experiments (DOE) for solution generation, prioritization, and risk analysis, along with Lean principles for waste reduction
+Skills in sustaining process improvements using Statistical Process Control (SPC) and control charts, along with standardization and documentation practices
+Expertise in project management, including team leadership, change management, and effective communication strategies
+Application of Lean principles like 5S methodology, value stream mapping, and continuous flow systems for process optimization
+Practical experience through real-world case studies, hands-on exercises, and lessons learned from successful project implementations
+|
+Verify Certificate
+(BADGE) Networking in Google Cloud: Hybrid Connectivity and Network Management [May 2024]
+Hybrid Connetivity
+Private Connection Options
+Network Pricing and Billing
+Network Monitoring and Troubleshooting
+|
+Verify Badge
+(BADGE) Protect Cloud Traffic with BeyondCorp Enterprise (BCE) [May 2024]
+Securing Cloud Applications with IAP using Zero-Trust
+Securing Compute Engine Applications and Resources using BCE
+|
+Verify Badge
+(BADGE) Security Best Practices in Google Cloud [Apr 2024]
+Securing Compute Engine in Google Cloud
+Securing Cloud Data
+Application Security in Google Cloud Platform
+Securing Google Kubernetes Engine
+|
+Verify Badge
+(BADGE) Build a Secure Google Cloud Network [Apr 2024]
+Securing VMs with BeyondCorp Enterprise (BCE)
+Managing VPC Networks
+HTTP Load Balancer with Cloud Armor
+Internal Load Balancer
+|
+Verify Badge
+(BADGE) Networking in Google Cloud: Defining and Implementing Networks [Apr 2024]
+VPC Networking
+Sharing Networks across VPCs
+VPC network peering
+Load Balancing
+Cloud CDN
+|
+Verify Badge
+(BADGE) Implement Cloud Security Fundamentals on Google Cloud [Apr 2024]
+Cloud IAM Roles
+Service Accounts
+VPC network peering
+User Authentication and Authorization
+Identity-Aware Proxy
+Cloud KMS
+|
+Verify Badge
+(BADGE) Managing Security in Google Cloud [Apr 2024]
+Foundations of Cloud Security
+Securing access to Google Cloud
+Defining users with Cloud Identity Console
+Configuring Identity and Access Management
+Configuring VPC for Isolation and Security
+Configuring VPC Firewalls
+Cloud Logging
+Cloud Intrusion Detection System
+|
+Verify Badge
+(BADGE) Implement Load Balancing on Compute Engine [Apr 2024]
+Fundamentals of Google Cloud Infrastructure
+Creating Cloud Compute Engines
+Virtual Machine Firewalls and Tagging
+System Logging and Monitoring
+GCloud and Cloud Shell
+Managing Multiple Compute Instances
+Setting up Load Balancing
+Health Checking and Monitoring the Load Balancer
+|
+Verify Badge
+ACHIEVEMENT
+On the Spot Award
+Associated with Tata Consultancy Services
+|
+NetExec Training Lab
+Name Your Price Training Lab on NetExec Tool
+Windows Active Directory Exploitation
+|
+APPRECIATION
+By Rajesh Sundaresan
+Associated with Tata Consultancy Services
+|
+APPRECIATION
+Elevate Wings Program
+Associated with Tata Consultancy Services
+|
+APPRECIATION
+By Abbas Mehdi
+Associated with Tata Consultancy Services
+|
+ACHIEVEMENT
+AMLDA-2023 Best Paper Award
+Associated with paper titled “Data-Driven Approach to Network Intrusion
+                                    Detection System using Modified Artificial Bee Colony Algorithm for
+                                    Nature-Inspired Cybersecurity
+                                    ” in AMLDA-2023, held at Universität zu
+                                    Lübeck, Germany during 9th & 10th November 2023
+|
+AMLDA-2023 Paper Presentation Certificate
+Associated with paper titled “Data-Driven Approach to Network Intrusion
+                                    Detection System using Modified Artificial Bee Colony Algorithm for
+                                    Nature-Inspired Cybersecurity
+                                    ” in AMLDA-2023, held at Universität zu
+                                    Lübeck, Germany during 9th & 10th November 2023
+|
+ACHIEVEMENT
+Xcelerate Warrior
+Associated with Tata Consultancy Services
+|
+ACHIEVEMENT
+BTech CSE (Cyber Security & Digital Forensics)
+Secured 3rd position in BTech Degree Examination in the branch of Computer Science and Engineering (Cyber Security & Digital Forensics).
+Associated wih VIT Bhopal University
+|
+Certified Ethical Hacker (CEH)
+Introduction to Ethical Hacking
+Foot Printing and Reconnaissance
+Scanning Networks
+Enumeration
+Vulnerability Analysis
+System Hacking
+Malware Threats
+Sniffing
+Social Engineering
+Denial-of-Service
+Session Hijacking
+Evading IDS, Firewalls, and Honeypots
+Hacking Web Servers
+Hacking Web Applications
+SQL Injection
+Hacking Wireless Networks
+Hacking Mobile Platforms
+IoT and OT Hacking
+Cloud Computing
+Cryptography
+|
+ACHIEVEMENT
+Best Intern - Tech
+Associated with Tata Consultancy Services Internship
+|
+Cyber Offensive - Defense Engineering using Python Beginner
+Completed 200 hour training program
+|
+Damncon 2022 | Damn Secure Pentesting Hub
+Participated in conference
+|
+Advent of Cyber 2022 | TryHackMe
+Security Frameworks
+Log Analysis
+OSINT
+Scanning
+Brute-forcing
+Email Analysis
+CyberChef
+Smart Contracts
+Pivoting
+Game Hacking
+Memory Forensics
+Malware Analysis
+Packet Analysis
+Web Applications
+Secure Coding
+Sigma
+Hardware Hacking
+Firmware
+MQTT
+Attack Surface Reduction
+Defense in Depth
+|
+Active Defense & Cyber Deception | John Strand
+Lots of open-source tools that can be freely and easily configured in your environment.
+A better understanding of current legal landscapes.
+An approach for developing enterprise integrations.
+Labs: Spidertrap, Cowrie, Canarytokens, RITA, Bluespawn, Portspoof, HoneyBadger, HoneyShare, HoneyUser, C2, WebHoneypot
+|
+AWS Cloud Practitioner Essentials
+Introduction to AWS
+Compute in the Cloud
+Global Infrastructure and Reliability
+Networking in the Cloud
+Storage and Databases
+Security
+Monitoring and Analytics
+Pricing and Support Options
+Migrating to the Cloud
+|
+Cyber Threat Hunting Level-1
+System Logging and Review
+Threat Hunt with NIDS
+Process of Threat Hunting
+Tool: AC Hunter
+C2 Detection Techniques
+Connection log analysis with Zeek
+Tool: Sysmon
+C3 Detection Tools: tcpdump, tshark, wireshark, RITA
+|
+The Definitive GRC Analyst Master Class
+Prepared, executed, and reported on audit of subset of NIST SP 800-53 cybersecurity controls to include interview, document review, and testing of systems to support compliance audit activities.
+Knowledgable on NIST Cybersecurity Framework and how the Identify, Protect, Detect, Respond, and Recover categories comprise and facilitate an information security program
+Developed concise, tailored cybersecurity awareness content, improving targeted end-user base cyber hygiene
+Developed Just-In-Time cybersecurity awareness content for emerging threats to reduce operational risk to tailored audiences
+Semi-quantitatively analyzed cybersecurity risk using NIST SP 800-30 methodology to identify highest risk weaknesses for a system
+Executed threat modeling exercise to determine higher likelihood threat events to inform cybersecurity risk modeling
+Developed Information Security policy to establish authorized access management and authenticator management for internal and third-party personnel.
+Ensured policy documents are aligned with business objectives, implementable by the organization, and practical for compliance by ensuring purpose, scope, authority, and policy statements incorporate operational perspective and constraints.
+|
+SOC Core Skills
+Core networking skills
+Live Windows Forensics
+Live Linux Forensics
+Memory Forensics
+Active Directory Analysis
+Network Threat Hunting
+Basics of Vulnerability Management
+The Incident Response Process
+Labs: Linux CLI, Memory Analysis, TCODump, Web Log Review, Windows CLI, Wireshark, RITA, Nessus, DeepBlueCLI, Domain Log Review, Velociraptor, Elastic Agent, Sysmon
+|
+AppSec Vulnerability Assessments | SkillsDA
+Explore potential threats & deep dive into multi-dimensional application penetration testing.
+Establish the application life cycle, review the security design and automate static, dynamic and interactive testing results.
+Collate application security controls, develop an application tracker and set up an audit trail for information classification.
+Code security using SonarQube, web security using Apptrana, code analysis using Spotbugs and Deepscan, test planning using JAMA.
+Tools: Snort, Ollydbg, Splunk, Ekram System, Metasploit,, Firebug, Nessus, Hyena Acunetix WVS, Superscan, Angry IP Scanner, Nmap, Nessus, PILAR RM, CIS Controls, RM, ActivTrak Monitoring, IDA Pro, HTTP RAT, Acunetix, Cyber Triage, PSTools, GFI LanGuard, Power Spy, PILAR RM
+|
+Cisco Certified Network Associate (CCNA) Certification | Cybrary
+CCNA 1:  Introduction to Networks.
+CCNA 2: Routing and Switching Essentials.
+CCNA 3: Scaling Networks
+CCNA 4: Connecting Networks
+|
+Advanced Penetration Testing
+Linux
+Programming
+Metasploit
+Information Gathering
+Vulnerability Discovery / Scanning
+Traffic Capture
+Exploitation
+Passwords
+Advanced Exploitation
+Post Exploitation
+WebApps
+Exploit Development
+Smartphone Pentest Framework
+|
+Offensive Penetration Testing
+Kali Linux Basics
+Network Protocols
+Web Application Penetration Testing
+Buffer Overflow
+Public Exploits
+Getting a shell
+Privilege Escalation
+Password Cracking and Brute-Forcing Logins
+|
+Getting Started in Security with BHIS and MITRE ATT&CK | John Strand
+Understanding and Defending against several attack techniques
+Labs: Bluespawm, Appplocker, DeepBlueCLI, Nessus, Nmap, Password Cracking & Spraying, Responder, RITA, Sysmon, Web Testing
+|
+Applied Machine Learning in Python
+Describe how machine learning is different than descriptive statistics
+Explain different approaches for creating predictive models
+Create and evaluate data clusters
+Build features that meet analysis needs
+|
+Cybersecurity Compliance Framework & System Administration
+List and describe several key cybersecurity compliance and industry standards including NIST, GDPR, HIPAA, SANS and PCI.
+Describe an overview of the design, roles and function of server and user administration.
+Understand the concept of patching and endpoint protection as it relates to client system administration.
+Define encryption, encoding, hashing and digital certificates as it relates to cryptography.
+|
+Network Security & Database Vulnerabilities
+Understand network basics around the TCP/IP and OSI Models.
+Understand IP Addressing, Network Address Translation and Packet Sniffing.
+Recount DNS, DHCP, Switching and Routing concepts.
+Describe the structures and vulnerabilities of key databases for cybersecurity including SQL, Couch, Oracle and MongoDB.
+|
+Become an Ethical Hacker
+Network Security
+Security Operations
+Security Management
+Security Audits
+Security Policies
+Security Engineering
+Cybersecurity
+Security Consulting
+|
+ICSI | CNSS Certified Network Security Specialist
+Introduction to Network Security
+Types of Attacks
+Fundamentals of Firewalls
+Intrusion Detection System
+Fundamentals of Encryption
+Virtual Private Networks (VPN)
+Operating System Hardening
+Virus Attacks & Defense
+Security Policies
+Assessing System Security
+Security Standards
+Physical Security and Recovery
+Attackers Techniques
+|
+Appreciate
+1
+appreciations so far!
+⇧
+All rights reserved | Chirag Ganguli

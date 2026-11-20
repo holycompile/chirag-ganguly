@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init Rr Mr fi Cr Ar ci Tr Fr capture Mi calculateEventProperties Lr register register_once register_for_session unregister unregister_for_session Hr getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Ur jr createPersonProfile zr kr Br opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Dr debug M Nr getPageViewId captureTraceFeedback captureTraceMetric $r".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_RUE9lFBQuECf6yTbN0I5X2XiqFtgoie1FDwxSvyAW9e', {
+        api_host: 'https://us.i.posthog.com',
+        defaults: '2025-05-24',
+        person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+    })
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37CF9WPSM1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37CF9WPSM1');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Quizzes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #0078d7;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            padding-bottom: 8%;
+        }
+        .quiz-list {
+            list-style: none;
+            padding: 0;
+        }
+        .quiz-item {
+            position: relative;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 15px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .quiz-item h2 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+            color: #0078d7;
+            width: 50%;
+        }
+        .quiz-item p {
+            margin: 5px 0;
+            line-height: 1.6;
+        }
+        .quiz-item .date {
+            display: block;
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .quiz-item a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #0078d7;
+            padding: 8px 15px;
+            border-radius: 4px;
+        }
+        .quiz-item a:hover {
+            background-color: #005bb5;
+        }
+        .tag {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background-color: #ff5722;
+            color: #fff;
+            font-size: 0.8em;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 15px;
+            text-transform: uppercase;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .tag.beginner {
+            background-color: #005704; /* Green for Beginner */
+        }
+        .tag.intermediate {
+            background-color: #614900; /* Yellow for Intermediate */
+        }
+        .tag.advanced {
+            background-color: #b30c00; /* Red for Advanced */
+        }
+        .tag.survey {
+            background-color: #004c8a; /* Blue for Survey */
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+            background-color: #0078d7;
+            color: #fff;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+        }
+        h5 {
+            padding: 0 0 10% 1%;
+        }
+        #filter-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        }
+
+        #filter-buttons button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        outline: none;
+        }
+
+        #filter-buttons button:hover {
+        background: linear-gradient(135deg, #e6e9f0, #eef1f5);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        #filter-buttons button.active-filter {
+        background: linear-gradient(135deg, #007BFF, #0056d2);
+        color: white;
+        border-color: #0056d2;
+        box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+        }
+
+        #filter-buttons button:active {
+        transform: scale(0.95);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quizzin'</h1>
+        <p>Explore, learn, and test your skills with these exciting challenges!</p>
+    </header>
+    <div class="container">
+        <div id="filter-buttons" style="margin-bottom: 20px; text-align: center;">
+            <button>All</button>
+            <button>Beginner</button>
+            <button>Intermediate</button>
+            <button>Advanced</button>
+            <button>Survey</button>
+        </div>
+        <ul class="quiz-list">
+            <li class="quiz-item">
+                <h2>Google Dorking (TIL)</h2>
+                <p class="date">Updated: April 16, 2025</p>
+                <p class="description">Google Dorking (also known as Google Hacking) is a powerful technique used to find sensitive information exposed on the internet using advanced search operators.</p>
+                <a href="https://chiragganguli.com/quiz/TIL/16-04-2025">Take the Quiz</a>
+                <span class="tag advanced">Advanced</span>
+            </li>
+            <li class="quiz-item">
+                <h2>HSTS (TIL)</h2>
+                <p class="date">Updated: April 7, 2025</p>
+                <p class="description">A powerful security mechanism that enforces the use of secure (HTTPS) connections to protect against various web attacks.</p>
+                <a href="https://chiragganguli.com/quiz/TIL/07-04-2025">Take the Survey</a>
+                <span class="tag survey">Survey</span>
+            </li>
+            <li class="quiz-item">
+                <h2>Clickjacking (TIL)</h2>
+                <p class="date">Updated: April 2, 2025</p>
+                <p class="description">A web vulnerability where a malicious site tricks users into clicking hidden elements from another site.</p>
+                <a href="https://chiragganguli.com/quiz/TIL/02-04-2025">Take the Quiz</a>
+                <span class="tag beginner">Beginner</span>
+            </li>
+            <li class="quiz-item">
+                <h2>CSRF Tokens (TIL)</h2>
+                <p class="date">Updated: April 1, 2025</p>
+                <p class="description">CSRF tokens help prevent Cross-Site Request Forgery (CSRF) attacks.</p>
+                <a href="https://chiragganguli.com/quiz/TIL/01-04-2025">Take the Quiz</a>
+                <span class="tag beginner">Beginner</span>
+            </li>
+            <li class="quiz-item">
+                <h2>Cyber Sleuth Challenge</h2>
+                <p class="date">Updated: December 4, 2024</p>
+                <p class="description">Put your cyber-savvy to the test with thrilling, real-world security challenges!</p>
+                <a href="https://chiragganguli.com/quiz/cysec/cyber-security-2">Take the Quiz</a>
+                <span class="tag intermediate">Intermediate</span>
+            </li>
+            <li class="quiz-item">
+                <h2>Cyber Hygiene Quiz</h2>
+                <p class="date">Updated: November 26, 2024</p>
+                <p class="description">Learn the essentials of staying safe online with this introductory quiz!</p>
+                <a href="https://chiragganguli.com/quiz/cysec/cyber-security">Take the Quiz</a>
+                <span class="tag beginner">Beginner</span>
+            </li>
+        </ul>
+        <h5>More Quizzes coming soon!</h5>
+    </div>
+    <footer>
+        © <span id="year"></span> All rights reserved | Chirag Ganguli
+    </footer>
+    <script>
+        // Insert the current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('#filter-buttons button');
+            const quizItems = document.querySelectorAll('.quiz-list .quiz-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                const filterText = button.textContent.trim().toLowerCase();
+
+                quizItems.forEach(item => {
+                    const tagElement = item.querySelector('.tag');
+                    const tagText = tagElement ? tagElement.textContent.trim().toLowerCase() : '';
+
+                    if (filterText === 'all') {
+                    item.style.display = 'block';
+                    } else if (tagText === filterText) {
+                    item.style.display = 'block';
+                    } else {
+                    item.style.display = 'none';
+                    }
+                });
+
+                // Optional: Highlight active filter button
+                filterButtons.forEach(btn => btn.classList.remove('active-filter'));
+                button.classList.add('active-filter');
+                });
+            });
+
+            filterButtons[0].click();
+        });
+    </script>
+</body>
+</html>

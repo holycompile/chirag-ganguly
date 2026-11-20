@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-37CF9WPSM1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37CF9WPSM1');
+</script>
+<script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init Rr Mr fi Cr Ar ci Tr Fr capture Mi calculateEventProperties Lr register register_once register_for_session unregister unregister_for_session Hr getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Ur jr createPersonProfile zr kr Br opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Dr debug M Nr getPageViewId captureTraceFeedback captureTraceMetric $r".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_RUE9lFBQuECf6yTbN0I5X2XiqFtgoie1FDwxSvyAW9e', {
+        api_host: 'https://us.i.posthog.com',
+        defaults: '2025-05-24',
+        person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+    })
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="portfolio, chirag, chirag ganguli, ganguli, blogs, Cybersecurity, Information security, Network security, Data protection, Malware, Phishing, Encryption, Cyber threats, Vulnerability assessment, Penetration testing, Cyber risk management, Firewall, Intrusion detection, Incident response, Cyber hygiene, Security awareness, Threat intelligence, Cloud security, Endpoint security, Zero-day exploits, Data breaches, Identity theft, Security policies, Cybersecurity best practices, Compliance standards, Secure coding, Cybersecurity tools, Risk assessment, Security audits, Security training" />
+    <meta name="description" content="Chirag Ganguli | Security Researcher, CEH, and LSSBB. Specialist in Cloud Security, DevSecOps, and Nature-Inspired Cyber Defense. Check out my latest tools and blogs!" />
+    <meta name="author" content="Chirag Ganguli" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Chirag Ganguli</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+      background-color: #222;
+      background-image: linear-gradient(45deg, #222 25%, transparent 25%), linear-gradient(-45deg, #222 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #222 75%), linear-gradient(-45deg, transparent 75%, #222 75%);
+      background-size: 40px 40px;
+      background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+    }
+    #container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    #tv {
+      /* position: absolute; */
+      position: fixed;
+      top: 6.5%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      /* max-width: 1000px; */
+      height: 85%;
+      background: white;
+      border: 2px solid whitesmoke;
+      overflow: hidden;
+      border-radius: 25px; 
+      box-shadow: 0 5px 40px rgba(255, 255, 255, 0.7); 
+    }
+    #tv iframe {
+      width: 100%;
+      height: calc(100% - 30px);
+      margin-top: 30px;
+      border: none;
+    }
+    #menu {
+      display: none;
+      position: fixed;
+      bottom: 7.5%;
+      width: calc(95% - 15px);
+      max-height: 30%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding: 10px;
+      background: white;
+      /* display: flex; */
+      justify-content: space-evenly;
+      align-items: center;
+      border-radius: 10px;
+      left: 2%;
+      right: 2%;
+      box-shadow: 0 5px 40px rgba(255, 0, 0, 0.7); /* Adjust shadow as needed */
+      scrollbar-width: thin; /* For Firefox */
+      scrollbar-color: #ff6b6b #f1f1f1; /* Thumb and track colors for Firefox */
+    }
+    /* Custom scroll for WebKit browsers */
+    #menu::-webkit-scrollbar {
+      width: 12px;
+    }
+
+    #menu::-webkit-scrollbar-track {
+      background: #f1f1f1; /* Background color of the scrollbar track */
+      border-radius: 6px;
+    }
+
+    #menu::-webkit-scrollbar-thumb {
+      background: linear-gradient(45deg, #ff6b6b, #ffde59, #6bff59, #59deff);
+      border-radius: 6px;
+    }
+
+    #menu::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(45deg, #ff3b3b, #ffc700, #3bff3b, #00c7ff);
+    }
+    .page {
+      min-width: 130px;
+      width: max-content;
+      height: 40px;
+      margin-right: 10px;
+      border: 1px solid white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      border: 1px solid red;
+      border-radius: 20px;
+      justify-content: center;
+      font-weight: bolder;
+    }
+    .page:hover {
+      border: 2px solid #007bff;
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      font-size: 0.9rem;
+    }
+    #mobileMenuToggle {
+      /* display: none; */
+      position: fixed;
+      bottom: 5px;
+      left: 10px;
+      z-index: 999;
+      color: rgb(255, 255, 255);
+      font-size: 25px;
+      cursor: pointer;
+      animation: blink-animation 1s infinite; /* Blinking animation */
+    }
+    #privacyPolocyToggle {
+      /* display: none; */
+      position: fixed;
+      bottom: 2px;
+      right: 5px;
+      z-index: 999;
+      color: rgb(255, 255, 255);
+      font-size: 25px;
+      cursor: pointer;
+    }
+    @keyframes blink-animation {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    
+    #visitSiteBtn {
+        position: absolute;
+        bottom: 0;
+        width: 50%;
+        right: 25%;
+        left: 25%;
+        padding: 10px 10px;
+        font-size: 1rem;
+        background-color: rgba(0, 0, 0, 0.6);
+        opacity: 0.9;
+        color: white;
+        font-weight: bolder;
+        border: none;
+        cursor: pointer;
+        /* border: 3px solid white; */
+        /* border-radius: 20px; */
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+        text-shadow: #000 1px 1px 2px;
+    }
+    #audio {
+      display: none;
+    }
+    #muteButton {
+        position: fixed;
+        top: 0;
+        right: 0;
+        font-size: 25px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 99999;
+    }
+    @media only screen and (max-device-width: 414px) and (orientation: portrait) {
+        #muteButton {
+            right: -15px; /* Adjust the value as needed for portrait orientation on iPhones */
+        }
+    }
+    /* Styles for image */
+    #imageContainer {
+      position: fixed; /* Changed to fixed for consistent positioning */
+      top: 0px;
+      left: 0px;
+      display: inline-block;
+      z-index: 99999;
+    }
+
+    #popupTrigger {
+      width: 30px; /* Adjust as per your image size */
+      height: auto; /* Adjust as per your image size */
+      cursor: pointer;
+      border-bottom-right-radius: 10px;
+      animation: glow 1.5s infinite alternate;
+    }
+
+    @keyframes glow {
+      0% {
+        box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+      }
+      100% {
+        box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.9); /* Adjust glow effect as needed */
+      }
+    }
+
+    .popup {
+      display: none;
+      position: absolute;
+      top: 4%;
+      left: 2%;
+      background-color: rgba(255, 255, 255, 0.5);
+      border: 1px solid #222;
+      padding: 17px;
+      border-radius: 10px;
+      z-index: 9999999;
+    }
+    .popup-content {
+      display: flex;
+      flex-direction: column;
+    }
+    #sleepBtn, #restartBtn, #shutdownBtn {
+      padding: 10px;
+      margin: 5px;
+      cursor: pointer;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      font-weight: bolder;
+      border-radius: 20px;
+      width: 90%;
+    }
+    #topBar {
+      position: fixed;
+      top: 0;
+      left: 10%;
+      width: 80%;
+      height: 30px;
+      font-weight: bold;
+      background-color: green;
+      color: white;
+      text-align: center;
+      line-height: 30px;
+      z-index: 9999;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+
+    #topBars {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 30px;
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+      z-index: 9999;
+      font-size: 1rem;
+    }
+
+    #topBars div {
+      display: flex;
+      align-items: center;
+    }
+
+    #time:before {
+      content: "\23F2"; /* Font Awesome clock icon */
+      margin-right: 5px;
+    }
+
+    #ip:before {
+      content: "\1F310"; /* Font Awesome globe icon */
+      margin-right: 5px;
+    }
+
+    #battery:before {
+      content: "\1f50b"; /* Font Awesome battery icon */
+      margin-right: 15px;
+    }
+
+    #deviceIndicator {
+      position: fixed;
+      top: 55%;
+      right: 0;
+      background-color: rgb(255, 204, 0);
+      color: black;
+      padding: 10px;
+      /* border-radius: 5px; */
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      cursor: pointer;
+      transition: width 0.3s;
+      z-index: 9999999;
+      user-select: none; /* Prevent text selection */
+      -webkit-tap-highlight-color: transparent; /* Remove tap highlight on iOS */
+      box-shadow: 0 15px 40px rgba(255, 204, 0, 0.6);
+      writing-mode: vertical-lr;
+    }
+
+    #deviceIndicator.closed {
+      width: max-content;
+      overflow: hidden;
+      z-index: 9999999;
+    }
+
+    #deviceIndicator.open {
+      width: max-content;
+      z-index: 9999999;
+    }
+
+    #sleep-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 1000;
+      display: none;
+    }
+
+    #sleep-emoji {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 50px;
+      z-index: 1001;
+      display: none;
+    }
+
+    #loader {
+      border: 4px solid #f3f3f3; /* Light grey */
+      border-top: 4px solid red;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      animation: spin 2s linear infinite, lightMove 2s linear infinite;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 9999;
+      display: none;
+    }
+    
+    @keyframes spin {
+      0% { 
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(-90deg);
+      }
+      50% {
+        transform: rotate(-180deg);
+      }
+      75% {
+        transform: rotate(-90deg);
+      }
+      100% { 
+        transform: rotate(0deg);
+      }
+    }
+
+    @keyframes lightMove {
+      0% { 
+        box-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green, 0 0 80px green;
+      }
+      50% { 
+        box-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green, 0 0 80px green;
+      }
+      100% { 
+        box-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green, 0 0 80px green;
+      }
+    }
+
+    /* Sparkle Animation */
+    .sparkle {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: white;
+      border-radius: 50%;
+      animation: sparkle 1s infinite;
+      opacity: 0;
+    }
+
+    @keyframes sparkle {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(2);
+      }
+      100% {
+        opacity: 0;
+        transform: scale(1);
+      }
+    }
+    .splash-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99999999999;
+    }
+
+    .splash-content {
+        text-align: center;
+    }
+
+    #typingText {
+        color: white;
+        font-size: 36px;
+        font-family: 'Arial Black', sans-serif;
+        font-weight: bold;
+        animation: blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent; }
+        50% { border-color: white; }
+    }
+
+    #ppMenu {
+      position: fixed;
+      bottom: 40px;
+      right: 10px;
+      padding: 10px 15px;
+      background-color: #333;
+      color: white;
+      border-radius: 10px;
+      font-size: 14px;
+      cursor: pointer;
+      display: none; /* Initially hidden */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 1%;
+      font-size: 1rem;
+      min-width: 150px;
+    }
+
+    #ppMenu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    #ppMenu ul li {
+      margin: 15px 0;
+    }
+
+    #ppMenu ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    #ppMenu ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Fixed Lighting Button on the left */
+    #lightingBtn {
+      position: fixed;
+      /* left: 10px; */
+      top: 79%;
+      transform: translateY(-50%);
+      z-index: 1000;
+      background: linear-gradient(45deg, #000, #333);
+      border: none;
+      padding: 10px 10px;
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+      font-size: 1.2rem;
+      color: #fff;
+      transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Hover state for a subtle scale and shadow enhancement */
+    #lightingBtn:hover {
+      background: linear-gradient(45deg, #333, #555);
+      transform: translateY(-50%) scale(1.1);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Active state for tactile feedback */
+    #lightingBtn:active {
+      transform: translateY(-50%) scale(1.05);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Lighting Preferences Popup Enhanced UX */
+    #lightingPopup {
+      position: fixed;
+      left: 50px;
+      top: 75%;
+      transform: translateY(-50%);
+      background-color: #f9f9f9;  /* light background */
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      z-index: 1001;
+      width: 280px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    /* Display popup when active */
+    #lightingPopup.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* Popup header */
+    #lightingPopup h3 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      color: #333;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    /* Label styling for options */
+    #lightingPopup label {
+      display: block;
+      /* margin-bottom: 5px; */
+      font-size: 0.95rem;
+      color: #555;
+      cursor: pointer;
+    }
+
+    /* Inline elements for color picker and select */
+    #lightingPopup input[type="color"],
+    #lightingPopup select {
+      margin-left: 8px;
+      vertical-align: middle;
+      padding: 2px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    /* Apply Button Styling */
+    #lightingPopup button {
+      display: block;
+      width: 100%;
+      margin-top: 15px;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    /* Hover state for button */
+    #lightingPopup button:hover {
+      background-color: #45a049;
+    }
+
+    /* Optional: Add a close button at the top right */
+    #lightingPopup .close-btn {
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      background: transparent;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: #999;
+    }
+    #lightingPopup .close-btn:hover {
+      color: #666;
+    }
+
+    /* Container for custom radio buttons */
+    .custom-radio {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+
+    /* Hide the default radio appearance */
+    .custom-radio input[type="radio"] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #ccc;
+      border-radius: 50%;
+      outline: none;
+      cursor: pointer;
+      position: relative;
+      transition: border-color 0.3s, background-color 0.3s;
+    }
+
+    /* Custom checked state */
+    .custom-radio input[type="radio"]:checked {
+      border-color: #4CAF50;
+      background-color: #4CAF50;
+    }
+
+    /* Create the inner circle for the checked state */
+    .custom-radio input[type="radio"]:checked::after {
+      content: "";
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+
+    /* Label styling */
+    .custom-radio label {
+      margin-left: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    /* Additional styling for inline elements within labels */
+    .custom-radio label input[type="color"],
+    .custom-radio label select {
+      margin-left: 8px;
+      vertical-align: middle;
+      padding: 2px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    /* Preset Animations */
+
+    /* Rainbow Glow Animation */
+    @keyframes rainbowGlow {
+      0%   { box-shadow: 0 0 60px 10px rgba(255, 0, 0, 0.8); }
+      20%  { box-shadow: 0 0 60px 10px rgba(0, 255, 0, 0.8); }
+      40%  { box-shadow: 0 0 60px 10px rgba(0, 0, 255, 0.8); }
+      60%  { box-shadow: 0 0 60px 10px rgba(255, 255, 0, 0.8); }
+      80%  { box-shadow: 0 0 60px 10px rgba(0, 255, 255, 0.8); }
+      100% { box-shadow: 0 0 60px 10px rgba(255, 0, 255, 0.8); }
+    }
+
+    /* Pulse Glow Animation */
+    @keyframes pulseGlow {
+      0%   { box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5); }
+      50%  { box-shadow: 0 0 60px 20px rgba(255, 255, 255, 0.9); }
+      100% { box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5); }
+    }
+
+    /* Wave Glow Animation */
+    @keyframes waveGlow {
+      0%   { box-shadow: 0 0 60px 10px rgba(255, 100, 0, 0.8); }
+      25%  { box-shadow: 0 0 70px 15px rgba(255, 150, 0, 0.8); }
+      50%  { box-shadow: 0 0 60px 10px rgba(255, 100, 0, 0.8); }
+      75%  { box-shadow: 0 0 70px 15px rgba(255, 150, 0, 0.8); }
+      100% { box-shadow: 0 0 60px 10px rgba(255, 100, 0, 0.8); }
+    }
+
+    /* Flicker Glow Animation */
+    @keyframes flickerGlow {
+      0%   { box-shadow: 0 0 60px 10px rgba(255, 255, 255, 0.8); }
+      20%  { box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.4); }
+      40%  { box-shadow: 0 0 60px 10px rgba(255, 255, 255, 0.8); }
+      60%  { box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.4); }
+      80%  { box-shadow: 0 0 60px 10px rgba(255, 255, 255, 0.8); }
+      100% { box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.4); }
+    }
+
+    /* Strobe Glow Animation */
+    @keyframes strobeGlow {
+      0%   { box-shadow: 0 0 60px 10px rgba(0, 255, 255, 0.8); }
+      10%  { box-shadow: 0 0 60px 10px rgba(0, 255, 255, 0.2); }
+      20%  { box-shadow: 0 0 60px 10px rgba(0, 255, 255, 0.8); }
+      30%  { box-shadow: 0 0 60px 10px rgba(0, 255, 255, 0.2); }
+      40%  { box-shadow: 0 0 60px 10px rgba(0, 255, 255, 0.8); }
+      50%  { box-shadow: 0 0 60px 10px rgba(0, 255, 255, 0.2); }
+      60%  { box-shadow: 0 0 60px 10px rgba(0, 255, 255, 0.8); }
+      70%  { box-shadow: 0 0 60px 10px rgba(0, 255, 255, 0.2); }
+      80%  { box-shadow: 0 0 60px 10px rgba(0, 255, 255, 0.8); }
+      90%  { box-shadow: 0 0 60px 10px rgba(0, 255, 255, 0.2); }
+      100% { box-shadow: 0 0 60px 10px rgba(0, 255, 255, 0.8); }
+    }
+
+    /* =========================================== */
+    /* ===== MOBILE & SMALL SCREEN STYLES ======== */
+    /* =========================================== */
+    @media screen and (max-width: 768px) {
+      body, html {
+        overflow: auto; /* Allow scrolling if needed */
+      }
+      
+      /* Hide distracting desktop-only elements */
+      #topBar, #deviceIndicator, #visitSiteBtn, #lightingBtn {
+        display: none;
+      }
+
+      /* Make the TV frame a full-screen container */
+      #tv {
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 98%;
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+        transform: none; /* Reset desktop positioning */
+      }
+
+      /* Adjust the top info bar for mobile */
+      #topBars {
+        height: 25px; /* Make bar smaller */
+        padding: 0 8px; /* Adjust padding */
+        font-size: 0.7rem; /* Smaller font */
+        box-sizing: border-box;
+        justify-content: center;
+      }
+
+      /* Hide IP address to save space */
+      #ip {
+        display: none !important;
+      }
+      
+      /* Make the iframe fill the new container size */
+      #tv iframe {
+        margin-top: 25px; /* Match the new top bar height */
+        height: calc(100% - 25px); /* Calculate remaining height */
+      }
+
+      /* Reposition and resize controls for mobile */
+      #imageContainer {
+        top: 0px;
+        left: 0px;
+      }
+      #popupTrigger {
+        width: 25px;
+      }
+      #popup {
+        top: 35px;
+        left: 5px;
+        padding: 10px;
+      }
+      #muteButton {
+        top: 2px;
+        right: 8px;
+        font-size: 22px;
+      }
+      
+      /* Update menu toggle for better visibility and access */
+      #mobileMenuToggle {
+        display: block;
+        bottom: 15px;
+        left: 15px;
+        font-size: 22px;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(5px);
+        padding: 8px;
+        border-radius: 0px;
+        color: black;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      }
+      
+      /* Style the menu for a sleek bottom drawer effect */
+      #menu {
+        justify-content: left !important;
+        bottom: 7%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        border-radius: 20px 20px 0 0; /* Rounded top corners */
+        box-shadow: 0 -5px 20px rgba(255, 0, 0, 0.5);
+        padding: 15px 10px;
+        box-sizing: border-box; /* Ensures padding is included in width */
+        overflow-x: auto;
+      }
+      
+      .page {
+        min-width: 100px;
+        height: 35px;
+        font-size: 0.8rem;
+        margin-right: 8px;
+      }
+
+      /* Reposition Privacy Policy toggle and menu */
+      #privacyPolocyToggle {
+        bottom: 20px;
+        right: 20px;
+        font-size: 22px;
+      }
+
+      #ppMenu {
+        bottom: 55px; /* Position it above the toggle */
+        right: 15px;
+      }
+      
+      /* Footer adjustments for mobile */
+      footer {
+        font-size: 0.7rem;
+        padding: 5px 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        height: 2%;
+      }
+
+      #battery:before {
+        display: none; /* Hide battery icon on small screens */
+        margin-right: 0;
+      }
+    }
+    @media screen and (max-width: 480px) {
+        #tv {
+            border-radius: 0;
+            height: 97%;
+      }
+        #menu {
+            bottom: 5%;
+            border-radius: 0;
+      }
+        #mobileMenuToggle {
+            bottom: 10px;
+            left: 10px;
+            font-size: 20px;
+      }
+      footer {
+        height: 3%;
+      }
+    }
+  </style>
+<link rel="icon" type="image/x-icon" href="favicon.ico"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Chirag Ganguli",
+    "url": "https://chiragganguli.com",
+    "jobTitle": "Security Researcher",
+    "description": "Accomplished security researcher, Certified Ethical Hacker, and cyber security professional specializing in Security Automation, Cloud Security Infrastructure Management, and Nature-Inspired Cyber Security.",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Vellore Institute of Technology",
+      "sameAs": "https://en.wikipedia.org/wiki/Vellore_Institute_of_Technology"
+    },
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Cyber Security Professional and Researcher",
+      "skills": "Security Automation, Cloud Security (AWS, GCP, Azure), Vulnerability Assessment & Penetration Testing (VAPT), Governance Risk & Compliance (GRC), Nature-Inspired Cybersecurity"
+    },
+    "affiliation": [
+      {
+        "@type": "Organization",
+        "name": "Tata Consultancy Services",
+        "description": "Technical Lead / Product Development Specialist",
+        "sameAs": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services"
+      },
+      {
+        "@type": "Organization",
+        "name": "Madhya Pradesh Police",
+        "description": "Cyber Security Internship"
+      },
+      {
+        "@type": "Organization",
+        "name": "SECURE - The Centre of Excellence for Cyber Security",
+        "description": "Advisor / Cyber Security Internship"
+      }
+    ],
+    "publishingPrinciples": "https://publications.chiragganguli.com/",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=P9byCJIAAAAJ",
+      "https://www.researchgate.net/profile/Chirag-Ganguli",
+      "https://orcid.org/0000-0001-6617-313X",
+      "https://github.com/chirag-ganguli",
+      "https://www.youtube.com/@chirag-ganguli",
+      "https://www.linkedin.com/in/chirag-ganguli/",
+      "https://sciprofiles.com/profile/chiragganguli"
+    ]
+  }
+}
+</script>
+</head>
+<body>
+  <div class="splash-screen" id="splashScreen">
+    <div class="splash-content">
+        <p id="typingText"></p>
+    </div>
+  </div>
+  <audio id="audio" controls autoplay loop>
+  </audio>
+  <div id="loader">
+    <div class="sparkle" style="top: 0; left: 0;"></div>
+    <div class="sparkle" style="top: 0; right: 0;"></div>
+    <div class="sparkle" style="bottom: 0; left: 0;"></div>
+    <div class="sparkle" style="bottom: 0; right: 0;"></div>
+  </div>
+  <div id="sleep-overlay" onclick="hideSleepOverlay()"></div>
+  <div id="sleep-emoji">😴</div>
+  <button id="muteButton" title="Mute" onclick="toggleMute()">&#128263;</button>
+  <div id="deviceIndicator" class="closed" onclick="toggleIndicator()">🛰 Earth</div>
+  <div id="imageContainer" onclick="togglePopup()">
+    <img id="popupTrigger" src="images/siteLogo.png" alt="Site Logo">
+  </div>
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <button id="sleepBtn" onclick="sleepSite();">Sleep</button>
+      <button id="restartBtn" onclick="restartSite();">Restart</button>
+      <button id="shutdownBtn" onclick="shutDownSite();">Shutdown</button>
+    </div>
+  </div>
+  <div id="topBar">Connected to chiragganguli.com</div>
+  <div id="container">
+    <div id="tv">
+      <div id="topBars">
+        <div id="time"></div>
+        <div id="ip"></div>
+        <div id="battery"></div>
+      </div>
+      <iframe id="mainFrame" src="home.html" title="siteContent"></iframe>
+      <button id="visitSiteBtn" onclick="openSite()">Explore Now</button>
+    </div>
+    <div id="menu">
+      <div class="page" onclick="loadPage('home.html')">HOME</div>
+      <div class="page" onclick="loadPage('card.html')">Business Card</div>
+      <div class="page" onclick="loadPage('certificates.html')">Certificates</div>
+      <div class="page" onclick="loadPage('experiences.html')">Experiences</div>
+      <div class="page" onclick="loadPage('projects.html')">Projects</div>
+      <div class="page" onclick="loadPage('publications.html')">Publications</div>
+      <div class="page" onclick="loadPage('blogs.html')">Blogs</div>
+      <div class="page" onclick="loadPage('til.html')">TIL</div>
+      <div class="page" onclick="loadPage('utilities.html')">Utilities</div>
+      <div class="page" onclick="loadPage('quiz/index.html')">Quizzin'</div>
+      <div class="page" onclick="loadPage('linker.html')">Link Store</div>
+      <div class="page" onclick="loadPage('changelog/index.html')">Changelog</div>
+      </div>
+    <div id="mobileMenuToggle" onclick="toggleMenu()">  &#9776; </div>
+
+    <div id="ppMenu">
+      <ul>
+        <li><a href="https://chiragganguli.com/privacy-and-policy" target="_blank">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div id="privacyPolocyToggle" onclick="togglePPMenu()"> ❗ </div>
+  </div>
+  <button id="lightingBtn" title="Lighting Settings" onclick="toggleLighting();">🕯️</button>
+
+<div id="lightingPopup">
+  <h3>Lighting Preferences</h3>
+  <div class="custom-radio">
+    <input type="radio" id="defaultOption" name="lightingOption" value="default" checked>
+    <label for="defaultOption"><span>Default</span></label>
+  </div>
+  <div class="custom-radio">
+    <input type="radio" id="customOption" name="lightingOption" value="custom">
+    <label for="customOption"><span>Pick a Color:</span>
+      <input type="color" id="colorPicker" value="#ff0000">
+    </label>
+  </div>
+  <div class="custom-radio">
+    <input type="radio" id="presetOption" name="lightingOption" value="preset">
+    <label for="presetOption"><span>Preset Animation:</span>
+      <select id="presetSelect">
+        <option value="rainbow">Rainbow</option>
+        <option value="pulse">Pulse</option>
+        <option value="wave">Wave</option>
+        <option value="flicker">Flicker</option>
+        <option value="strobe">Strobe</option>
+      </select>
+    </label>
+  </div>  
+  <br>
+  <button id="applyLighting" onclick="applyLighting();">Apply</button>
+</div>
+  <footer>Thoughts. Work. Experiments. v<span id="version"></span></footer>
+  <script>
+    // Insert the current year
+    // Get the version from version.dt file
+    const versionElement = document.getElementById('version');
+    fetch('https://api.chiragganguli.com/g/dt/version.dt')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.text();
+      })
+      .then(data => {
+        if (data && data.trim()) {
+          versionElement.textContent = new Date().getFullYear() + ',' + data.trim();
+        } else {
+          versionElement.textContent = new Date().getFullYear();
+        }
+      })
+      .catch(error => {
+        console.error('Fetch error:', error);
+        versionElement.textContent = new Date().getFullYear();
+      });
+  </script>
+  <script src="splash.js"></script>
+  <script>
+    const audio = document.getElementById('audio');
+    const muteButton = document.getElementById('muteButton');
+    const songs = [
+        'songs/GB_SynthDrums.m4a'
+        // Add more songs here
+    ];
+    var audioMuted = true;
+    function togglePopup() {
+      var popup = document.getElementById("popup");
+      var popupTrigger = document.getElementById("popupTrigger");
+      popup.style.display = (popup.style.display === 'none' || popup.style.display === '') ? 'flex' : 'none';
+    }
+
+    function restartSite() {
+      localStorage.clear();
+      window.top.location.reload();
+    }
+
+    async function shutDownSite() {
+      localStorage.clear();
+      await clearSiteData(); // Clear site data
+      // Redirect to bye.html
+      window.top.location.href = "https://chiragganguli.com/bye";
+    }
+
+    async function clearSiteData() {
+      // Clear Cache (Service Worker)
+      if ('caches' in window) {
+          caches.keys().then(function (cacheNames) {
+              cacheNames.forEach(function (cacheName) {
+                  caches.delete(cacheName);
+              });
+          });
+      }
+
+      // Clear Cookies
+      var cookies = document.cookie.split(";");
+      for (var i = 0; i < cookies.length; i++) {
+          var cookie = cookies[i];
+          var eqPos = cookie.indexOf("=");
+          var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+          document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+      }
+
+      // Inform user
+      console.log("Site data cleared. Please close this tab manually.");
+    }
+
+    function loadPage(pageURL) {
+      const mainFrame = document.getElementById('mainFrame');
+      loader.style.display = 'block'; 
+      mainFrame.src = pageURL;
+      mainFrame.addEventListener('load', function() {
+        loader.style.display = 'none'; // Hide loader when iframe content is loaded
+      });
+      toggleMenu();
+    }
+
+    function openSite() {
+      try {
+        const currentPageURL = document.getElementById('mainFrame').contentWindow.location.href;
+        window.open(currentPageURL);
+      } catch (error) {
+        const currentPageURL = document.getElementById('mainFrame').src;
+        window.open(currentPageURL);
+      }
+    }
+
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = (menu.style.display === 'none' || menu.style.display === '') ? 'flex' : 'none';
+      setTimeout(() => {
+        menu.scrollLeft = 0;
+      }, 10);
+      menu.scrollLeft = menu.scrollWidth;
+    }
+
+    function togglePPMenu() {
+      const ppMenu = document.getElementById('ppMenu');
+      if (ppMenu.style.display === 'none' || ppMenu.style.display === '') {
+        ppMenu.style.display = 'block'; // Show the tooltip
+      } else {
+        ppMenu.style.display = 'none'; // Hide the tooltip
+      }
+    }
+
+    window.addEventListener('online', updateConnectionStatus);
+    window.addEventListener('offline', updateConnectionStatus);
+
+    function updateConnectionStatus() {
+      const topBar = document.getElementById('topBar');
+      if (navigator.onLine) {
+        topBar.textContent = 'Connected to chiragganguli.com';
+        topBar.style.backgroundColor = 'green';
+      } else {
+        topBar.textContent = 'Disconnected from chiragganguli.com';
+        topBar.style.backgroundColor = 'red';
+      }
+    }
+
+    function updateTime() {
+      const timeElement = document.getElementById('time');
+      const date = new Date();
+      const timeString = date.toLocaleTimeString();
+      timeElement.textContent = timeString;
+    }
+
+    function updateIP() {
+      const ipElement = document.getElementById('ip');
+      // Fetch user's IP address using an API or other method
+      fetch('https://api.ipify.org?format=json')
+        .then(response => response.json())
+        .then(data => {
+          ipElement.textContent = data.ip;
+        })
+        .catch(error => {
+          console.error('Error fetching IP address:', error);
+          ipElement.textContent = 'Unknown 💀';
+        });
+    }
+
+    function updateBattery() {
+      const batteryElement = document.getElementById('battery');
+      navigator.getBattery().then(function(battery) {
+        const batteryPercent = Math.round(battery.level * 100);
+        if(getDeviceType() === 'Computer' || getDeviceType() === 'TV') {
+          batteryElement.style.display = 'inline'; // Show battery element for computers and TVs
+          batteryElement.textContent = batteryPercent + '%';
+          // add space after percentage
+          batteryElement.style.marginRight = '20px';
+        } else {
+          batteryElement.style.opacity = '0'; // Hide battery element for mobile devices
+        }
+      });
+    }
+
+    // Update dynamic content every second
+    setInterval(updateTime, 1000);
+    updateTime(); // Initial update
+    updateIP(); // Initial update
+    updateBattery(); // Initial update
+    setInterval(updateBattery, 30000); // Update battery every 30secs
+
+    // Function to play a random song
+    function playRandomSong() {
+        const randomIndex = Math.floor(Math.random() * songs.length);
+        audio.src = songs[randomIndex];
+        audio.play();
+    }
+
+    // Function to mute/unmute the audio
+    function toggleMute() {
+      if(audioMuted) {
+        playRandomSong();
+        audioMuted = false;
+        muteButton.innerHTML = '&#x1F50A;';
+      } else {
+        audio.pause();
+        audioMuted = true;
+        muteButton.innerHTML = '&#x1F507;';
+      }
+    }
+
+    function toggleIndicator() {
+      const deviceIndicator = document.getElementById('deviceIndicator');
+      deviceIndicator.classList.toggle('open');
+      deviceIndicator.classList.toggle('closed');
+
+      if (deviceIndicator.classList.contains('open')) {
+        // Code to fetch and display device information
+        const deviceInfo = getDeviceInfo();
+        deviceIndicator.textContent = deviceInfo;
+      } else {
+        deviceIndicator.textContent = getRandomPlanet();
+      }
+    };
+
+    function getDeviceInfo() {
+      // Code to determine the device type and display appropriate information
+      const deviceType = getDeviceType();
+      const deviceCompany = getDeviceCompany();
+      // You can customize this function to return specific device information based on device type
+      return `✅ U/A: ${deviceType} ${deviceCompany}`;
+    }
+
+    function getDeviceType() {
+
+      if(localStorage.getItem("getDeviceType") !== null) {
+        return localStorage.getItem("getDeviceType");
+      } else {
+        // Code to determine the device type (e.g., mobile, PC, TV)
+        const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+        const isTV = /SmartTV|SmartTV/i.test(navigator.userAgent);
+        
+        if (isMobile) {
+          localStorage.setItem("getDeviceType", 'Mobile');
+          return 'Mobile';
+        } else if (isTV) {
+          localStorage.setItem("getDeviceType", 'TV');
+          return 'TV';
+        } else {
+          localStorage.setItem("getDeviceType", 'Computer');
+          return 'Computer';
+        }
+      }
+    }
+
+    function getDeviceCompany() {
+
+      if(localStorage.getItem("getDeviceCompany") !== null) {
+        return localStorage.getItem("getDeviceCompany");
+      } else {
+        // Code to determine the device company (e.g., Apple, Samsung, Microsoft)
+        const userAgent = navigator.userAgent;
+        if (/iPhone/.test(userAgent)) {
+          localStorage.setItem("getDeviceCompany", 'iPhone');
+          return 'iPhone';
+        } else if (/iPad/.test(userAgent)) {
+          localStorage.setItem("getDeviceCompany", 'iPad');
+          return 'iPad';
+        } else if (/iPod/.test(userAgent)) {
+          localStorage.setItem("getDeviceCompany", 'iPod');
+          return 'iPod';
+        } else if (/Android/.test(userAgent)) {
+          localStorage.setItem("getDeviceCompany", 'Android');
+          return 'Android';
+        } else if (/Macintosh/.test(userAgent)) {
+          localStorage.setItem("getDeviceCompany", 'Mac');
+          return 'Mac';
+        } else if (/Windows/.test(userAgent)) {
+          localStorage.setItem("getDeviceCompany", 'Windows');
+          return 'Windows';
+        } else {
+          return '';
+        }
+      }
+    }
+
+    function getRandomPlanet() {
+      const planetNames = [
+        "Aurora", "Borealis", "Celestia", "Dawn", "Eclipse",
+        "Galactia", "Haven", "Infinity", "Nova", "Orbit",
+        "Polaris", "Quasar", "Radiant", "Solaris", "Twilight"
+      ];
+      const randomIndex = Math.floor(Math.random() * planetNames.length);
+      return "🛰 " + planetNames[randomIndex];
+    }
+
+    function sleepSite() {
+      const overlay = document.getElementById("sleep-overlay");
+      const emoji = document.getElementById("sleep-emoji");
+      overlay.style.display = "block";
+      emoji.style.display = "block";
+      togglePopup();
+    }
+
+    function hideSleepOverlay() {
+      const overlay = document.getElementById("sleep-overlay");
+      const emoji = document.getElementById("sleep-emoji");
+      overlay.style.display = "none";
+      emoji.style.display = "none";
+    }
+
+    function toggleLighting() {
+      document.getElementById("lightingPopup").classList.toggle("active");
+    }
+
+    function applyLighting() {
+      const option = document.querySelector('input[name="lightingOption"]:checked').value;
+      const tv = document.getElementById("tv");
+
+      // Remove any preset animation style first
+      tv.style.animation = "";
+
+      if (option === "default") {
+        // Reset to default white glow
+        tv.style.boxShadow = "0 5px 40px rgba(255, 255, 255, 0.7)";
+        tv.style.border = "2px solid rgba(255, 255, 255, 0.7)";
+      } else if (option === "custom") {
+        // Get the custom color value from the color picker
+        const color = document.getElementById("colorPicker").value;
+        // Use a helper to convert hex to rgba and update the shadow
+        tv.style.boxShadow = `0 0 60px 10px ${hexToRgba(color, 0.8)}`;
+        tv.style.border = `2px solid ${hexToRgba(color, 0.8)}`;
+      } else if (option === "preset") {
+        // Choose preset animation based on selection
+        const preset = document.getElementById("presetSelect").value;
+        switch(preset) {
+          case "rainbow":
+            tv.style.animation = "rainbowGlow 8s infinite linear";
+            tv.style.border = "2px solid transparent";
+            break;
+          case "pulse":
+            tv.style.animation = "pulseGlow 2s infinite alternate";
+            tv.style.border = "2px solid transparent";
+            break;
+          case "wave":
+            tv.style.animation = "waveGlow 4s infinite linear";
+            tv.style.border = "2px solid transparent";
+            break;
+          case "flicker":
+            tv.style.animation = "flickerGlow 3s infinite linear";
+            tv.style.border = "2px solid transparent";
+            break;
+          case "strobe":
+            tv.style.animation = "strobeGlow 1.5s infinite linear";
+            tv.style.border = "2px solid transparent";
+            break;
+        }
+      }
+
+      // Hide the popup after applying the changes
+      document.getElementById("lightingPopup").classList.remove("active");
+    }
+    // Helper function to convert hex color to rgba format
+    function hexToRgba(hex, alpha) {
+      hex = hex.replace("#", "");
+      const r = parseInt(hex.substring(0, 2), 16);
+      const g = parseInt(hex.substring(2, 4), 16);
+      const b = parseInt(hex.substring(4, 6), 16);
+      return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+    }
+
+    (function() {
+  // Ensure the popup appears only once per session
+  if (sessionStorage.getItem('exitIntentShown')) return;
+
+  let modalDisplayed = false;
+
+  // Function to show the modal
+  function showModal() {
+    if (modalDisplayed) return;
+    modalDisplayed = true;
+    sessionStorage.setItem('exitIntentShown', 'true');
+
+    // Create overlay
+    const overlay = document.createElement('div');
+    overlay.id = 'exit-intent-overlay';
+    overlay.style.cssText = `
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.6); display: flex; justify-content: center;
+      align-items: center; z-index: 9999;
+    `;
+
+    // Create modal
+    const modal = document.createElement('div');
+    modal.id = 'exit-intent-modal';
+    modal.style.cssText = `
+      background-color: white; padding: 20px; border-radius: 10px;
+      max-width: 90%; width: 400px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      position: relative; text-align: center; font-family: Arial, sans-serif;
+      box-sizing: border-box; color: black;
+    `;
+
+    // Close (X) button
+    const closeButton = document.createElement('span');
+    closeButton.innerHTML = '&times;';
+    closeButton.style.cssText = `
+      position: absolute; top: 10px; right: 15px; font-size: 22px;
+      cursor: pointer; color: #555; transition: color 0.3s;
+    `;
+    closeButton.addEventListener('mouseenter', () => closeButton.style.color = '#000');
+    closeButton.addEventListener('mouseleave', () => closeButton.style.color = '#555');
+    closeButton.addEventListener('click', () => document.body.removeChild(overlay));
+
+    // Modal Title
+    const title = document.createElement('h2');
+    title.textContent = 'Wait! Before you go...';
+    title.style.marginTop = '0';
+
+    // Message
+    const message = document.createElement('p');
+    message.style.padding = '1rem';
+    message.textContent = 'We would love to hear from you!';
+
+    // Redirect Link
+    const redirectLink = document.createElement('a');
+    redirectLink.textContent = 'Share Your Thoughts';
+    redirectLink.href = 'https://chiragganguli.com/thoughtCloud';
+    redirectLink.style.cssText = `
+      display: inline-block; margin-top: 10px; padding: 10px 20px;
+      background-color: #007bff; color: white; text-decoration: none;
+      border-radius: 5px; font-size: 16px; transition: background 0.3s;
+    `;
+    redirectLink.addEventListener('mouseenter', () => redirectLink.style.backgroundColor = '#0056b3');
+    redirectLink.addEventListener('mouseleave', () => redirectLink.style.backgroundColor = '#007bff');
+
+    // Append elements
+    modal.appendChild(closeButton);
+    modal.appendChild(title);
+    modal.appendChild(message);
+    modal.appendChild(redirectLink);
+    overlay.appendChild(modal);
+    document.body.appendChild(overlay);
+  }
+
+  // === Desktop Exit Intent Detection ===
+  
+  // 1. Detects if mouse leaves viewport from the top
+  // document.addEventListener('mouseleave', function(e) {
+  //   if (e.clientY <= 0) {
+  //     showModal();
+  //   }
+  // });
+
+  // 2. Detects rapid upward movement near the top
+  // let lastMouseY = 0;
+  // document.addEventListener('mousemove', function(e) {
+  //   if (e.clientY < 50 && lastMouseY > e.clientY + 20) {
+  //     showModal();
+  //   }
+  //   lastMouseY = e.clientY;
+  // });
+
+  // === Mobile Exit Intent Detection ===
+
+  // let touchStartY = 0;
+  // let touchEndY = 0;
+  // let touchStartTime = 0;
+
+  // document.addEventListener('touchstart', function(e) {
+  //   if (e.touches.length === 1) {
+  //     touchStartY = e.touches[0].clientY;
+  //     touchStartTime = Date.now();
+  //   }
+  // });
+
+  // document.addEventListener('touchend', function(e) {
+  //   if (e.changedTouches.length === 1) {
+  //     touchEndY = e.changedTouches[0].clientY;
+  //     let timeTaken = Date.now() - touchStartTime;
+  //     let swipeDistance = touchEndY - touchStartY;
+
+  //     // Swipe should be downward, fast, and at the top of the page
+  //     if (window.scrollY === 0 && swipeDistance > 60 && timeTaken < 500) {
+  //       showModal();
+  //     }
+  //   }
+  // });
+
+})();
+
+
+
+  </script>
+</body>
+</html>

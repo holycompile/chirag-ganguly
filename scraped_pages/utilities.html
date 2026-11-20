@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-37CF9WPSM1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-37CF9WPSM1');
+  </script>
+  <script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog && window.posthog.__loaded) || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init Rr Mr fi Cr Ar ci Tr Fr capture Mi calculateEventProperties Lr register register_once register_for_session unregister unregister_for_session Hr getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Ur jr createPersonProfile zr kr Br opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Dr debug M Nr getPageViewId captureTraceFeedback captureTraceMetric $r".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_RUE9lFBQuECf6yTbN0I5X2XiqFtgoie1FDwxSvyAW9e', {
+      api_host: 'https://us.i.posthog.com',
+      defaults: '2025-05-24',
+      person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+    })
+  </script>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="Explore a curated collection of cybersecurity and developer utilities by Chirag Ganguli. Access practical tools for security automation, data analysis, and technical research designed to streamline your workflow.">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utilities | Chirag Ganguli</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="https://api.chiragganguli.com/logo.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://api.chiragganguli.com/logo.png">
+  <link rel="stylesheet" href="https://api.chiragganguli.com/g/global.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="primaryBody">
+  <div id="fixedElement">0.0%</div>
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo"><a href="https://chiragganguli.com/home"><span>Chirag</span></a></div>
+      <b><a href="#"><span></span></a></b>
+    </div>
+  </nav>
+  <br><br><br><br><br>
+  <h1>$ ls utilities</h1>
+  <!-- Section Tabs -->
+  <div class="section-tabs">
+    <button onclick="switchSection('tools')" class="active">Tools</button>
+    <button onclick="switchSection('ci')">Cyber Intelligence</button>
+    <button onclick="switchSection('compliance')">Compliance</button>
+    <button onclick="switchSection('threatmaps')">Threat Maps</button>
+    <button onclick="switchSection('aibots')">AI Bots</button>
+    <button onclick="switchSection('books')">Books</button>
+  </div>
+  <div class="search-container">
+    <input type="text" id="searchBar" placeholder="Search for utils...">
+    <button id="searchBtn" onclick="search()" style="display: none;">Search</button>
+    <ul id="suggestionBox"></ul> <!-- Suggestion box -->
+  </div>
+  <center>
+    <h3 style="color: white; word-wrap: break-word; padding: 1%;" id="sectionInstructions">Tools: Internal to
+      chiragganguli.com</h3>
+  </center>
+  <div class="filter">
+    <!-- Filter Dropdown -->
+    <label for="tagFilter">Filter:</label>
+    <select id="tagFilter" onchange="filterUtilities()">
+    </select>
+  </div>
+  <div class="utility-container" id="tools-section">
+    <div class="utility new synced" id="vulnforge"
+      data-meta-tags="Security, Vulnerability Assessment, Report Generator, Automation, Penetration Testing, Observations">
+      <span class="tag">Security</span>
+      <img src="images/vulnforge.png">
+      <h2><a href="vulnforge-report/" target="_blank"> VulnForge Report Generator </a></h2>
+      <p>Generate Vulnerability Assessment Reports.</p>
+    </div>
+    <div class="utility new" id="reaction"
+      data-meta-tags="Reaction Time, Reflex, Speed, Accuracy, Precision, Testing, Training">
+      <span class="tag">Application</span>
+      <img src="images/reaction.png">
+      <h2><a href="reaction/" target="_blank"> Reaction Time Test </a></h2>
+      <p>Test your reaction time with millisecond precision.</p>
+    </div>
+    <div class="utility new synced" id="ioweu"
+      data-meta-tags="Finance, Money, Debt, Tracker, Reminders, Budgeting, Payments">
+      <span class="tag">Tracer</span>
+      <img src="images/iou.png">
+      <h2><a href="iou/" target="_blank"> IOU Debt Tracker </a></h2>
+      <p>Keep track of who owes you money or you owe them.</p>
+    </div>
+    <div class="utility new synced" id="deadlinetracker"
+      data-meta-tags="Deadline, Tracker, Productivity, Reminders, Time Management">
+      <span class="tag">Tracer</span>
+      <img src="images/deadline.png">
+      <h2><a href="deadline-tracker/" target="_blank"> Deadline Tracker </a></h2>
+      <p>Track your deadlines with ease.</p>
+    </div>
+    <div class="utility new" id="colormixer" data-meta-tags="Color, Mixer, Palette, Design, Visualization">
+      <span class="tag">Color</span>
+      <img src="images/colmixer.png">
+      <h2><a href="color-mixer/" target="_blank"> Color Mixer </a></h2>
+      <p>Mix colors at your fingertips.</p>
+    </div>
+    <div class="utility new synced" id="orbit"
+      data-meta-tags="Subscription, Management, Tracker, Notifications, Reminders, Budgeting">
+      <span class="tag">Tracer</span>
+      <img src="images/sms.png">
+      <h2><a href="sms/" target="_blank"> Orbit Subscriptions </a></h2>
+      <p>Easy Subscription Management System</p>
+    </div>
+    <div class="utility new synced" id="authtop"
+      data-meta-tags="2FA, TOTP, Authenticator, Security, Encryption, Privacy">
+      <span class="tag">Security</span>
+      <img src="images/authtop.png">
+      <h2><a href="authtop/" target="_blank"> Authtop </a></h2>
+      <p>Like Authenticator, but with trust issues.</p>
+    </div>
+    <div class="utility new synced" id="yeargrid"
+      data-meta-tags="Year Tracker, Habit Tracker, Productivity, Goals, Visualization, Calendar, Time Management">
+      <span class="tag">Application</span>
+      <img src="images/yeargrid.png">
+      <h2><a href="yeargrid/" target="_blank"> Year Grid </a></h2>
+      <p>See the time you lose, track the habits you keep.</p>
+    </div>
+    <div class="utility new" id="cron" data-meta-tags="Crontab, Scheduling, Automation, DevOps, Linux, Task Scheduler">
+      <span class="tag">Application</span>
+      <img src="images/cron.png">
+      <h2><a href="cron/" target="_blank"> Cron Assistant </a></h2>
+      <p>We speak fluent cron, so you don't have to.</p>
+    </div>
+    <div class="utility new synced" id="stickies" data-meta-tags="Notes, Sticky Notes, Productivity, Board">
+      <span class="tag">Application</span>
+      <img src="images/stickies.png">
+      <h2><a href="stickies/" target="_blank"> Stickies </a></h2>
+      <p>Where your train of thought never runs out of track.</p>
+    </div>
+    <div class="utility new" id="Image2GLB" data-meta-tags="3D, GLB, Converter, Image, 3DPrinting">
+      <span class="tag">Design</span>
+      <img src="images/Image2GLB.png">
+      <h2><a href="Image2GLB/" target="_blank"> Image2GLB </a></h2>
+      <p>Turn your flat pics into flexed 3D — Image2GLB at your service!</p>
+    </div>
+    <div class="utility new" id="nosleep" data-meta-tags="System, Power, No-Sleep, Screen">
+      <span class="tag">Application</span>
+      <img src="images/StayAwake.png">
+      <h2><a href="StayAwake/" target="_blank"> Stay Awake </a></h2>
+      <p>Because your screen shouldn’t nap when you’re wide awake.</p>
+    </div>
+    <div class="utility" id="sitemapvis" data-meta-tags="SEO, Web, Visualization, Sitemap">
+      <span class="tag">Security</span>
+      <img src="images/sitemap-visualizer.png">
+      <h2><a href="sitemap-visualizer/" target="_blank"> Sitemap Visualizer </a></h2>
+      <p>Putting the 'map' back in sitemap.</p>
+    </div>
+    <div class="utility" id="mindforge"
+      data-meta-tags="Brainstorming, Ideas, Starbusting, Analogy, Assumptions, Lotus Blossom, Six Thinking Hats, SCAMPER, Storyboarding, Empathy Map, SWOT Analysis, Fishbone Diagram, Morphological Analysis">
+      <span class="tag">Design</span>
+      <img src="images/mind-forge.png">
+      <h2><a href="mind-forge/" target="_blank"> Mind Forge </a></h2>
+      <p>Smelt your raw thoughts into molten genius—no furnace required.</p>
+    </div>
+    <div class="utility synced" id="moodboard" data-meta-tags="Design, Inspiration, Collage, Creative">
+      <span class="tag">Design</span>
+      <img src="images/moodboard.png">
+      <h2><a href="mood-board/" target="_blank"> Mood Board </a></h2>
+      <p>Your illustration sandbox, minus the actual sand.</p>
+    </div>
+    <div class="utility local" id="numerology" data-meta-tags="Astrology, Numbers, Life Path">
+      <span class="tag">Information</span>
+      <img src="images/numerology.png">
+      <h2><a href="numerology/" target="_blank"> Numerology </a></h2>
+      <p>We've got your number (and what it means).</p>
+    </div>
+    <div class="utility local" id="img-classifier" data-meta-tags="AI, Machine Learning, Vision, Image Recognition">
+      <span class="tag">Information</span>
+      <img src="images/img-classifier.png">
+      <h2><a href="img-classifier/" target="_blank"> Image Classifier </a></h2>
+      <p>This image classifier knows a cat from a cappuccino!</p>
+    </div>
+    <div class="utility synced" id="mind-map" data-meta-tags="Productivity, Brainstorming, Learning, Visualization">
+      <span class="tag">Learning</span>
+      <img src="images/mind-map.png">
+      <h2><a href="mind-map/" target="_blank"> Mind Map </a></h2>
+      <p>Untangle your brain spaghetti—map it before you snap it!</p>
+    </div>
+    <div class="utility" id="animal-companion" data-meta-tags="Audio, Ambient, Sound, Pets, Training">
+      <span class="tag">Sound</span>
+      <img src="images/animal-companion.png">
+      <h2><a href="animal-companion/" target="_blank"> Animal Companion </a></h2>
+      <p>Because sometimes a ‘woof’ is worth a thousand words.</p>
+    </div>
+    <div class="utility" id="noisy-text"
+      data-meta-tags="Wavy Text, Wiggly Text, Animation, Text Effect, Code Generator">
+      <span class="tag">Generator</span>
+      <img src="images/noisy-text.png">
+      <h2><a href="noisy-text/" target="_blank"> Noisy Text Gen </a></h2>
+      <p>Make your text dance, wiggle, and whisper with visual madness.</p>
+    </div>
+    <div class="utility" id="diff-master" data-meta-tags="Text, Compare, Diff, N-Way, Comparator, Merge, Patch">
+      <span class="tag">Application</span>
+      <img src="images/comparator.png">
+      <h2><a href="comparator/" target="_blank"> N-Way Diff Master </a></h2>
+      <p>Why settle for a two-way tug-of-war when you can diff ’em all at once?</p>
+    </div>
+    <div class="utility" id="gridgen" data-meta-tags="CSS, Web, Layout, Grid, Tables">
+      <span class="tag">Generator</span>
+      <img src="images/gridify.png">
+      <h2><a href="gridify/" target="_blank"> CSS Grid Generator </a></h2>
+      <p>Grid it like a pro—no code, just drag, drop, and dominate every screen!</p>
+    </div>
+    <div class="utility" id="morse" data-meta-tags="Audio, Communication, Morse Code">
+      <span class="tag">Generator</span>
+      <img src="images/morse.png">
+      <h2><a href="morse/" target="_blank"> Morse </a></h2>
+      <p>Let beeps and blinks do the talking.</p>
+    </div>
+    <div class="utility local" id="data2htmlcss" data-meta-tags="HTML, CSS, Web, Tags Generator, Code">
+      <span class="tag">Converter</span>
+      <img src="images/data2html.png">
+      <h2><a href="data2HTML/" target="_blank"> Data2HTMLCSS </a></h2>
+      <p>Your Swiss-Army-knife for HTML & CSS.</p>
+    </div>
+    <div class="utility local" id="data2tex" data-meta-tags="LaTeX, Document, Typesetting, Tex Generator">
+      <span class="tag">Converter</span>
+      <img src="images/data2tex.png">
+      <h2><a href="tex-star/" target="_blank"> Data2TEX </a></h2>
+      <p>From paste to paper-ready LaTeX in a click—your documents just got scholarly swagger.</p>
+    </div>
+    <div class="utility local" id="img-optim" data-meta-tags="Image, Performance, Compression, Optimization">
+      <span class="tag">Application</span>
+      <img src="images/img-optim.png">
+      <h2><a href="img-optim/" target="_blank"> Image Optimizer </a></h2>
+      <p>Squeeze n Secure your pixels, not your patience.</p>
+    </div>
+    <div class="utility local" id="img-convert" data-meta-tags="Image, Format, Batch, JPEG, PNG, WebP, GIF">
+      <span class="tag">Converter</span>
+      <img src="images/img-convert.png">
+      <h2><a href="img-convert/" target="_blank"> Image Converter </a></h2>
+      <p>Zip, zap, convert—batch image wizardry at your fingertips.</p>
+    </div>
+    <div class="utility local new" id="img-resize" data-meta-tags="Image, Resize, Scale, Dimensions, Batch, JPEG, PNG, WebP">
+      <span class="tag">Application</span>
+      <img src="images/img-resize.png">
+      <h2><a href="img-resize/" target="_blank"> Image Resizer </a></h2>
+      <p>Resize your pics to perfection—shrink, scale, and ship in a snap.</p>
+    </div>
+    <div class="utility" id="cshift" data-meta-tags="Encryption, Audio, Cipher">
+      <span class="tag">Security</span>
+      <img src="images/ciphershift.png">
+      <h2><a href="cipher-shift/" target="_blank"> Cipher Shift </a></h2>
+      <p>Encrypt your voice. Confuse the world.</p>
+    </div>
+    <div class="utility" id="strings"
+      data-meta-tags="Forensics, Analysis, Strings, ASCII, Latin-1, UTF-8, UTF-16, Regex Filter, Metadata, Frequency, Hex view, Entropy, Encodings">
+      <span class="tag">Security</span>
+      <img src="images/strings.png">
+      <h2><a href="strings/" target="_blank"> Strings </a></h2>
+      <p>Where no string can hide – uncover every byte, one clue at a time!</p>
+    </div>
+    <div class="utility new" id="epss" data-meta-tags="Vulnerability, Scoring, EPSS, CVE">
+      <span class="tag">Security</span>
+      <img src="images/epss.png">
+      <h2><a href="epss/" target="_blank"> EPSS </a></h2>
+      <p>Even vulns deserve a report card—check their EPSS!</p>
+    </div>
+    <div class="utility" id="inifini" data-meta-tags="Audio, Music, Looping, Player">
+      <span class="tag">Sound</span>
+      <img src="images/infiniBuzz.png">
+      <h2><a href="infiniBuzz/" target="_blank"> InfiniBuzz </a></h2>
+      <p>The only music player where hitting repeat is simply not in our vocabulary!</p>
+    </div>
+    <div class="utility" id="uptime" data-meta-tags="Uptime, Monitoring, Web, Status">
+      <span class="tag">Application</span>
+      <img src="images/webmon.png">
+      <h2><a href="web-monitor/" target="_blank"> Web Monitor </a></h2>
+      <p>Uptime peace of mind—no manual refresh needed!</p>
+    </div>
+    <div class="utility local" id="decmak" data-meta-tags="Productivity, Decision, Random, Choice, Options">
+      <span class="tag">Information</span>
+      <img src="images/decmak.png">
+      <h2><a href="decision-maker/" target="_blank"> Decision Maker </a></h2>
+      <p>When indecision clouds your mind, let our utility reveal the silver lining!</p>
+    </div>
+    <div class="utility local" id="ocr" data-meta-tags="AI, Text Extraction, Image, OCR">
+      <span class="tag">Application</span>
+      <img src="images/ocr.png">
+      <h2><a href="ocr/" target="_blank"> OCR </a></h2>
+      <p>Snap it, scan it, steal its secrets—your documents won't see it coming!</p>
+    </div>
+    <div class="utility local" id="csvtosql"
+      data-meta-tags="Converter, SQL, Database, CSV, CSV to SQL, Excel to SQL, SQL Workbench">
+      <span class="tag">Converter</span>
+      <img src="images/datatosql.png">
+      <h2><a href="dataToSql/" target="_blank"> Data2SQL </a></h2>
+      <p>Turn messy data into perfect SQL queries—because life's too short for manual coding!</p>
+    </div>
+    <div class="utility" id="tosql" data-meta-tags="SQL, Database, Query Generator">
+      <span class="tag">Converter</span>
+      <img src="images/sql.png">
+      <h2><a href="2SQL/" target="_blank"> 2SQL </a></h2>
+      <p>Generate SQL queries faster than you can say 'SELECT * FROM users'!</p>
+    </div>
+    <div class="utility" id="accessibility-color" data-meta-tags="Design, Accessibility, Color, WCAG, Compliance">
+      <span class="tag">Color</span>
+      <img src="images/access-color.png">
+      <h2><a href="accessibility-color/" target="_blank"> Color Accessibility </a></h2>
+      <p>Turn your color combos from questionable to accessible—because good design speaks all shades!</p>
+    </div>
+    <div class="utility" id="word-of-the-day" data-meta-tags="Learning, Vocabulary, Words">
+      <span class="tag">Learning</span>
+      <img src="images/word-of-the-day.png">
+      <h2><a href="word-of-the-day/" target="_blank"> Word of the Day </a></h2>
+      <p>Where words meet wisdom daily—because your vocabulary deserves a glow-up!</p>
+    </div>
+    <div class="utility local" id="devBox" data-meta-tags="Web, Development, Sandbox, HTML, CSS, JS">
+      <span class="tag">Application</span>
+      <img src="images/devbox.png">
+      <h2><a href="devBox/" target="_blank"> HTML Dev Sandbox </a></h2>
+      <p>Code, reset, run, and repeat — who needs a time machine when you’ve got this sandbox?</p>
+    </div>
+    <div class="utility" id="kcode" data-meta-tags="Development, Keyboard, Events, KeyCode">
+      <span class="tag">Information</span>
+      <img src="images/kcode.png">
+      <h2><a href="kcode/" target="_blank"> Key Code </a></h2>
+      <p>What did the key say to the code? Let's find out!</p>
+    </div>
+    <div class="utility synced" id="chartify" data-meta-tags="Data, Visualization, Charts, Graphs">
+      <span class="tag">Application</span>
+      <img src="images/chartify.png">
+      <h2><a href="chartify/" target="_blank"> Chartify </a></h2>
+      <p>Because your data deserves better than a boring spreadsheet—chart it like a pro!</p>
+    </div>
+    <div class="utility local" id="design" data-meta-tags="Design, Meme, Generator, Image, Text">
+      <span class="tag">Design</span>
+      <img src="images/designer.png">
+      <h2><a href="designer/" target="_blank"> Designer </a></h2>
+      <p>Unleash your inner artist and turn your wildest ideas into shareable masterpieces!</p>
+    </div>
+    <div class="utility synced" id="drop" data-meta-tags="Clipboard, Storage, PWA, Files">
+      <span class="tag">Application</span>
+      <img src="images/drop.png">
+      <h2><a href="drop/" target="_blank"> Drop Store </a></h2>
+      <p>Clipboard chaos? Let’s tidy up your digital clutter, one drag and drop at a time!</p>
+    </div>
+    <div class="utility synced" id="rem" data-meta-tags="Productivity, Todo, Tasks, Reminders">
+      <span class="tag">Application</span>
+      <img src="images/reminder.png">
+      <h2><a href="todo/" target="_blank"> ToDo Reminders </a></h2>
+      <p>Turning tasks into circles so you can check things off in style!</p>
+    </div>
+    <div class="utility" id="edec" data-meta-tags="Security, Encryption, Text, Privacy">
+      <span class="tag">Security</span>
+      <img src="images/lock.png">
+      <h2><a href="enc-dec/" target="_blank"> Un / Lock Message </a></h2>
+      <p>Keep your secrets safer than your browser history!</p>
+    </div>
+    <div class="utility" id="calc"
+      data-meta-tags="Math, Calculator, Scientific, Programmer, Text, Health, Date, Finance">
+      <span class="tag">Application</span>
+      <img src="images/calc.png">
+      <h2><a href="calc/" target="_blank"> Calculator </a></h2>
+      <p>1 + 1 = 2?</p>
+    </div>
+    <div class="utility synced" id="nb" data-meta-tags="Notes, PWA, Storage, Text">
+      <span class="tag">Information</span>
+      <img src="images/nb.png">
+      <h2><a href="notebook/" target="_blank"> Notebook </a></h2>
+      <p>Jot n save in your pocket.</p>
+    </div>
+    <div class="utility" id="qrgen" data-meta-tags="QR Code, Link">
+      <span class="tag">Generator</span>
+      <img src="images/qr.png">
+      <h2><a href="qr/" target="_blank"> QR Generator </a></h2>
+      <p>Turn any text into a scannable moment with a click!</p>
+    </div>
+    <div class="utility" id="livemusic" data-meta-tags="Audio, Typing, Sound, Text to Music">
+      <span class="tag">Sound</span>
+      <img src="images/music.png">
+      <h2><a href="music/" target="_blank"> Live Music </a></h2>
+      <p>Love Typing? You are live!</p>
+    </div>
+    <div class="utility" id="fscu" data-meta-tags="Converter, Units, Files, Size">
+      <span class="tag">Information</span>
+      <img src="images/fsize.png">
+      <h2><a href="file-size/" target="_blank"> File Size Calculator </a></h2>
+      <p>It doesn't byte, seriously!</p>
+    </div>
+    <div class="utility" id="keyeu" data-meta-tags="NLP, Text, Analysis, Keywords">
+      <span class="tag">Information</span>
+      <img src="images/k-extract.png">
+      <h2><a href="key-extract/" target="_blank"> Keyword Extractor </a></h2>
+      <p>Did you just miss the RIGHT word?</p>
+    </div>
+    <div class="utility local" id="ftcu" data-meta-tags="Files, Format, TXT, JSON, XML, MD, CSV">
+      <span class="tag">Converter</span>
+      <img src="images/fconvert.png">
+      <h2><a href="file-convert/" target="_blank"> File Type Converter </a></h2>
+      <p>Convert into just what you need this time.</p>
+    </div>
+    <div class="utility" id="httprtu"
+      data-meta-tags="Development, API, Network, HTTP, Proxy, Request, Response, Errors">
+      <span class="tag">Security</span>
+      <img src="images/httpreq.png">
+      <h2><a href="http-req/" target="_blank"> HTTP Request Tester </a></h2>
+      <p>Get Post Put Delete!</p>
+    </div>
+    <div class="utility" id="uuidu" data-meta-tags="ID, UUID, Batch Generate, Export">
+      <span class="tag">Generator</span>
+      <img src="images/uuid.png">
+      <h2><a href="uuid/" target="_blank"> UUID Generator </a></h2>
+      <p>Unique to be Unique!</p>
+    </div>
+    <div class="utility" id="b64eu" data-meta-tags="Encoding, Base64, atob, btoa">
+      <span class="tag">Converter</span>
+      <img src="images/base64.png">
+      <h2><a href="base64/" target="_blank"> Base64 converter </a></h2>
+      <p>atob? huh? btoa?</p>
+    </div>
+    <div class="utility" id="tguu" data-meta-tags="Lorem, Ipsum, Text, Paragraphs">
+      <span class="tag">Generator</span>
+      <img src="images/textgen.png">
+      <h2><a href="textgen/" target="_blank"> Text Generator </a></h2>
+      <p>Who doesn't want a bunch of calculated text to fill the gaps?</p>
+    </div>
+    <div class="utility" id="tau" data-meta-tags="Text, Analysis, Statistics, Counter">
+      <span class="tag">Tracer</span>
+      <img src="images/textalyzer.png">
+      <h2><a href="textalyzer/" target="_blank"> Text Analyzer </a></h2>
+      <p>Analyze your text character by character.</p>
+    </div>
+    <div class="utility" id="ttsu" data-meta-tags="Accessibility, TTS">
+      <span class="tag">Speech</span>
+      <img src="images/tts.png">
+      <h2><a href="tts/" target="_blank"> Text to Speech Reader </a></h2>
+      <p>Make the text read itself to you!</p>
+    </div>
+    <div class="utility" id="igu" data-meta-tags="Generator, Image, Placeholder, Sized Images, Dummy Images">
+      <span class="tag">Generator</span>
+      <img src="images/imgdl.png">
+      <h2><a href="img-dl/" target="_blank"> Image Generator </a></h2>
+      <p>Want to make generating sample images painless?</p>
+    </div>
+    <div class="utility" id="pixelu" data-meta-tags="Display, Screen, Test, Pixel">
+      <span class="tag">Color</span>
+      <img src="images/pixeltest.png">
+      <h2><a href="pixel-test/" target="_blank"> Pixel Test </a></h2>
+      <p>Is your screen really ALIVE? Sure??</p>
+    </div>
+    <div class="utility" id="coloru" data-meta-tags="Design, Picker, Dropper, Color Picker, Accessibility, Development">
+      <span class="tag">Color</span>
+      <img src="images/color.png">
+      <h2><a href="color/" target="_blank"> Color Detector </a></h2>
+      <p>Color defines the scope. Never choose the wrong one.</p>
+    </div>
+    <div class="utility local" id="hashu"
+      data-meta-tags="Checksum, Files, Hash, MD5, SHA1, SHA256, SHA512, RIPEMD160, SHA-224, SHA3-512, SHA-384, CRC32">
+      <span class="tag">Security</span>
+      <img src="images/hashme.png">
+      <h2><a href="hashme/" target="_blank"> Hashing </a></h2>
+      <p>Hashing your file at the wrong time is just too mainstream.</p>
+    </div>
+    <div class="utility" id="timeru" data-meta-tags="Productivity, Audience, Timer, Laps">
+      <span class="tag">Audience</span>
+      <img src="images/timerLogo.png">
+      <h2><a href="timer/" target="_blank"> Timer </a></h2>
+      <p>Make your audience wait the right way!</p>
+    </div>
+    <div class="utility" id="dorku" data-meta-tags="OSINT, Search, Dorks">
+      <span class="tag">Security</span>
+      <img src="images/dorks.png">
+      <h2><a href="gdorks/" target="_blank"> Google Dorks </a></h2>
+      <p>Searching like a regular person is so last century.</p>
+    </div>
+    <div class="utility" id="infu"
+      data-meta-tags="Development, Debugging, Device Info, Browser, OS, Screen, Network, Performance, Cookies, Storage, User Agent, Features, Capabilities, Geolocation, Plugins, Touch Support, WebGL, WebRTC, Media, Battery, Sensors, Audio">
+      <span class="tag">Information</span>
+      <img src="images/devInfo.png">
+      <h2><a href="devInfo/" target="_blank"> Device Information </a></h2>
+      <p>Developer struggling to get information on a device where your site just does not work?</p>
+    </div>
+    <div class="utility" id="searu" data-meta-tags="Search, Privacy, Open Source">
+      <span class="tag">Application</span>
+      <img src="images/search.png">
+      <h2><a href="https://utilities.chiragganguli.com/private"> Search Engine</a></h2>
+      <p>[Invite Only] Choose an open source search engine, right HERE.</p>
+    </div>
+    <div class="utility local" id="audu" data-meta-tags="Collaboration, Drawing, Canvas, Pen, Audience">
+      <span class="tag">Audience</span>
+      <img src="images/board.png">
+      <h2><a href="canvas/" target="_blank"> Whiteboard </a></h2>
+      <p>Trying to explain a concept to your audience? Spin up this whiteboard and your mouse will speak a thousand
+        words.</p>
+    </div>
+    <div class="utility" id="convu" data-meta-tags="Math, Binary, Decimal">
+      <span class="tag">Converter</span>
+      <img src="images/decbin.png">
+      <h2><a href="dec-bin/" target="_blank"> Decimal Binary Converter</a></h2>
+      <p>A computer science student always needs this handy tool.</p>
+    </div>
+    <div class="utility" id="speedu" data-meta-tags="Network, Speed Test, Internet">
+      <span class="tag">Application</span>
+      <img src="images/speed.png">
+      <h2><a href="internet-speed/" target="_blank"> Internet Speed Checker</a></h2>
+      <p>Did your Internet speed just throttle? Check your download and upload speed HERE.</p>
+    </div>
+    <div class="utility" id="tsmu" data-meta-tags="Productivity, Typing, Test, Speed, Accuracy, WPM, CPM">
+      <span class="tag">Tracer</span>
+      <img src="images/typing.png">
+      <h2><a href="typing-speed-test/" target="_blank">Typing Speed Monitor</a></h2>
+      <p>Test your typing speed accuracy by using this utility.</p>
+    </div>
+  </div>
+
+  <div class="utility-container" id="compliance-section">
+    <div class="utility" data-meta-tags="DPDP, India, Act, Section, Rules">
+      <span class="tag">India</span>
+      <h2><a href="compliances/dpdp/" target="_blank">DPDP India Compliance</a></h2>
+      <p>Check against a checklist if your application is DPDP Compliant</p>
+    </div>
+  </div>
+
+  <!-- Search Engines Section -->
+  <div class="utility-container" id="ci-section" style="display: none;">
+
+    <div class="utility" data-meta-tags="IP, Reputation, Abuse, Security">
+      <span class="tag">IP Reputation</span>
+      <h2><a href="https://www.abuseipdb.com/" target="_blank">AbuseIPDB</a></h2>
+      <p>Check if an IP address has been reported for abusive activities.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Malware, Scan, URL, File">
+      <span class="tag">Threat Analysis</span>
+      <h2><a href="https://www.virustotal.com/" target="_blank">VirusTotal</a></h2>
+      <p>Analyze suspicious files and URLs with multiple antivirus engines.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Threat, Intelligence, IOC, Malware">
+      <span class="tag">Threat Intelligence</span>
+      <h2><a href="https://pulsedive.com/" target="_blank">Pulsedive</a></h2>
+      <p>Aggregates and analyzes threat intelligence to detect malicious indicators.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Wi-Fi, Network, Mapping, Security">
+      <span class="tag">Wireless Networks</span>
+      <h2><a href="https://wigle.net/" target="_blank">WiGLE</a></h2>
+      <p>Maps and analyzes Wi-Fi networks worldwide for research and security.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Data Breach, Leaks, Password, Security">
+      <span class="tag">Data Leaks</span>
+      <h2><a href="https://haveibeenpwned.com/" target="_blank">Have I Been Pwned</a></h2>
+      <p>Check if your email or password has been exposed in a data breach.</p>
+    </div>
+
+
+    <div class="utility" data-meta-tags="Search Engine, IoT, Asset Discovery">
+      <span class="tag">Search Engine</span>
+      <h2><a href="https://www.zoomeye.org/" target="_blank">ZoomEye</a></h2>
+      <p>Searches internet-connected assets, including IoT devices and servers.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="SSL, TLS, Certificate, Transparency">
+      <span class="tag">Certificates</span>
+      <h2><a href="https://crt.sh/" target="_blank">CRT.sh</a></h2>
+      <p>Monitors Certificate Transparency logs to track SSL/TLS certificates.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Threat Intelligence, Attack Surface, Cybersecurity">
+      <span class="tag">Cybersecurity Research</span>
+      <h2><a href="https://www.binaryedge.io/" target="_blank">BinaryEdge</a></h2>
+      <p>Scans the internet to collect threat intelligence and exposure data.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Email, OSINT, Lead Generation">
+      <span class="tag">Email Discovery</span>
+      <h2><a href="https://hunter.io/" target="_blank">Hunter</a></h2>
+      <p>Finds publicly available email addresses linked to a domain.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Code Search, Git, Repository, Open Source">
+      <span class="tag">Code Search</span>
+      <h2><a href="https://grep.app/" target="_blank">Grep App</a></h2>
+      <p>Searches millions of Git repositories for specific code snippets.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="IoT, Search Engine, Exposed Devices">
+      <span class="tag">Internet Devices</span>
+      <h2><a href="https://www.shodan.io/" target="_blank">Shodan</a></h2>
+      <p>Scans the internet for exposed devices, servers, and webcams.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Threat Intelligence, Dark Web, Leaks">
+      <span class="tag">Threat Analysis</span>
+      <h2><a href="https://intelx.io/" target="_blank">IntelligenceX</a></h2>
+      <p>Indexes and searches leaked data, domains, and dark web content.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Attack Surface, Security, Discovery">
+      <span class="tag">Attack Surface</span>
+      <h2><a href="https://fullhunt.io/" target="_blank">FullHunt</a></h2>
+      <p>Monitors and discovers exposed attack surfaces for organizations.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Browser, Extension, Security, Vulnerability">
+      <span class="tag">Browser Security</span>
+      <h2><a href="https://www.extensiontotal.com/" target="_blank">Extension Total</a></h2>
+      <p>Evaluates browser extensions and third-party software for vulnerabilities.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Dark Web, Leaks, Exposed Services">
+      <span class="tag">Dark Web Monitoring</span>
+      <h2><a href="https://leakix.net/" target="_blank">LeakIX</a></h2>
+      <p>Detects and indexes exposed services and leaked data.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Security, Vulnerabilities, Exploits">
+      <span class="tag">Security Vulnerabilities</span>
+      <h2><a href="https://packetstormsecurity.com/" target="_blank">Packet Storm Security</a></h2>
+      <p>Provides the latest security vulnerabilities, exploits, and advisories.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="IoT, Security, Threat Intelligence">
+      <span class="tag">IoT Security</span>
+      <h2><a href="https://www.greynoise.io/" target="_blank">GreyNoise</a></h2>
+      <p>Filters internet background noise to differentiate malicious and benign IPs.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Asset Monitoring, Network, Scan">
+      <span class="tag">Asset Monitoring</span>
+      <h2><a href="https://netlas.io/" target="_blank">Netlas</a></h2>
+      <p>Scans, tracks, and analyzes internet-connected assets and systems.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Marketing, Source Code, Search">
+      <span class="tag">Marketing Research</span>
+      <h2><a href="https://publicwww.com/" target="_blank">PublicWWW</a></h2>
+      <p>Searches website source codes for marketing analytics and tracking IDs.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Cyber Threats, OSINT, Attack Surface">
+      <span class="tag">Cyber Threats</span>
+      <h2><a href="https://www.onyphe.io/" target="_blank">ONYPHE</a></h2>
+      <p>Gathers cyber threat intelligence for attack surface mapping.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Website, Analysis, Security, Scan">
+      <span class="tag">Website Analysis</span>
+      <h2><a href="https://urlscan.io/" target="_blank">URL Scan</a></h2>
+      <p>Scans and analyzes websites for security threats and vulnerabilities.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Vulnerability, Search, Exploits, Database">
+      <span class="tag">Vulnerability Search</span>
+      <h2><a href="https://vulners.com/" target="_blank">Vulners</a></h2>
+      <p>Indexes security vulnerabilities and exploits in an extensive database.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="S3, Buckets, Leaks, Cloud Security">
+      <span class="tag">S3 Bucket Search</span>
+      <h2><a href="https://grayhatwarfare.com/" target="_blank">GrayHatWarfare</a></h2>
+      <p>Finds publicly exposed Amazon S3 storage buckets and files.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="OSINT, Threat Intelligence, Malware">
+      <span class="tag">Open Source Threat Intel</span>
+      <h2><a href="http://ci-www.threatcrowd.org" target="_blank">ThreatCrowd</a></h2>
+      <p>Aggregates data on malware, domains, and IPs for cyber threat analysis.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Domain, WHOIS, DNS, Intelligence">
+      <span class="tag">Domain Intelligence</span>
+      <h2><a href="https://whois.domaintools.com/" target="_blank">DomainTools WHOIS</a></h2>
+      <p>Provides domain registration details, ownership history, and WHOIS data.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Network, Threat, Visualization, Greynoise">
+      <span class="tag">Network Intelligence</span>
+      <h2><a href="https://viz.greynoise.io/" target="_blank">GreyNoise Visualizer</a></h2>
+      <p>Interactive dashboard to analyze internet background traffic and threats.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Code, Security, Vulnerability, Open Source">
+      <span class="tag">Code Security</span>
+      <h2><a href="https://searchcode.com/" target="_blank">SearchCode</a></h2>
+      <p>Search open-source repositories for code vulnerabilities and secrets.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Dark Web, Intelligence, Leaks, Threat">
+      <span class="tag">Dark Web Intelligence</span>
+      <h2><a href="https://darkowl.com/" target="_blank">DarkOwl</a></h2>
+      <p>Provides insights into darknet activities, leaks, and threat actors.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Threat, Intelligence, OTX, AlienVault">
+      <span class="tag">Threat Database</span>
+      <h2><a href="https://otx.alienvault.com/" target="_blank">AlienVault OTX</a></h2>
+      <p>Open Threat Exchange platform for sharing cyber threat intelligence.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Malware, Analysis, Database, Threat">
+      <span class="tag">Threat Analysis</span>
+      <h2><a href="https://malpedia.caad.fkie.fraunhofer.de/" target="_blank">Malpedia</a></h2>
+      <p>Comprehensive malware database with behavioral and classification insights.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="IP, Domain, Malware, Analysis">
+      <span class="tag">IP & Domain Analysis</span>
+      <h2><a href="https://www.threatminer.org/" target="_blank">ThreatMiner</a></h2>
+      <p>Search for malware samples, domain reputation, and threat indicators.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Phishing, Fraud, Security, Database">
+      <span class="tag">Phishing & Fraud</span>
+      <h2><a href="https://phishtank.org/" target="_blank">PhishTank</a></h2>
+      <p>Community-driven database of known phishing websites and scams.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Data Breach, Leaks, Credentials">
+      <span class="tag">Data Leaks</span>
+      <h2><a href="https://breachdirectory.org/" target="_blank">BreachDirectory</a></h2>
+      <p>Check if your credentials were leaked in a data breach.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Subdomain, Enumeration, DNS">
+      <span class="tag">Subdomain Enumeration</span>
+      <h2><a href="https://rapiddns.io/" target="_blank">RapidDNS</a></h2>
+      <p>Find subdomains and track domain history changes.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Reverse IP, DNS, WHOIS, Lookup">
+      <span class="tag">Reverse IP Lookup</span>
+      <h2><a href="https://viewdns.info/" target="_blank">ViewDNS</a></h2>
+      <p>Provides domain WHOIS, reverse IP, and DNS lookup tools.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Cyber Threat, Malware, IOC, Database">
+      <span class="tag">Cyber Threat Database</span>
+      <h2><a href="https://threatfox.abuse.ch/" target="_blank">ThreatFox</a></h2>
+      <p>Aggregates malware indicators and cyber threat intelligence data.</p>
+    </div>
+
+
+  </div>
+
+  <!-- Threat Maps Section -->
+  <div class="utility-container" id="threatmaps-section" style="display: none;">
+    <div class="utility" data-meta-tags="Live, Attack, Map, Global, Kaspersky">
+      <span class="tag">Live Attack Map</span>
+      <h2><a href="https://cybermap.kaspersky.com/" target="_blank">Kaspersky Cyberthreat Map</a></h2>
+      <p>Real-time visualization of global cyber threats.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Live, Attack, Map, Global, Check Point">
+      <span class="tag">Live Attack Map</span>
+      <h2><a href="https://threatmap.checkpoint.com/" target="_blank">Check Point Threat Map</a></h2>
+      <p>Live tracking of cyberattacks detected worldwide.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="DDoS, Attack, Map, Live, Arbor">
+      <span class="tag">Live Attack Map</span>
+      <h2><a href="https://www.digitalattackmap.com/" target="_blank">Digital Attack Map</a></h2>
+      <p>Tracks DDoS attacks happening globally.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Live, Attack, Map, Threat, Fortinet">
+      <span class="tag">Live Attack Map</span>
+      <h2><a href="https://threatmap.fortiguard.com/" target="_blank">Fortinet Threat Map</a></h2>
+      <p>Shows ongoing cyber threats and attack sources.</p>
+    </div>
+  </div>
+
+  <!-- Books Section -->
+  <div class="utility-container" id="books-section" style="display: none;">
+    <div class="utility" data-meta-tags="Book, Python, Hacking, Pentesting, Security">
+      <span class="tag">Security</span>
+      <h2><a href="https://amzn.to/3EtZGXA" target="_blank">Black Hat Python</a></h2>
+      <p>Python programming for hackers and pentesters.</p>
+    </div>
+
+    <div class="utility" data-meta-tags="Book, Cybersecurity, Beginner, Guide">
+      <span class="tag">Security</span>
+      <h2><a href="https://amzn.to/3Y95fkZ" target="_blank">Cybersecurity All-in-one for Dummies</a></h2>
+      <p>Comprehensive guide to cybersecurity concepts and practices.</p>
+    </div>
+  </div>
+
+  <!-- AI Tools Section -->
+  <div class="utility-container" id="aibots-section" style="display: none;">
+    <div class="utility" data-meta-tags="AI, Chatbot, LLM, OpenAI">
+      <span class="tag">Chatbot</span>
+      <h2>
+        <a href="https://chat.openai.com/" target="_blank" rel="noopener">
+          ChatGPT
+        </a>
+      </h2>
+      <p>OpenAI’s chat interface with a free usage tier for Q&A, content drafts, and brainstorming.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Image Generation, OpenAI, Art">
+      <span class="tag">Imagebot</span>
+      <h2><a href="https://labs.openai.com/" target="_blank" rel="noopener">DALL·E</a></h2>
+      <p>OpenAI’s state-of-the-art text-to-image generation model.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Music, Generation, OpenAI, Audio">
+      <span class="tag">Audiobot</span>
+      <h2><a href="https://openai.com/blog/jukebox" target="_blank" rel="noopener">OpenAI Jukebox</a></h2>
+      <p>Generative model for creating music and songs in various styles.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Chatbot, LLM, Google">
+      <span class="tag">Chatbot</span>
+      <h2>
+        <a href="https://gemini.google.com/" target="_blank" rel="noopener">
+          Google Gemini
+        </a>
+      </h2>
+      <p>Google’s experimental conversational AI service — free to use for research, writing help, and ideation.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Chatbot, GPT-4, Microsoft, Search">
+      <span class="tag">Chatbot</span>
+      <h2>
+        <a href="https://bing.com/chat" target="_blank" rel="noopener">
+          Bing Chat
+        </a>
+      </h2>
+      <p>Microsoft’s AI-assisted chat built into Bing search. Powered by GPT-4, free with a Microsoft account.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Search, Chatbot, Conversational">
+      <span class="tag">Chatbot</span>
+      <h2>
+        <a href="https://you.com/" target="_blank" rel="noopener">
+          YouChat
+        </a>
+      </h2>
+      <p>You.com’s built-in AI chat that combines web search with conversational responses — no signup required.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Chatbot, Multi-model, Claude">
+      <span class="tag">Chatbot</span>
+      <h2>
+        <a href="https://poe.com/" target="_blank" rel="noopener">
+          Poe
+        </a>
+      </h2>
+      <p>Access multiple LLMs (including ChatGPT, Claude, and others) in one place, with a free usage allowance each
+        day.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Chatbot, Open Source, Hugging Face">
+      <span class="tag">Chatbot</span>
+      <h2>
+        <a href="https://huggingface.co/spaces?license=community" target="_blank" rel="noopener">
+          HF Chat Spaces
+        </a>
+      </h2>
+      <p>Community-hosted chat demos powered by various open-source models on Hugging Face Spaces — completely free.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Search, Conversational, Answers">
+      <span class="tag">Chatbot</span>
+      <h2>
+        <a href="https://perplexity.ai/" target="_blank" rel="noopener">
+          Perplexity
+        </a>
+      </h2>
+      <p>AI-powered search engine that provides conversational answers to queries, with sources and citations.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Image Generation, Art, Creative">
+      <span class="tag">Imagebot</span>
+      <h2><a href="https://www.midjourney.com/" target="_blank" rel="noopener">MidJourney</a></h2>
+      <p>Community-driven AI for high-fidelity art and concept images.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Image Generation, Open Source, Stable Diffusion">
+      <span class="tag">Imagebot</span>
+      <h2><a href="https://stability.ai/studio" target="_blank" rel="noopener">Stable Diffusion</a></h2>
+      <p>Open-source model for versatile and customizable image synthesis.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Video, Generation, Editing, RunwayML">
+      <span class="tag">Videobot</span>
+      <h2><a href="https://runwayml.com/" target="_blank" rel="noopener">Runway</a></h2>
+      <p>AI-powered tool for generating and editing video from text prompts.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Video, Avatars, Synthesia">
+      <span class="tag">Videobot</span>
+      <h2><a href="https://synthesia.io/" target="_blank" rel="noopener">Synthesia</a></h2>
+      <p>AI video creation platform for generating professional avatars and scenes.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Speech, TTS, Voice, ElevenLabs">
+      <span class="tag">Audiobot</span>
+      <h2><a href="https://beta.elevenlabs.io/" target="_blank" rel="noopener">ElevenLabs</a></h2>
+      <p>Advanced text-to-speech platform for realistic voice generation.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Music, Composition, AIVA">
+      <span class="tag">Audiobot</span>
+      <h2><a href="https://www.aiva.ai/" target="_blank" rel="noopener">AIVA</a></h2>
+      <p>AI composer for creating original soundtracks and music compositions.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Code, Assistant, GitHub, Copilot">
+      <span class="tag">Codebot</span>
+      <h2><a href="https://github.com/features/copilot" target="_blank" rel="noopener">GitHub Copilot</a></h2>
+      <p>AI-powered code completion and suggestion tool integrated into your IDE.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Code, Completion, Tabnine">
+      <span class="tag">Codebot</span>
+      <h2><a href="https://www.tabnine.com/" target="_blank" rel="noopener">Tabnine</a></h2>
+      <p>Multi-language AI code completion assistant that integrates with popular editors.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Translation, Language, DeepL">
+      <span class="tag">Contentbot</span>
+      <h2><a href="https://www.deepl.com/translator" target="_blank" rel="noopener">DeepL Translator</a></h2>
+      <p>High-accuracy neural machine translation for multiple languages.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Writing, Assistant, Grammarly">
+      <span class="tag">Contentbot</span>
+      <h2><a href="https://www.grammarly.com/" target="_blank" rel="noopener">Grammarly</a></h2>
+      <p>Writing assistant that checks grammar, style, and tone in real time.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Content, Marketing, Jasper">
+      <span class="tag">Contentbot</span>
+      <h2><a href="https://www.jasper.ai/" target="_blank" rel="noopener">Jasper.ai</a></h2>
+      <p>AI content generation platform for blog posts, ads, and marketing copy.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Copywriting, Marketing, Copy.ai">
+      <span class="tag">Contentbot</span>
+      <h2><a href="https://www.copy.ai/" target="_blank" rel="noopener">Copy.ai</a></h2>
+      <p>Automated copywriting tool for social media captions, emails, and more.</p>
+    </div>
+    <div class="utility" data-meta-tags="AI, Paraphrasing, Writing, QuillBot">
+      <span class="tag">Contentbot</span>
+      <h2><a href="https://quillbot.com/" target="_blank" rel="noopener">QuillBot</a></h2>
+      <p>Paraphrasing and rewriting tool that enhances clarity and style.</p>
+    </div>
+    <div class="utility" data-meta-tags="Computational, Knowledge, Engine, Wolfram">
+      <span class="tag">Databot</span>
+      <h2><a href="https://www.wolframalpha.com/" target="_blank" rel="noopener">Wolfram Alpha</a></h2>
+      <p>Computational knowledge engine for math, data analysis, and factual queries.</p>
+    </div>
+    <div class="utility" data-meta-tags="Automation, Workflow, AI, Zapier">
+      <span class="tag">Autobot</span>
+      <h2><a href="https://zapier.com/apps/ai/integrations" target="_blank" rel="noopener">Zapier AI</a></h2>
+      <p>Workflow automation with AI actions across thousands of apps and services.</p>
+    </div>
+  </div>
+  <div id="pagination-controls"></div>
+
+  <br><br>
+  <center>
+    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button"
+      data-slug="chiragganguli" data-color="#FFDD00" data-emoji="👊🏼" data-font="Cookie" data-text="Support this work!"
+      data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff"></script>
+  </center>
+  <br><br>
+  <p style="text-align:center; padding: 20px 0;">
+    <a href="license.html" style="color: #ffffff; text-decoration: underline; font-weight: bold; font-size: 1.1em;"
+      target="_blank">Usage Policy</a>
+  </p>
+  <!-- Go Up Button -->
+  <button id="goUpBtn" class="go-up-btn">&#8679;</button>
+  <button id="theMatrix" class="theMatrix"
+    onclick="window.location.href='https://utilities.chiragganguli.com/matrix'">M@T21X</button>
+  <footer id="dynamic-footer">
+    <div class="footer-content">
+      <p>© <span id="year"></span> Chirag Ganguli. All rights reserved.</p>
+      <p>Follow me on
+        <a href="https://chiragganguli.com/links/twitter" target="_blank">Twitter</a>,
+        <a href="https://chiragganguli.com/links/github" target="_blank">GitHub</a>,
+        <a href="https://chiragganguli.com/links/linkedin" target="_blank">LinkedIn</a>.
+      </p>
+    </div>
+  </footer>
+  <script>
+    // Insert the current year
+    // This script block can be merged with the main script block below for better organization
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+  <script src="auth-index.js"></script>
+  <script src="desktop-transform.js"></script>
+  <script src="https://api.chiragganguli.com/g/global.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,715 @@
+{
+  "experiences": [
+    {
+      "role": "Technical Lead",
+      "company": "Tata Consultancy Services (TCS)",
+      "period": "September 2024 - April 2026",
+      "description": "Proven experience in managing international client relations, cross-functional engineering teams, and enterprise architectural delivery. Directed product development and security posture across core enterprise platforms.",
+      "skills": [
+        "Leadership",
+        "Cloud Architecture",
+        "DevSecOps",
+        "High-Reliability Engineering"
+      ]
+    },
+    {
+      "role": "Technical Lead / Product Development Specialist",
+      "company": "Tata Consultancy Services (TCS)",
+      "period": "August 2023 - September 2024",
+      "description": "Spearheaded technical development, cartridge development, defect reduction initiatives, and timely delivery of enterprise solutions.",
+      "skills": [
+        "Technical Architecture",
+        "Software Engineering",
+        "Defect Resolution",
+        "Mentorship"
+      ]
+    },
+    {
+      "role": "Project Intern - Application Developer",
+      "company": "Tata Consultancy Services (TCS)",
+      "period": "January 2023 - August 2023",
+      "description": "Engineered enterprise application modules, automated workflows, and developed scalable web and software services.",
+      "skills": [
+        "Application Development",
+        "Automation",
+        "Full Stack"
+      ]
+    },
+    {
+      "role": "Member - Advisor",
+      "company": "SECURE - The Centre of Excellence in Cyber Security",
+      "period": "October 2022 - October 2023",
+      "description": "Provided strategic advisory on threat modeling, cyber security infrastructure, vulnerability mitigation, and nature-inspired defense research.",
+      "skills": [
+        "Cyber Security Advisory",
+        "Nature-Inspired Defense",
+        "Vulnerability Research"
+      ]
+    },
+    {
+      "role": "Cyber Security Intern (Tech Development & Assessment)",
+      "company": "SECURE - The Centre of Excellence in Cyber Security",
+      "period": "June 2021 - October 2022",
+      "description": "Conducted vulnerability assessment, network penetration testing, and security tooling evaluation.",
+      "skills": [
+        "VAPT",
+        "Network Security",
+        "Security Tooling"
+      ]
+    },
+    {
+      "role": "Identity & Accounts Management Team Lead / Intern",
+      "company": "Virtually Testing Foundation",
+      "period": "May 2022 - August 2022",
+      "description": "Managed Active Directory, IAM protocols, role-based access control (RBAC), and user account lifecycles.",
+      "skills": [
+        "Active Directory",
+        "IAM",
+        "RBAC",
+        "Access Governance"
+      ]
+    },
+    {
+      "role": "Penetration Testing Intern & Cloud Security Associate",
+      "company": "Virtually Testing Foundation",
+      "period": "June 2021 - December 2021",
+      "description": "Conducted automated and manual cloud audits, perimeter scans, and offensive penetration tests.",
+      "skills": [
+        "Cloud Security",
+        "Offensive Pentesting",
+        "Perimeter Defense"
+      ]
+    },
+    {
+      "role": "Teaching Assistant - Digital Forensics",
+      "company": "Vellore Institute of Technology (VIT)",
+      "period": "August 2021 - December 2021",
+      "description": "Assisted in the 'Principles of Digital Forensics' course. Guided undergraduate students through memory forensics, file system analysis, and network packet forensics.",
+      "skills": [
+        "Digital Forensics",
+        "Incident Investigation",
+        "Pedagogy"
+      ]
+    },
+    {
+      "role": "Community Facilitator",
+      "company": "Google Crowdsource",
+      "period": "November 2022 - August 2023",
+      "description": "Community-driven facilitation for AI/ML dataset evaluation and algorithmic training.",
+      "skills": [
+        "Community Building",
+        "AI Data Ops"
+      ]
+    },
+    {
+      "role": "Microsoft Learn Student Ambassador",
+      "company": "Microsoft",
+      "period": "September 2019 - December 2022",
+      "description": "Evangelized cloud computing (Azure), developer tools, and hosted hands-on cybersecurity workshops.",
+      "skills": [
+        "Azure Cloud",
+        "Developer Relations",
+        "Tech Workshops"
+      ]
+    },
+    {
+      "role": "Front-End Developer (Cyber Security Initiative)",
+      "company": "Madhya Pradesh Police",
+      "period": "May 2020 - June 2020",
+      "description": "Developed web interfaces for public cyber hygiene awareness and crime reporting initiatives.",
+      "skills": [
+        "Cyber Hygiene",
+        "Web Development",
+        "Public Advisory"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Soir\u00e9e - Event Planner & RSVP Platform",
+      "star": {},
+      "summary": "An elegant, mobile-first event planner where hosts design fully customizable invites,\n                                ask guests their own questions, plan the music and agenda, and track every RSVP in real\n                                time.\nCustom Invites: Hosts upload a cover image, drag to repo",
+      "links": []
+    },
+    {
+      "title": "I'm Alive - Daily Check-In & Family Safety Net",
+      "star": {},
+      "summary": "A mobile-first daily check-in app: tap once a day to let the people who care know\n                                you're okay, and get notified if someone in your family circle goes quiet.\nDaily Check-In & Mood Dashboard: Log a mood and optional note, with\n                                week, month",
+      "links": []
+    },
+    {
+      "title": "Localized Hub - Decentralized Peer-to-Peer Mesh Network",
+      "star": {},
+      "summary": "A next-generation, serverless communication architecture that enables direct\n                                browser-to-browser data streaming without intermediary cloud storage or centralized\n                                servers.\nEnd-to-End Encryption (E2EE): Utilizes the Web Crypto API to imple",
+      "links": []
+    },
+    {
+      "title": "Pro Recorder - High-Integrity Direct-to-Disk Media Capture Engine",
+      "star": {},
+      "summary": "Fault-Tolerant Recording Architecture: Implements a memory-safe,\n                                direct-to-disk streaming protocol that writes video data in 1-second atomic chunks,\n                                eliminating the RAM-exhaustion crashes typical of standard web-based recording\n        ",
+      "links": []
+    },
+    {
+      "title": "S.A.R.A.H. - Secure Analytical Reasoning AI for Humans",
+      "star": {},
+      "summary": "A next-generation, cross-device intelligence architecture that exists natively within\n                                your ecosystem, featuring an auto-adapting neural network, persistent memory retention,\n                                and multimodal perception capabilities.\nReal-Time Conversation",
+      "links": []
+    },
+    {
+      "title": "Link Commander",
+      "star": {},
+      "summary": "A simple web-based URL shortening tool that takes a long link and converts it into a\n                                shorter, easy-to-share link for use on social media, messaging, emails, blogs, etc.\nGenerates shortened URLs that redirect users efficiently to the original destination\n              ",
+      "links": []
+    },
+    {
+      "title": "GhostNote",
+      "star": {},
+      "summary": "Ephemeral Messaging Service: The platform functions as a \"self-destructing\" note\n                                service, allowing users to create temporary messages that do not persist permanently.\n                            \n\"Read-Once\" Security: True to the name \"Ghostnote,\" messages are designe",
+      "links": []
+    },
+    {
+      "title": "Story Factory",
+      "star": {},
+      "summary": "Collaborative Storytelling Platform: The site is designed as a creative hub where users\n                                can build narratives together, contributing to stories \"one line at a time\" rather than\n                                writing in isolation.\nInteractive \"Factory\" Model: It Gamifi",
+      "links": []
+    },
+    {
+      "title": "CodePaste",
+      "star": {},
+      "summary": "Private & Read-Only Architecture: The service is explicitly designed as a private\n                                hosting solution. Unlike public pastebins, it operates in a read-only mode for visitors,\n                                preventing unauthorized users from creating new entries.\nBuilt-in",
+      "links": []
+    },
+    {
+      "title": "Utilities Library",
+      "star": {},
+      "summary": "Comprehensive Digital Toolbox: The site functions as a versatile \"Swiss Army knife\" for\n                                the web, aggregating a vast collection of browser-based utilities into a single,\n                                centralized dashboard.\nDiverse Functionality: It hosts tools across",
+      "links": []
+    },
+    {
+      "title": "AnimasisJS",
+      "star": {},
+      "summary": "Description: A lightweight, dependency-free JavaScript library for creating complex,\n                                trigger-based web animations directly within HTML.\nCore Technologies: Built with modern JavaScript (ES6+), leveraging the high-performance\n                                Web Animatio",
+      "links": []
+    },
+    {
+      "title": "Private Security Home Lab",
+      "star": {},
+      "summary": "Description: Working on a constantly evolving security home lab setup to have hands-on\n                                practice on different security architectures, attacks, and mitigation processes.\n                                Consists of self-hosted docker instances and virtual machines with v",
+      "links": []
+    },
+    {
+      "title": "Anna Daan Wastage Management System (Community Service Project)",
+      "star": {},
+      "summary": "Description: Developed a comprehensive website facilitating the distribution of excess\n                                food to those in need from various events. Implemented a blogging platform to foster\n                                community discussions and engagement.\nTechnologies: NodeJS, Cont",
+      "links": []
+    },
+    {
+      "title": "Eye Movement Pattern Based Authentication System (EPAS)",
+      "star": {},
+      "summary": "Description: Developed a Continuous Authentication Model utilizing gaze pattern\n                                monitoring as a Personal Identification Number (PIN), achieving a 95% accuracy in user\n                                identification and reducing unauthorized access incidents by 30%\nTech",
+      "links": []
+    },
+    {
+      "title": "Intrusion Detection System using Layered Machine Learning Algorithm",
+      "star": {},
+      "summary": "Description: Implemented an Intrusion Detection System (IDS) with enhanced detection\n                                capabilities, increasing threat detection accuracy by 20% and reducing false positives\n                                by 15%\nTechnologies: Python, Machine Learning Algorithms, HTML, ",
+      "links": []
+    },
+    {
+      "title": "Amazon Price Tracker",
+      "star": {},
+      "summary": "Description: Track Prices of a selected Product and compare it with budget price range\n                            \nTechnology: Python, Web Scrapping\nSingular Project\nRole: Conceptualization, Implementation, Deployment|",
+      "links": []
+    },
+    {
+      "title": "Node Surveillance Tool",
+      "star": {},
+      "summary": "Description: The tool can fetch versions of node packages from remote GitHub\n                                repositories (both private and public repositories) and then check if they match with\n                                the user-inserted package version. In case the existing packages are of a",
+      "links": []
+    },
+    {
+      "title": "SEED Store",
+      "star": {},
+      "summary": "Description: Secure End-to-End Delivery e-commerce Store\nTechnology: JavaScript, CSS, Node\nSingular Project\nRole: Conceptualization, Implementation, Deployment|",
+      "links": []
+    },
+    {
+      "title": "InstaAPI",
+      "star": {},
+      "summary": "Description: Minimalist Backened API Implementation using User & Posts attributes.\nTechnology: GoLang, MongoDB\nSingular Project\nRole: Conceptualization, Implementation, Deployment|",
+      "links": []
+    },
+    {
+      "title": "Climate Change Analysis",
+      "star": {},
+      "summary": "Description: Scientific Study of Climate Change on Earth's Surface Temperature\n                            \nTechnology: Python, Jupyter Notebook\nSingular Project\nRole: Conceptualization, Implementation, Deployment|",
+      "links": []
+    },
+    {
+      "title": "Motion Detector",
+      "star": {},
+      "summary": "Description: Detect Motion of Object present in front of a webcam\nTechnology: Python\nSingular Project\nRole: Conceptualization, Implementation, Deployment|",
+      "links": []
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Promising New Talent (Team Lead) - Tech",
+      "details": ""
+    },
+    {
+      "name": "Lesser Defects and Faster Defect Resolution",
+      "details": ""
+    },
+    {
+      "name": "Best Cartridge Technical Development",
+      "details": ""
+    },
+    {
+      "name": "Best Timely Delivery",
+      "details": ""
+    },
+    {
+      "name": "Raman Research Award 2023-24",
+      "details": ""
+    },
+    {
+      "name": "Fundamentals of Deep Learning",
+      "details": ""
+    },
+    {
+      "name": "Fundamentals of Accelerated Computing with CUDA Python",
+      "details": ""
+    },
+    {
+      "name": "Fundamentals of Accelerated Computing with CUDA C/C++",
+      "details": ""
+    },
+    {
+      "name": "(Certificate of Reviewing) International Conference on BUSINESS INTELLIGENCE, COMPUTATIONAL MATHEMATICS, AND DATA ANALYTICS (iBCD-2024)",
+      "details": ""
+    },
+    {
+      "name": "Certified Lean Six Sigma Black Belt",
+      "details": ""
+    },
+    {
+      "name": "(BADGE) Networking in Google Cloud: Hybrid Connectivity and Network Management [May 2024]",
+      "details": ""
+    },
+    {
+      "name": "(BADGE) Protect Cloud Traffic with BeyondCorp Enterprise (BCE) [May 2024]",
+      "details": ""
+    },
+    {
+      "name": "(BADGE) Security Best Practices in Google Cloud [Apr 2024]",
+      "details": ""
+    },
+    {
+      "name": "(BADGE) Build a Secure Google Cloud Network [Apr 2024]",
+      "details": ""
+    },
+    {
+      "name": "(BADGE) Networking in Google Cloud: Defining and Implementing Networks [Apr 2024]",
+      "details": ""
+    },
+    {
+      "name": "(BADGE) Implement Cloud Security Fundamentals on Google Cloud [Apr 2024]",
+      "details": ""
+    },
+    {
+      "name": "(BADGE) Managing Security in Google Cloud [Apr 2024]",
+      "details": ""
+    },
+    {
+      "name": "(BADGE) Implement Load Balancing on Compute Engine [Apr 2024]",
+      "details": ""
+    },
+    {
+      "name": "On the Spot Award",
+      "details": ""
+    },
+    {
+      "name": "NetExec Training Lab",
+      "details": ""
+    },
+    {
+      "name": "By Rajesh Sundaresan",
+      "details": ""
+    },
+    {
+      "name": "Elevate Wings Program",
+      "details": ""
+    },
+    {
+      "name": "By Abbas Mehdi",
+      "details": ""
+    },
+    {
+      "name": "AMLDA-2023 Best Paper Award",
+      "details": ""
+    },
+    {
+      "name": "AMLDA-2023 Paper Presentation Certificate",
+      "details": ""
+    },
+    {
+      "name": "Xcelerate Warrior",
+      "details": ""
+    },
+    {
+      "name": "BTech CSE (Cyber Security & Digital Forensics)",
+      "details": ""
+    },
+    {
+      "name": "Certified Ethical Hacker (CEH)",
+      "details": ""
+    },
+    {
+      "name": "Best Intern - Tech",
+      "details": ""
+    },
+    {
+      "name": "Cyber Offensive - Defense Engineering using Python Beginner",
+      "details": ""
+    },
+    {
+      "name": "Damncon 2022 | Damn Secure Pentesting Hub",
+      "details": ""
+    },
+    {
+      "name": "Advent of Cyber 2022 | TryHackMe",
+      "details": ""
+    },
+    {
+      "name": "Active Defense & Cyber Deception | John Strand",
+      "details": ""
+    },
+    {
+      "name": "AWS Cloud Practitioner Essentials",
+      "details": ""
+    },
+    {
+      "name": "Cyber Threat Hunting Level-1",
+      "details": ""
+    },
+    {
+      "name": "The Definitive GRC Analyst Master Class",
+      "details": ""
+    },
+    {
+      "name": "SOC Core Skills",
+      "details": ""
+    },
+    {
+      "name": "AppSec Vulnerability Assessments | SkillsDA",
+      "details": ""
+    },
+    {
+      "name": "Cisco Certified Network Associate (CCNA) Certification | Cybrary",
+      "details": ""
+    },
+    {
+      "name": "Advanced Penetration Testing",
+      "details": ""
+    },
+    {
+      "name": "Offensive Penetration Testing",
+      "details": ""
+    },
+    {
+      "name": "Getting Started in Security with BHIS and MITRE ATT&CK | John Strand",
+      "details": ""
+    },
+    {
+      "name": "Applied Machine Learning in Python",
+      "details": ""
+    },
+    {
+      "name": "Cybersecurity Compliance Framework & System Administration",
+      "details": ""
+    },
+    {
+      "name": "Network Security & Database Vulnerabilities",
+      "details": ""
+    },
+    {
+      "name": "Become an Ethical Hacker",
+      "details": ""
+    },
+    {
+      "name": "ICSI | CNSS Certified Network Security Specialist",
+      "details": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Post-Quantum Cryptography and Nature-Inspired Cyber Defense: Strategic Readiness and Adaptive Techniques for Next-Gen Threat Response",
+      "venue": "IEEE Access",
+      "category": "Quantum & Nature-Inspired Defense",
+      "description": "Comprehensive analysis of quantum threat landscapes, lattice-based cryptography, and bio-inspired adaptive defense mechanisms for post-quantum resilience.",
+      "link": "https://publications.chiragganguli.com"
+    },
+    {
+      "title": "Nature-inspired swarm optimization paradigms for securing semantic web frameworks against DDoS attacks: a computational approach",
+      "venue": "Scientific Reports (Nature Publishing Group)",
+      "category": "Bio-Inspired Cyber Defense",
+      "description": "Novel defense mechanism utilizing Swarm Intelligence algorithms to detect and throttle high-volume distributed semantic DDoS assaults.",
+      "link": "https://publications.chiragganguli.com"
+    },
+    {
+      "title": "Adaptive Network Sustainability and Defense Based on Artificial Bees Colony Optimization Algorithm for Nature Inspired Cyber Security",
+      "venue": "Computer Systems Science & Engineering (Tech Science Press)",
+      "category": "Swarm Intelligence & Networks",
+      "description": "Applied Artificial Bee Colony (ABC) metaheuristic to dynamically route traffic, isolate compromised nodes, and maintain network stability under cyber attack.",
+      "link": "https://publications.chiragganguli.com"
+    },
+    {
+      "title": "Data-Driven Approach to Network Intrusion Detection System Using Modified Artificial Bee Colony Algorithm for Nature-Inspired Cybersecurity",
+      "venue": "Springer - Applied Machine Learning and Data Analytics",
+      "category": "NIDS & Machine Learning",
+      "description": "Integrated modified ABC algorithm for hyperparameter optimization and feature selection in anomaly-based Network Intrusion Detection Systems.",
+      "link": "https://publications.chiragganguli.com"
+    },
+    {
+      "title": "Adaptive Artificial Bee Colony Algorithm for Nature-Inspired Cyber Defense",
+      "venue": "MDPI Systems",
+      "category": "Bio-Inspired Cybersecurity",
+      "description": "Self-adapting swarm colony model capable of self-healing and dynamic defense configuration against zero-day and polymorphism attacks.",
+      "link": "https://publications.chiragganguli.com"
+    },
+    {
+      "title": "Design and implementation of adaptive network stabilization based on artificial bees colony optimization for nature inspired cyber security",
+      "venue": "Journal of King Saud University - Computer and Information Sciences",
+      "category": "Network Stabilization",
+      "description": "Algorithmic implementation and testbed verification for real-time grid and network stabilization against hostile intrusion.",
+      "link": "https://publications.chiragganguli.com"
+    },
+    {
+      "title": "Adaptive Network Stabilization based on Artificial Bees Colony Optimization for Nature inspired Cyber Security",
+      "venue": "Copyright Office, Government of India (IP / Registered Research)",
+      "category": "Intellectual Property / Copyright",
+      "description": "Formally registered intellectual property for bio-inspired cyber defense optimization architecture.",
+      "link": "https://publications.chiragganguli.com"
+    },
+    {
+      "title": "Enhanced Artificial Bees Colonization Algorithm for Adaptive Nature-Inspired Cyber Defense",
+      "venue": "Copyright Office, Government of India (IP / Registered Research)",
+      "category": "Intellectual Property / Copyright",
+      "description": "Second formal IP registration for advanced adaptive heuristics in cyber threat counter-measures.",
+      "link": "https://publications.chiragganguli.com"
+    },
+    {
+      "title": "Cyber Attack Evaluation Dataset for Deep Packet Inspection and Analysis",
+      "venue": "Data in Brief / IEEE DataPort / Mendeley Data",
+      "category": "Open Security Datasets",
+      "description": "Publicly released benchmark dataset consisting of thousands of annotated packet traces for intrusion detection, deep packet inspection, and ML-based threat modeling.",
+      "link": "https://publications.chiragganguli.com"
+    },
+    {
+      "title": "A Nature-Inspired Approach to Cryptology",
+      "venue": "Special Mentions In Academic Textbooks & Digital Resilience Monograph",
+      "category": "Book Contribution / Chapters",
+      "description": "Authorial chapter exploring biological mimicry, genetic algorithms, and evolutionary principles applied to cryptographic key generation and entropy pools.",
+      "link": "https://publications.chiragganguli.com"
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Dr. Shishir Kumar Shandilya",
+      "role": "Faculty - School of Data Science & Forecasting, Devi Ahilya University",
+      "text": "I have had the privilege of mentoring Chirag, who was an exceptional student during his time at VIT. Highly dedicated, insightful, and always pushing the boundaries of research in nature-inspired cyber security.",
+      "tag": "Research Mentor"
+    },
+    {
+      "author": "Milind Lakkad",
+      "role": "Chief Human Resources Officer, Tata Consultancy Services",
+      "text": "In appreciation of your outstanding contribution to the organisation, you are awarded the On The Spot Award. You are an inspiration to your peers. Congratulations on becoming an Xcelerate Warrior.",
+      "tag": "Leadership & Awards"
+    },
+    {
+      "author": "Shubhangi Singh",
+      "role": "Product Engineer - TCS",
+      "text": "Working with you has been a great experience\u2014your technical depth, leadership, and proactive problem-solving made a profound impact on the entire team.",
+      "tag": "Colleague"
+    },
+    {
+      "author": "Sujay Ghosh",
+      "role": "Technical Architect - TCS",
+      "text": "I truly enjoyed working with you. Wishing you great success in all your future endeavours. A silent killer, Brilliant Performer, always dependable. Highly talented, sharp focussed. A shining star in the making.",
+      "tag": "Technical Leadership"
+    },
+    {
+      "author": "Pradipta Ghosh",
+      "role": "Operations Head - TCS",
+      "text": "Wish you all the very best Chirag. You are an amazing talent. Keep growing.",
+      "tag": "Executive Leadership"
+    },
+    {
+      "author": "Rajesh Sundaresan",
+      "role": "Project Lead - TCS",
+      "text": "Your excellence and brilliance have always made for a stunning performance at work. Raise the bar with your hard work and continue setting milestones.",
+      "tag": "Project Leadership"
+    },
+    {
+      "author": "Abbas Mehdi",
+      "role": "Product Engineer - TCS",
+      "text": "I admire your growth-mindset and dedication towards continuous learning. You are an asset for our team and an inspiration for anyone passionate about cybersecurity.",
+      "tag": "Peer Review"
+    },
+    {
+      "author": "Suraj Kumar",
+      "role": "Product Engineer - TCS",
+      "text": "Thank you for your guidance and support. It's been memorable working alongside someone who is so brilliant in coding and debugging with endless patience.",
+      "tag": "Engineering Peer"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "The 2026 AI Paradigm Shift: How Verifiable Reasoning, GRPO, and Inference Scaling Rewrote the Rules",
+      "tags": [
+        "AI",
+        "GRPO",
+        "InferenceScaling",
+        "CyberAI"
+      ],
+      "date": "2026",
+      "summary": "The artificial intelligence landscape of 2026 marks a historic inflection point in computational history. Deep dive into verifiable reasoning engines, Group Relative Policy Optimization (GRPO), and inference compute economics.",
+      "link": "https://blogs.chiragganguli.com"
+    },
+    {
+      "title": "The 'Agentic Web' Just Killed Traditional Software (And Nobody\u2019s Paying Attention)",
+      "tags": [
+        "Agentic AI",
+        "Web Architecture",
+        "Security Posture"
+      ],
+      "date": "2026",
+      "summary": "Every couple of years, the tech industry experiences an extinction-level UX event. Examining autonomous agent protocols, machine-to-machine APIs, and the new threat vectors emerging in the agentic era.",
+      "link": "https://blogs.chiragganguli.com"
+    },
+    {
+      "title": "Engineering the Real-Time Social Graph: A Comprehensive Architectural Analysis of Instant Messaging",
+      "tags": [
+        "System Design",
+        "Distributed Systems",
+        "End-to-End Encryption"
+      ],
+      "date": "2025",
+      "summary": "Architectural breakdown of high-throughput websocket clusters, cryptographic ratcheting (Signal Protocol), and persistent distributed state in instant messaging backends.",
+      "link": "https://blogs.chiragganguli.com"
+    }
+  ],
+  "utilities": [
+    {
+      "name": "VulnForge Report Generator",
+      "desc": "Automated engine to compile structured, CVSS-compliant Vulnerability Assessment & Penetration Testing (VAPT) reports with remediation roadmaps.",
+      "category": "Cybersecurity Tool",
+      "status": "Production"
+    },
+    {
+      "name": "Reaction Time Test",
+      "desc": "Precision latency tester measuring human neural-to-digital reaction speed with millisecond accuracy.",
+      "category": "Interactive Utility",
+      "status": "Live"
+    },
+    {
+      "name": "IOU Debt & Ledger Tracker",
+      "desc": "Lightweight cryptographic ledger and balance tracker for decentralized mutual accounting.",
+      "category": "Utility App",
+      "status": "Live"
+    },
+    {
+      "name": "Deadline & Milestone Tracker",
+      "desc": "Minimalist sprint countdown and deliverable timer optimized for high-pressure engineering deadlines.",
+      "category": "Productivity",
+      "status": "Live"
+    },
+    {
+      "name": "Orbit Subscriptions & SaaS Audit",
+      "desc": "Privacy-focused subscription monitor to prevent credential sprawl and untracked recurring spend.",
+      "category": "Security & Finance",
+      "status": "Live"
+    }
+  ],
+  "quizzes": [
+    {
+      "title": "Cybersecurity Fundamentals Quiz",
+      "desc": "Test your knowledge of OSI layer security, public-key cryptography, symmetric ciphers, and common network attack vectors.",
+      "questions_count": 10,
+      "difficulty": "Intermediate"
+    },
+    {
+      "title": "VAPT & Threat Hunting Challenge",
+      "desc": "Hands-on scenarios covering SQLi, SSRF, XSS, Buffer Overflows, and SIEM log correlation.",
+      "questions_count": 15,
+      "difficulty": "Advanced"
+    },
+    {
+      "title": "Cloud Security & IAM Hardening",
+      "desc": "Assess real-world cloud posture scenarios across AWS IAM, GCP BeyondCorp Zero-Trust, and Kubernetes RBAC.",
+      "questions_count": 12,
+      "difficulty": "Expert"
+    }
+  ],
+  "bio": {
+    "name": "Chirag Ganguli",
+    "handle": "@chirag_ganguli",
+    "email": "contact@chiragganguli.com",
+    "location": "India",
+    "roles": [
+      "Cybersecurity Researcher",
+      "Certified Ethical Hacker (CEH)",
+      "Lean Six Sigma Black Belt (LSSBB)",
+      "Technical Lead (Ex-TCS)"
+    ],
+    "education": {
+      "degree": "B.Tech in Computer Science and Engineering",
+      "institution": "Vellore Institute of Technology (VIT)",
+      "honors": "Raman Research Award (2023-2024)"
+    },
+    "summary": "Chirag Ganguli is an accomplished Cybersecurity Researcher, Certified Ethical Hacker (CEH), and Lean Six Sigma Black Belt (LSSBB) holding a B.Tech in CSE from Vellore Institute of Technology (VIT). He specializes in Security Automation, Cloud Security Infrastructure, Governance Risk & Compliance (GRC), VAPT, and pioneering research in Nature-Inspired Cyber Defense (Swarm Optimization & Artificial Bee Colony algorithms). Previously Technical Lead at Tata Consultancy Services (TCS) and Advisor at SECURE CoE.",
+    "domains": [
+      {
+        "name": "Cloud Security & Infrastructure",
+        "icon": "cloud-shield",
+        "desc": "Architecture and hardening across AWS, Google Cloud, and Azure. Specialized in BeyondCorp Zero-Trust, IAM least-privilege policies, VPC security perimeters, and Kubernetes hardening."
+      },
+      {
+        "name": "Nature-Inspired Cyber Defense",
+        "icon": "dna",
+        "desc": "Groundbreaking published research utilizing Swarm Intelligence, Artificial Bee Colony (ABC) algorithms, and bio-inspired evolutionary heuristics for real-time intrusion mitigation and DDoS defense."
+      },
+      {
+        "name": "Vulnerability Assessment & Pentesting (VAPT)",
+        "icon": "terminal",
+        "desc": "Offensive security assessments, web application security (OWASP Top 10), perimeter penetration testing, threat hunting, and automated vulnerability scanning."
+      },
+      {
+        "name": "Security Automation & DevSecOps",
+        "icon": "cpu",
+        "desc": "Integrating SAST/DAST into CI/CD pipelines, custom security orchestration tooling, automated incident triage, and defect reduction workflows."
+      },
+      {
+        "name": "Governance, Risk & Compliance (GRC)",
+        "icon": "shield-check",
+        "desc": "Aligning enterprise operations with ISO 27001, NIST CSF, PCI-DSS, and GDPR frameworks combined with Lean Six Sigma Black Belt process optimization."
+      },
+      {
+        "name": "Digital Forensics & Post-Quantum Cryptography",
+        "icon": "binary",
+        "desc": "Memory forensics, packet trace forensics (deep packet inspection datasets), and strategic post-quantum cryptographic migration."
+      }
+    ],
+    "social_links": {
+      "LinkedIn": "https://chiragganguli.com/links/linkedin",
+      "GitHub": "https://chiragganguli.com/links/github",
+      "Twitter": "https://chiragganguli.com/links/twitter",
+      "YouTube": "https://yt.chiragganguli.com/chirag",
+      "Topmate": "https://topmate.io/chiragganguli",
+      "TryHackMe": "https://chiragganguli.com/links/thm",
+      "Instagram": "https://chiragganguli.com/links/instagram",
+      "Email": "mailto:contact@chiragganguli.com"
+    }
+  }
+}

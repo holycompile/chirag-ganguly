@@ -1,0 +1,41 @@
+Cybersecurity Quizzes
+Quizzin'
+Explore, learn, and test your skills with these exciting challenges!
+All
+Beginner
+Intermediate
+Advanced
+Survey
+Google Dorking (TIL)
+Updated: April 16, 2025
+Google Dorking (also known as Google Hacking) is a powerful technique used to find sensitive information exposed on the internet using advanced search operators.
+Take the Quiz
+Advanced
+HSTS (TIL)
+Updated: April 7, 2025
+A powerful security mechanism that enforces the use of secure (HTTPS) connections to protect against various web attacks.
+Take the Survey
+Survey
+Clickjacking (TIL)
+Updated: April 2, 2025
+A web vulnerability where a malicious site tricks users into clicking hidden elements from another site.
+Take the Quiz
+Beginner
+CSRF Tokens (TIL)
+Updated: April 1, 2025
+CSRF tokens help prevent Cross-Site Request Forgery (CSRF) attacks.
+Take the Quiz
+Beginner
+Cyber Sleuth Challenge
+Updated: December 4, 2024
+Put your cyber-savvy to the test with thrilling, real-world security challenges!
+Take the Quiz
+Intermediate
+Cyber Hygiene Quiz
+Updated: November 26, 2024
+Learn the essentials of staying safe online with this introductory quiz!
+Take the Quiz
+Beginner
+More Quizzes coming soon!
+©
+All rights reserved | Chirag Ganguli

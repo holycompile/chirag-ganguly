@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-37CF9WPSM1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37CF9WPSM1');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <meta name="description" content="Discover innovative and professional business card designs by Chirag Ganguli, tailored to make a lasting impression.">
+    <meta name="keywords" content="Chirag Ganguli, business card design, professional business cards, custom business cards, creative business cards">
+    <meta property="og:title" content="Professional Business Card Design by Chirag Ganguli">
+    <meta property="og:description" content="Discover innovative and professional business card designs by Chirag Ganguli, tailored to make a lasting impression.">
+    <meta property="og:image" content="https://api.chiragganguli.com/logo.png">
+    <meta property="og:url" content="https://chiragganguli.com/card">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Professional Business Card Design by Chirag Ganguli">
+    <meta name="twitter:description" content="Discover innovative and professional business card designs by Chirag Ganguli, tailored to make a lasting impression.">
+    <meta name="twitter:image" content="https://api.chiragganguli.com/logo.png">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://chiragganguli.com/card">
+    <meta name="language" content="English">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* General Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body, html {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f2f5;
+        }
+
+        /* Card Container */
+        .card-container {
+            perspective: 1000px;
+            width: 400px;
+            max-width: 100%;
+        }
+
+        /* Card Flip Mechanism */
+        .card {
+            width: 100%;
+            height: 230px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.8s;
+            cursor: pointer;
+        }
+
+        /* Add transform and shadow effects */
+        .card {
+            transition: transform 0.8s cubic-bezier(0.4, 0.2, 0.2, 1), 
+                        scale 0.3s ease, 
+                        box-shadow 0.3s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .card.is-flipped {
+            transform: rotateY(180deg) scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 115, 230, 0.4); /* Stronger shadow on flip */
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 115, 230, 0.3); /* Glowing effect on hover */
+        }
+
+        .card.is-flipped {
+            transform: rotateY(180deg);
+        }
+
+        /* Card Face Styling */
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            backface-visibility: hidden;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Front Face */
+        .card-front {
+            background: linear-gradient(145deg, #0073e6, #005bb5);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .profile-img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 3px solid #ffffff;
+        }
+
+        .name {
+            font-size: 1.6em;
+            font-weight: bold;
+        }
+
+        .title {
+            font-size: 1em;
+            opacity: 0.85;
+            margin-top: 5px;
+        }
+
+        .tagline {
+            font-style: italic;
+            margin-top: 15px;
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        /* Back Face */
+        .card-back {
+            background-color: #ffffff;
+            color: #333;
+            transform: rotateY(180deg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .contact-info {
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .contact-info p {
+            margin: 8px 0;
+        }
+
+        .contact-info i {
+            color: #0073e6;
+            margin-right: 8px;
+        }
+
+        .website {
+            font-weight: bold;
+            color: #0073e6;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: color 0.3s ease;
+        }
+
+        .website:hover {
+            color: #005bb5;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* FontAwesome Icons */
+        @media (max-width: 480px) {
+            .card {
+                height: 250px; /* Allow height to adjust on smaller screens */
+            }
+
+            .profile-img {
+                width: 50px; /* Smaller profile image on mobile */
+                height: 50px;
+            }
+
+            .name {
+                font-size: 1.4em; /* Adjust font size for name */
+            }
+
+            .title {
+                font-size: 0.9em; /* Adjust font size for title */
+            }
+
+            .tagline {
+                font-size: 0.8em; /* Adjust font size for tagline */
+            }
+
+            .contact-info {
+                font-size: 0.8em; /* Smaller font for contact info */
+            }
+
+            .website {
+                font-size: 0.9em; /* Adjust font size for website link */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container" onclick="flipCard()">
+        <!-- Card Container for Flip Effect -->
+        <div class="card" id="businessCard">
+            <!-- Front Face -->
+            <div class="card-face card-front">
+                <img src="https://api.chiragganguli.com/img/profile.jpeg" alt="Chirag Ganguli" class="profile-img">
+                <div class="name">Chirag Ganguli</div>
+                <div class="title">Cybersecurity Researcher & Engineer</div>
+                <div class="tagline">"Innovating Security for a Safer Future"</div>
+            </div>
+
+            <!-- Back Face -->
+            <div class="card-face card-back">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i><a href="mailto:contact@chiragganguli.com">contact@chiragganguli.com</a></p>
+                </div>
+                <a href="https://chiragganguli.com" class="website">chiragganguli.com</a>
+                <a href="https://chiragganguli.com/linker" class="website">Link Store</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Flip Card Script -->
+    <script>
+        function flipCard() {
+            document.getElementById('businessCard').classList.toggle('is-flipped');
+        }
+    </script> 
+    
+</body>
+</html>
