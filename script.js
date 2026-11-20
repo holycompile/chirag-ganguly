@@ -67,7 +67,7 @@ function initNavigation() {
     });
   });
 
-  // Scrollspy
+  // Scrollspy for in-page anchors
   window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section[id]');
     const scrollY = window.pageYOffset;
@@ -76,7 +76,7 @@ function initNavigation() {
       const sectionHeight = current.offsetHeight;
       const sectionTop = current.offsetTop - 100;
       const sectionId = current.getAttribute('id');
-      const targetLink = document.querySelector(`.nav-link[href*="${sectionId}"]`);
+      const targetLink = document.querySelector(`.nav-link[href="#${sectionId}"]`);
 
       if (targetLink) {
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {

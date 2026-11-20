@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Domains of Mastery | Chirag Ganguli - Cybersecurity Portfolio</title>
+  
+  <!-- SEO & Meta -->
+  <meta name="description" content="Chirag Ganguli - Cybersecurity Researcher, CEH, Lean Six Sigma Black Belt, Ex-Technical Lead at TCS." />
+  <meta name="author" content="Chirag Ganguli" />
+
+  <!-- Google Fonts: Editorial & Architectural Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,400;1,6..72,600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- TOP TELEMETRY HUD BAR -->
+  <div class="hud-bar">
+    <div class="hud-left">
+      <div class="hud-status">
+        <span class="pulse-dot"></span>
+        <span style="color:#e2e8f0; font-weight:600;">STATUS: OPERATIONAL // DEFENSE ACTIVE</span>
+      </div>
+      <span class="hud-pill"><i class="fa-solid fa-network-wired"></i> TLS 1.3 ENCRYPTED</span>
+      <span class="hud-pill"><i class="fa-solid fa-server"></i> NODES: HEALTHY</span>
+    </div>
+    <div class="hud-right">
+      <span class="hud-pill"><i class="fa-regular fa-clock"></i> <span id="hud-clock">00:00:00 UTC</span></span>
+      <span class="hud-pill"><i class="fa-solid fa-satellite-dish"></i> LATENCY: <span id="hud-ping">14ms</span></span>
+      <button class="hud-terminal-btn" id="terminal-toggle-btn" title="Toggle Terminal (~ or `)">
+        <i class="fa-solid fa-terminal"></i> CLI [~]
+      </button>
+    </div>
+  </div>
+  <!-- MAIN NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/img/profile.jpeg" alt="Chirag Ganguli" class="brand-avatar" onerror="this.src='assets/img/siteLogo.png'" />
+        <div class="brand-text">
+          <span class="brand-name">Chirag Ganguli</span>
+          <span class="brand-tag"><i class="fa-solid fa-shield-halved"></i> SECURITY RESEARCHER</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link ">Home</a></li>
+        <li><a href="domains.html" class="nav-link active">Domains</a></li>
+        <li><a href="experience.html" class="nav-link ">Experience</a></li>
+        <li><a href="research.html" class="nav-link ">Research</a></li>
+        <li><a href="projects.html" class="nav-link ">Projects</a></li>
+        <li><a href="certificates.html" class="nav-link ">Certificates</a></li>
+        <li><a href="tools.html" class="nav-link ">Tools & Quiz</a></li>
+        <li><a href="testimonials.html" class="nav-link ">Endorsements</a></li>
+        <li><a href="blogs.html" class="nav-link ">Insights</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="btn btn-outline btn-sm" onclick="downloadVCard()">
+          <i class="fa-regular fa-id-card"></i> vCard
+        </button>
+        <a href="contact.html" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-paper-plane"></i> Connect
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section section-alt" id="domains">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag"><i class="fa-solid fa-cubes-stacked"></i> CORE COMPETENCIES</div>
+        <h2 class="section-title">Domains of Defense & Mastery</h2>
+        <p class="section-desc">
+          Synthesizing offensive penetration expertise, multi-cloud Zero-Trust governance, and biological swarm intelligence algorithms into resilient enterprise security.
+        </p>
+      </div>
+
+      <div class="domains-grid" id="domains-grid">
+        <!-- Injected via script.js from CHIRAG_DATA.domains -->
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <span style="font-weight:700; color:#ffffff;">Chirag Ganguli</span> — Cybersecurity Researcher & Cloud Defense Specialist.
+        <div style="font-family:var(--font-mono); font-size:0.75rem; color:#94a3b8; margin-top:4px;">
+          Editorial Newspaper Edition. Zero tracking. 100% Client-Side Privacy.
+        </div>
+      </div>
+      <ul class="footer-links">
+        <li><a href="https://chiragganguli.com/privacy-and-policy" target="_blank">Privacy Policy</a></li>
+        <li><a href="https://chiragganguli.com/changelog" target="_blank">Changelog</a></li>
+        <li><a href="https://chiragganguli.com/map" target="_blank">Sitemap</a></li>
+        <li><a href="contact.html">Connect</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- INTERACTIVE CYBER CLI TERMINAL DRAWER -->
+  <div class="terminal-modal" id="terminal-drawer">
+    <div class="terminal-header">
+      <div class="terminal-controls">
+        <span class="terminal-dot dot-red" id="terminal-close-btn" style="cursor:pointer;" title="Close Console"></span>
+        <span class="terminal-dot dot-yellow"></span>
+        <span class="terminal-dot dot-green"></span>
+        <span style="margin-left:8px; font-weight:600; color:#e2e8f0;">DEFENSE CONSOLE [BASH-SHELL v4.2]</span>
+      </div>
+      <div>Type <span class="text-cyan">help</span> or press <span class="text-cyan">ESC</span> to dismiss</div>
+    </div>
+    <div class="terminal-body" id="terminal-body">
+      <div class="terminal-history" id="terminal-history">
+        <div>Welcome to Chirag Ganguli's Security Shell. System initialized at 100% integrity.</div>
+        <div>Type <span class="text-cyan">help</span> to list available commands.</div>
+      </div>
+      <div class="terminal-prompt-row">
+        <span class="terminal-prompt-symbol">chirag@defense-hub:~$</span>
+        <input type="text" id="terminal-input" class="terminal-input" autocomplete="off" spellcheck="false" placeholder="type a command (e.g. whoami, domains, projects, research)..." />
+      </div>
+    </div>
+  </div>
+
+  <!-- STAR ANALYSIS MODAL POPUP -->
+  <div class="modal-overlay" id="star-modal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close-btn" title="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+        <span class="domain-badge">STAR METHODOLOGY BREAKDOWN</span>
+      </div>
+      <h3 id="modal-project-title" style="font-size:1.35rem; font-weight:800; color:var(--text-primary); margin-bottom:12px;">
+        Project Title
+      </h3>
+      <div id="modal-star-body">
+        <!-- Injected via script.js openStarModal() -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Core Scripts -->
+  <script src="chirag_data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
