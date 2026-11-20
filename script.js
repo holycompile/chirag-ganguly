@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   initHUDClock();
-  initThemeToggle();
   initNavigation();
   renderDomains();
   renderExperiences();
@@ -46,41 +45,6 @@ function initHUDClock() {
   updateTime();
   setInterval(updateTime, 1000);
   setInterval(simulatePing, 4000);
-}
-
-/* ===================================================================
-   1.1 THEME TOGGLE (NEWSPAPER LIGHT MODE DEFAULT)
-   =================================================================== */
-function initThemeToggle() {
-  const toggleBtn = document.getElementById('theme-toggle-btn');
-  const btnText = document.getElementById('theme-btn-text');
-  if (!toggleBtn) return;
-
-  const savedTheme = localStorage.getItem('chirag_theme') || 'light';
-  if (savedTheme === 'dark') {
-    document.documentElement.setAttribute('data-theme', 'dark');
-    if (btnText) btnText.textContent = 'Light';
-    toggleBtn.querySelector('i').className = 'fa-solid fa-sun';
-  } else {
-    document.documentElement.removeAttribute('data-theme');
-    if (btnText) btnText.textContent = 'Dark';
-    toggleBtn.querySelector('i').className = 'fa-solid fa-moon';
-  }
-
-  toggleBtn.addEventListener('click', () => {
-    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    if (isDark) {
-      document.documentElement.removeAttribute('data-theme');
-      localStorage.setItem('chirag_theme', 'light');
-      if (btnText) btnText.textContent = 'Dark';
-      toggleBtn.querySelector('i').className = 'fa-solid fa-moon';
-    } else {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('chirag_theme', 'dark');
-      if (btnText) btnText.textContent = 'Light';
-      toggleBtn.querySelector('i').className = 'fa-solid fa-sun';
-    }
-  });
 }
 
 /* ===================================================================

@@ -59,44 +59,6 @@
   --container-max: 1240px;
 }
 
-/* Optional Dark Mode Override via data-theme="dark" */
-[data-theme="dark"] {
-  --bg-primary: #070a12;
-  --bg-secondary: #0c1220;
-  --bg-card: rgba(15, 23, 42, 0.75);
-  --bg-card-hover: rgba(22, 34, 60, 0.85);
-  --bg-glass: rgba(11, 18, 33, 0.88);
-  --bg-input: #0a0f1d;
-  --bg-subtle: rgba(255, 255, 255, 0.03);
-  
-  --accent-cyan: #00f0ff;
-  --accent-cyan-dim: rgba(0, 240, 255, 0.12);
-  --accent-cyan-glow: rgba(0, 240, 255, 0.35);
-  --accent-emerald: #10b981;
-  --accent-emerald-dim: rgba(16, 185, 129, 0.15);
-  --accent-purple: #8b5cf6;
-  --accent-purple-dim: rgba(139, 92, 246, 0.15);
-  --accent-amber: #f59e0b;
-  --accent-amber-dim: rgba(245, 158, 11, 0.15);
-  --accent-rose: #f43f5e;
-  --accent-ink: #ffffff;
-  
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
-  --text-dim: #475569;
-  
-  --border-color: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.16);
-  --border-cyan: rgba(0, 240, 255, 0.22);
-  --border-cyan-hover: rgba(0, 240, 255, 0.6);
-  
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
-  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
-  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.6);
-  --shadow-glow: 0 0 25px rgba(0, 240, 255, 0.18);
-}
-
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -238,24 +200,6 @@ button, input, select, textarea {
 .hud-terminal-btn:hover {
   background: #38bdf8;
   color: #0f172a;
-}
-
-.theme-toggle-btn {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #f8fafc;
-  padding: 3px 8px;
-  border-radius: var(--radius-sm);
-  cursor: pointer;
-  font-size: 0.75rem;
-  transition: var(--transition);
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.theme-toggle-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
 }
 
 /* ===================================================================
